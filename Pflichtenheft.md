@@ -82,6 +82,7 @@ Anfrage des Kunden per Webseite ist optional
 - Status (geplant, beauftragt, in Durchführung, beendet, abgebrochen)
 - Anmerkungen (z.B. Abbruchgrund)
 - Produktleistungen
+- 
 
 # Qualitätsanforderungen
 
