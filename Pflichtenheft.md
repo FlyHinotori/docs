@@ -4,7 +4,7 @@ Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte An
 
 ## 1.1.  Musskriterien
 
-*Funktionalität*
+Funktionalität
 
 - Charteraufträge erfassen, bearbeiten und abrechnen incl. Fälligkeitsüberwachung und Mahnwesen
 - Stammdatenerfassung/ -änderung für Flugzeuge
