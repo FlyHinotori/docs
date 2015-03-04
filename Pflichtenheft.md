@@ -17,23 +17,50 @@ Funktionalität
 - Terminverwaltung (anstehende, derzeitige Aufträge; Flugzeugverfügbarkeit [Flug, Wartung, ...], Crewverfügbarkeit)
 - Programmgestützte Durchführbarkeitsprüfung anhand Auftragsparametern (Ziel, Crew, Flugzeug,...) unter Berücksichtigung von Flugzeiten, Charterdauer und Zusatzzeiten bei Zwischenlandungen (pro Landung +45min)
 
-
 ## 1.2.  Wunschkriterien
-Anfrage des Kunden per Webseite ist optional
+- Anfrage des Kunden per Webseite ist optional
+- rechnergestützte Terminermittlung von Fälligkeiten der Rechnungen und Erinnerungen für Mahnungen
+- WF01-Charterflug kann komplett per Webseite ablaufen. Jedoch muss die Funktion des Druckens des Vertrages gegeben sein.
 
 ## 1.3.  Abgrenzungskriterien
 
 # 2. Produkteinsatz
 
-## 1.1.  Anwendungsbereiche
+## 2.1. Anwendungsbereiche
 
-## 2.1.  Zielgruppen
+## 2.2. Zielgruppen
 
-## 2.2.  Betriebsbedingungen
+## 2.3. Betriebsbedingungen
 
 # 3. Produktübersicht
 
 # 4. Geschäftsprozesse
+- WF01-Charterflug
+ - Anfrage aufnehmen
+ - Prüfen der Durchführbarkeit zum Termin
+  - Flugzeug verfügbar?
+  - FlightCrew verfügbar?
+  - CabinCrew verfügbar?
+ - nicht durchführbar --> Benachrichtigung incl. Begründung --> Ende
+ - durchführbar --> Angebotserstellung --> verschicken --> warten auf Antwort
+ - Bei Vorliegen der Antwort
+  - positiv --> Vertrag vorbereiten (siehe Vertragsvordruck) --> verschicken --> warten auf Antwort
+  - negativ --> Grund erfragen --> Ende
+ - Vertrag unterschrieben zurück --> Flugzeug, Crew, Catering bereitstellen --> Rechnung erstellen und verschicken, Zahlung verfolgen --> Flug durchführen --> Flugnachbereitung (Abfrage von Motorenlaufzeiten und Crewzeit) --> Kundenzufriedenheit erfragen --> Ende
+ - Vertrag nicht zurück --> Dokumentation --> Ende
+ 
+FRAGE: Workflow passt nicht zu den Charteroptionen! Anpassung?
+ 
+- WF02-Kostenverfolgung
+ - Zahlungseingänge verfolgen
+ - Zahlung überfällig
+  - Mahnwesen (je nach Kundengruppe)
+  - 2 Zahlungserinnerungen kostenlos --> 2 Mahnstufen (+5%, +10%)
+ - evtl. Überzahlung bei Kundenstatus PRE zurückerstatten
+
+FRAGE: Bisher gab es keine Stati für Kunden! Ist hier die Kundengruppe gemeint?
+
+
 
 # 5. Produktdaten
 - Flugzeugdaten 
@@ -81,34 +108,50 @@ Anfrage des Kunden per Webseite ist optional
  - Preis
  - Status (geplant, beauftragt, in Durchführung, beendet, abgebrochen)
  - Anmerkungen (z.B. Abbruchgrund)
-- Produktleistungen
-- 
+- Mahnwesen
+ - Auftrag (Link zum Auftrag)
+ - Status (Rechnung erstellt, verschickt, bezahlt; Erinnerung 1, 2; Mahnung 1,2; Rechnung nicht bezahlt)
+ - Zusatzkosten
  
+# 6. Produktleistungen
+- Analyse
+ - Kundenzufriedenheit analysieren
+ - Ablehnungsgründe der Angebote analysieren
+ - Profitabilität der Flugzeuge analysieren (Annahme: 2000h pro Flugzeug pro Jahr = Profitabilität)
+- Berechnungen bei Angebotserstellung
+ - Anzahl der nötigen Zwischenlandungen (pro Landung +45min Charterdauer)
+ - Kosten (Anteil Fixkosten + Anteil Personalkosten + Stundensatz * Flugzeit)
+ 
+# 7. Qualitätsanforderungen
 
-# Qualitätsanforderungen
+# 8. Benutzeroberfläche
 
-# Benutzeroberfläche
+- Allgemeine Anforderungen
+ - einfache Bedienung
+ - übersichtlich
+ - erweiterbar
 
-# Allgemeine Anforderungen
+- Komponenten
+ - Angebotsausgabe als Brief auf Word oder PDF oder per Mail incl. Bild
+ - Vertragsausgabe wie Angebotsausgabe (ohne Bild)
+ - Rechnungsausgabe wie Angebotsausgabe
+ 
+- Startmaske
 
-# Komponenten
+- Projektübersicht
 
-# Startmaske
+- Mitarbeiterdetails
 
-# Projektübersicht
+# 9. Nichtfunktionale Anforderungen
 
-# Mitarbeiterdetails
+# 10. Technische Produktumgebung
 
-# Nichtfunktionale Anforderungen
+- Software
 
-# Technische Produktumgebung
+- Hardware
 
-# Software
+- Orgware
 
-# Hardware
+- Produktschnittstellen
 
-# Orgware
-
-# Produktschnittstellen
-
-# spezielle Anforderungen an die Entwicklerumgebung
+# 11. spezielle Anforderungen an die Entwicklerumgebung
