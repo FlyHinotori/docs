@@ -1,12 +1,12 @@
 # 1. Zielbestimmung
 
-Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte Angebotserstellung zur Vercharterung von Geschäftsreiseflugzeugen ermöglichen.
+Das zu entwickelnde Projekt soll der FlyHinotori die rechnergestützte Angebotserstellung zur Vercharterung von Geschäftsreiseflugzeugen ermöglichen.
 
 ## 1.1.  Musskriterien
 
 Funktionalität
 
-- Charteraufträge erfassen, bearbeiten und abrechnen incl. Fälligkeitsüberwachung und Mahnwesen
+- Charteraufträge erfassen, bearbeiten und abrechnen inkl. Fälligkeitsüberwachung und Mahnwesen
 - Stammdatenerfassung/ -änderung für Flugzeuge
 - Stammdatenerfassung/ -änderung für Personal
 - optionale Buchung von "flight attendants" bei kleinen Flugzeugen; bei den größeren müssen " flight attendants" gebucht werden
@@ -58,9 +58,7 @@ FRAGE: Workflow passt nicht zu den Charteroptionen! Anpassung?
   - 2 Zahlungserinnerungen kostenlos --> 2 Mahnstufen (+5%, +10%)
  - evtl. Überzahlung bei Kundenstatus PRE zurückerstatten
 
-FRAGE: Bisher gab es keine Stati für Kunden! Ist hier die Kundengruppe gemeint?
-
-
+FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemeint?
 
 # 5. Produktdaten
 - Flugzeugdaten 
