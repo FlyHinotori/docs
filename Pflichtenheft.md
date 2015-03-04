@@ -37,52 +37,53 @@ Anfrage des Kunden per Webseite ist optional
 
 # 5. Produktdaten
 - Flugzeugdaten 
-- Hersteller
-- Typ
-- Flugbetriebsmannschaft
-- Stewardessen
-- Reichweite in km
-- Anzahl Passagiere
-- Reisegeschwindigkeit
-- Anzahl der Triebwerke
-- Triebwerksart
-- jährliche Fixkosten (nach Typ)
-- variable Kosten pro Stunde
-- Status (aktiv/inaktiv)
+ - Hersteller
+ - Typ
+ - Flugbetriebsmannschaft
+ - Stewardessen
+ - Reichweite in km
+ - Anzahl Passagiere
+ - Reisegeschwindigkeit
+ - Anzahl der Triebwerke
+ - Triebwerksart
+ - jährliche Fixkosten (nach Typ)
+ - variable Kosten pro Stunde
+ - Status (aktiv/inaktiv)
 - Personaldaten
-- Name
-- Vorname
-- Position (Captain, Copilot, Cabin, Crew)
-- Lizenzen (Hier eine Liste der Flugzeuge, für die die Person qualifiziert ist)
-- Gehalt nach Position
-- Status (aktiv/inaktiv)
+ - Name
+ - Vorname
+ - Position (Captain, Copilot, Cabin, Crew)
+ - Lizenzen (Hier eine Liste der Flugzeuge, für die die Person qualifiziert ist)
+ - Gehalt nach Position
+ - Status (aktiv/inaktiv)
 - Flugziele
-- Bezeichnung (Flughafen)
-- Ort
-- Land
-- Geo-Koordinaten
+ - Bezeichnung (Flughafen)
+ - Ort
+ - Land
+ - Geo-Koordinaten
 - Termine
-- Art (Charter, Urlaub Crew, Wartung, Jahresscheck Flugzeug, etc)
-- von (Datum, Zeit)
-- bis (Datum, Zeit)
+ - Art (Charter, Urlaub Crew, Wartung, Jahresscheck Flugzeug, etc)
+ - von (Datum, Zeit)
+ - bis (Datum, Zeit)
 - Auftrag
-- Auftraggeber (Kontaktdaten)
-- Termin (Link zu Termine)
-- Art (Option 1,2 oder 3)
-- Von (Flughafen/Ort) bei Option 1 und 2
-- Nach (Flughafen/Ort) bei Option 1 und 2
-- Zwischenziele (Flughäfen/Orte) bei Option 1 und 2
-- Anzahl der Passagiere bei Option 1 und 2
-- Charterdauer bei Option 3
-- Wunschflugzeug
-- Wunschcrew (Flight)
-- Wunschcrew (Cabin)
-- Weitere Wünsche (Textfeld)
-- Preis
-- Status (geplant, beauftragt, in Durchführung, beendet, abgebrochen)
-- Anmerkungen (z.B. Abbruchgrund)
+ - Auftraggeber (Kontaktdaten)
+ - Termin (Link zu Termine)
+ - Art (Option 1,2 oder 3)
+ - Von (Flughafen/Ort) bei Option 1 und 2
+ - Nach (Flughafen/Ort) bei Option 1 und 2
+ - Zwischenziele (Flughäfen/Orte) bei Option 1 und 2
+ - Anzahl der Passagiere bei Option 1 und 2
+ - Charterdauer bei Option 3
+ - Wunschflugzeug
+ - Wunschcrew (Flight)
+ - Wunschcrew (Cabin)
+ - Weitere Wünsche (Textfeld)
+ - Preis
+ - Status (geplant, beauftragt, in Durchführung, beendet, abgebrochen)
+ - Anmerkungen (z.B. Abbruchgrund)
 - Produktleistungen
 - 
+ 
 
 # Qualitätsanforderungen
 
