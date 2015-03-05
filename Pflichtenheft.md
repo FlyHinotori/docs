@@ -1,6 +1,6 @@
 # 1. Zielbestimmung
 
-Das zu entwickelnde Projekt soll der FlyHinotori die rechnergestützte Angebotserstellung zur Vercharterung von Geschäftsreiseflugzeugen ermöglichen.
+Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte Angebotserstellung zur Vercharterung von Geschäftsreiseflugzeugen ermöglichen.
 
 ## 1.1.  Musskriterien
 
