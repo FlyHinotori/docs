@@ -125,9 +125,5 @@ Die Software wird auf einem Computer mit den folgenden technischen Daten lauffä
 
 - Festplattenspeicher: 20 GB 
 
-## Orgware ##
-
-## Produktschnittstellen ##
-
 
 # spezielle Anforderungen an die Entwicklerumgebung
