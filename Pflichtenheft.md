@@ -125,5 +125,6 @@ Die Software wird auf einem Computer mit den folgenden technischen Daten lauffä
 
 - Festplattenspeicher: 20 GB 
 
+Zusätzliche Standardperipheriegeräte wie Maus, Tastatur und Monitor werden vorausgesetzt.
 
 # spezielle Anforderungen an die Entwicklerumgebung
