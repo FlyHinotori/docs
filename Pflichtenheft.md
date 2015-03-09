@@ -142,11 +142,31 @@ FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemein
 
 # 9. Nichtfunktionale Anforderungen
 
-# 10. Technische Produktumgebung
+# Technische Produktumgebung
 
-- Software
+Dieses Kapitel beschreibt in welcher Umgebung das Programm laufen soll.
 
-- Hardware
+## Software ##
+
+Die Software wird für die folgende Softwareumgebung entwickelt:
+
+
+- Betriebssystem: Microsoft Windows 7 oder höher
+
+- .NET Framework 4.5
+ 
+
+## Hardware ##
+
+Die Software wird auf einem Computer mit den folgenden technischen Daten lauffähig sein:
+
+- Prozessor: 1 GHz oder schneller 
+
+- RAM: 2 GB
+
+- Festplattenspeicher: 20 GB 
+
+Zusätzliche Standardperipheriegeräte wie Maus, Tastatur und Monitor werden vorausgesetzt.
 
 - Orgware
 
