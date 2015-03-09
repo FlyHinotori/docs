@@ -168,8 +168,8 @@ Die Software wird auf einem Computer mit den folgenden technischen Daten lauffä
 
 Zusätzliche Standardperipheriegeräte wie Maus, Tastatur und Monitor werden vorausgesetzt.
 
-- Orgware
+## Produktschnittstellen ##
 
-- Produktschnittstellen
+Keine externen Schnittstellen zu anderer Software geplant.
 
 # 11. spezielle Anforderungen an die Entwicklerumgebung
