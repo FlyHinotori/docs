@@ -152,17 +152,15 @@ FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemein
 
 # 8. Benutzeroberfläche
 
-- Allgemeine Anforderungen
+## 8.1. Allgemeine Anforderungen
  - einfache Bedienung
  - übersichtlich
  - erweiterbar
 
-- Komponenten
+## 8.2. Komponenten
  - Angebotsausgabe als Brief auf Word oder PDF oder per Mail incl. Bild
  - Vertragsausgabe wie Angebotsausgabe (ohne Bild)
  - Rechnungsausgabe wie Angebotsausgabe
-
-- Startmaske
 
 - Projektübersicht
 
