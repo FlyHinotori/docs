@@ -6,10 +6,17 @@ Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte An
 
 Funktionalität
 
-- Charteraufträge erfassen, bearbeiten und abrechnen inkl. Fälligkeitsüberwachung und Mahnwesen
+- Charteraufträge erfassen und bearbeiten (Daten ändern, Auftrag löschen)
+- Rechnung erstellen
+    - export als pdf
+    - editierbare Vorlage
+- Überwachnung der Fälligkeit von Rechnungen
+- automatische Mahnungserstellung
 - Stammdatenerfassung/ -änderung für Flugzeuge
 - Stammdatenerfassung/ -änderung für Personal
-- optionale Buchung von "flight attendants" bei kleinen Flugzeugen; bei den größeren müssen " flight attendants" gebucht werden
+- Zuordnung von Flugbegleitern zu einem Flug
+    - optional bei kleinen Flugzeugen
+    - obligatorisch bei größeren Maschinen
 - Abdecken verschiedener Charteroptionen (Einzelflug von A nach B [Fixpreisangebot], Einzelflug von A nach B mit Zwischenstopp [Fixpreisangebot], Charter über einen Zeitraum [Fixpreisanteil und variabler Kostenanteil nach tatsächlicher Flugzeit])
 - Einteilung der Kunden in Gruppen (VIP [grundsätzlich keine Mahnung], CORP [Dokumentation der Bonität, normales Mahnwesen],  PRE [unbekannte Bonität oder bei früheren Flügen (mind. 2) erst nach 2. Mahnung gezahlt, Vorkasse (Angebotspreis + 5%)]
 - Telefonische Aufnahme einer Anfrage mit mind. folgenden Daten (Name und Kontaktdaten des Kunden, Art der Charteroption; für Einzelflug und Zwischenhalt zusätzlich Abflugort, Ziel, evtl. Zwischenziel mit Aufenthaltsdauer, gewünschte Flugdaten, Anzahl Passagiere; für Charteroption über einen Zeitraum nur den Zeitraum; Sonderwünsche wie bestimmtes Flugzeug, Crew, Catering, flight attendants,... )
@@ -18,17 +25,32 @@ Funktionalität
 - Programmgestützte Durchführbarkeitsprüfung anhand Auftragsparametern (Ziel, Crew, Flugzeug,...) unter Berücksichtigung von Flugzeiten, Charterdauer und Zusatzzeiten bei Zwischenlandungen (pro Landung +45min)
 
 ## 1.2.  Wunschkriterien
-- Anfrage des Kunden per Webseite ist optional
-- rechnergestützte Terminermittlung von Fälligkeiten der Rechnungen und Erinnerungen für Mahnungen
+- Anfrage des Kunden per Webseite
 - WF01-Charterflug kann komplett per Webseite ablaufen. Jedoch muss die Funktion des Druckens des Vertrages gegeben sein.
 
 ## 1.3.  Abgrenzungskriterien
+- kein umfassendes ERP, das System ist nur für den konkreten Anwendungsfall ausgelegt
+- kein umfassendes ERM, Kunden werden manuell bearbeitet
 
 # 2. Produkteinsatz
 
+Die HINOTORI Executive beauftragt die Erstellung des Programms zur internen Verwendung. Ein Weiterverkauf oder eine Weitergabe ist ausgeschlossen.
+
 ## 2.1. Anwendungsbereiche
 
+### 1.1.1 Charterflugplanung
+
+### 1.1.1 Charterflugabrechnung
+
+### 1.1.1 Resourcenplanung
+
+### 1.1.1 Rechnungserstellung
+
 ## 2.2. Zielgruppen
+
+### 1.1.1 Kunde
+
+### 1.1.1 Verwaltung
 
 ## 2.3. Betriebsbedingungen
 
@@ -48,9 +70,9 @@ Funktionalität
   - negativ --> Grund erfragen --> Ende
  - Vertrag unterschrieben zurück --> Flugzeug, Crew, Catering bereitstellen --> Rechnung erstellen und verschicken, Zahlung verfolgen --> Flug durchführen --> Flugnachbereitung (Abfrage von Motorenlaufzeiten und Crewzeit) --> Kundenzufriedenheit erfragen --> Ende
  - Vertrag nicht zurück --> Dokumentation --> Ende
- 
+
 FRAGE: Workflow passt nicht zu den Charteroptionen! Anpassung?
- 
+
 - WF02-Kostenverfolgung
  - Zahlungseingänge verfolgen
  - Zahlung überfällig
@@ -61,7 +83,7 @@ FRAGE: Workflow passt nicht zu den Charteroptionen! Anpassung?
 FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemeint?
 
 # 5. Produktdaten
-- Flugzeugdaten 
+- Flugzeugdaten
  - Hersteller
  - Typ
  - Flugbetriebsmannschaft
@@ -110,7 +132,7 @@ FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemein
  - Auftrag (Link zum Auftrag)
  - Status (Rechnung erstellt, verschickt, bezahlt; Erinnerung 1, 2; Mahnung 1,2; Rechnung nicht bezahlt)
  - Zusatzkosten
- 
+
 # 6. Produktleistungen
 - Analyse
  - Kundenzufriedenheit analysieren
@@ -119,7 +141,7 @@ FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemein
 - Berechnungen bei Angebotserstellung
  - Anzahl der nötigen Zwischenlandungen (pro Landung +45min Charterdauer)
  - Kosten (Anteil Fixkosten + Anteil Personalkosten + Stundensatz * Flugzeit)
- 
+
 # 7. Qualitätsanforderungen
 
 # 8. Benutzeroberfläche
@@ -133,7 +155,7 @@ FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemein
  - Angebotsausgabe als Brief auf Word oder PDF oder per Mail incl. Bild
  - Vertragsausgabe wie Angebotsausgabe (ohne Bild)
  - Rechnungsausgabe wie Angebotsausgabe
- 
+
 - Startmaske
 
 - Projektübersicht
