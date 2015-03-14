@@ -38,6 +38,10 @@ Die HINOTORI Executive beauftragt die Erstellung des Programms zur internen Verw
 
 ### 2.1.1. Charterflugplanung
 
+Erstellung eines Charterfluges mit Rückmeldung über Verfügbarkeit der Crew, des Flugzeugs, und aller anderen Ressourcen die dafür erforderlich sind. Dabei wird auch der Zeitraum und die Flugroute, sowie Start- und Zielpunkte festgelegt und die Kosten errechnet.
+
+Wird der Flug gebucht wird für den Kunden automatisch eine Rechnung erstellt und die Ressourcen werden für den gewünschten Zeitraum als belegt markiert. Eventuelle Buchungskonflikte, die sich auch gleichzeitiger Buchung oder Änderungen einer Buchung ergeben werden in einer Mitteilung im Programm deutlich gemacht.
+
 ### 2.1.2. Charterflugabrechnung
 
 ### 2.1.3. Resourcenplanung
@@ -152,15 +156,17 @@ FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemein
 
 # 8. Benutzeroberfläche
 
-## 8.1. Allgemeine Anforderungen
+- Allgemeine Anforderungen
  - einfache Bedienung
  - übersichtlich
  - erweiterbar
 
-## 8.2. Komponenten
+- Komponenten
  - Angebotsausgabe als Brief auf Word oder PDF oder per Mail incl. Bild
  - Vertragsausgabe wie Angebotsausgabe (ohne Bild)
  - Rechnungsausgabe wie Angebotsausgabe
+
+- Startmaske
 
 - Projektübersicht
 
@@ -180,17 +186,17 @@ Die Software wird für die folgende Softwareumgebung entwickelt:
 - Betriebssystem: Microsoft Windows 7 oder höher
 
 - .NET Framework 4.5
- 
+
 
 ## Hardware ##
 
 Die Software wird auf einem Computer mit den folgenden technischen Daten lauffähig sein:
 
-- Prozessor: 1 GHz oder schneller 
+- Prozessor: 1 GHz oder schneller
 
 - RAM: 2 GB
 
-- Festplattenspeicher: 20 GB 
+- Festplattenspeicher: 20 GB
 
 Zusätzliche Standardperipheriegeräte wie Maus, Tastatur und Monitor werden vorausgesetzt.
 
