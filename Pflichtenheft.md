@@ -83,7 +83,8 @@ FRAGE: Workflow passt nicht zu den Charteroptionen! Anpassung?
 FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemeint?
 
 # 5. Produktdaten
-- Flugzeugdaten
+
+## 1.1 Flugzeugdaten
  - Hersteller
  - Typ
  - Flugbetriebsmannschaft
@@ -96,23 +97,27 @@ FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemein
  - jährliche Fixkosten (nach Typ)
  - variable Kosten pro Stunde
  - Status (aktiv/inaktiv)
-- Personaldaten
+
+## 1.1 Personaldaten
  - Name
  - Vorname
  - Position (Captain, Copilot, Cabin, Crew)
  - Lizenzen (Hier eine Liste der Flugzeuge, für die die Person qualifiziert ist)
  - Gehalt nach Position
  - Status (aktiv/inaktiv)
-- Flugziele
+
+## 1.1 Flugziele
  - Bezeichnung (Flughafen)
  - Ort
  - Land
  - Geo-Koordinaten
-- Termine
+
+## 1.1 Termine
  - Art (Charter, Urlaub Crew, Wartung, Jahresscheck Flugzeug, etc)
  - von (Datum, Zeit)
  - bis (Datum, Zeit)
-- Auftrag
+
+## 1.1 Auftrag
  - Auftraggeber (Kontaktdaten)
  - Termin (Link zu Termine)
  - Art (Option 1,2 oder 3)
@@ -128,17 +133,20 @@ FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemein
  - Preis
  - Status (geplant, beauftragt, in Durchführung, beendet, abgebrochen)
  - Anmerkungen (z.B. Abbruchgrund)
-- Mahnwesen
+
+## 1.1 Mahnwesen
  - Auftrag (Link zum Auftrag)
  - Status (Rechnung erstellt, verschickt, bezahlt; Erinnerung 1, 2; Mahnung 1,2; Rechnung nicht bezahlt)
  - Zusatzkosten
 
 # 6. Produktleistungen
-- Analyse
+
+## 1.1 Analyse
  - Kundenzufriedenheit analysieren
  - Ablehnungsgründe der Angebote analysieren
  - Profitabilität der Flugzeuge analysieren (Annahme: 2000h pro Flugzeug pro Jahr = Profitabilität)
-- Berechnungen bei Angebotserstellung
+
+## 1.1 Berechnungen bei Angebotserstellung
  - Anzahl der nötigen Zwischenlandungen (pro Landung +45min Charterdauer)
  - Kosten (Anteil Fixkosten + Anteil Personalkosten + Stundensatz * Flugzeit)
 
