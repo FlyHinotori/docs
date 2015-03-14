@@ -4,8 +4,6 @@ Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte An
 
 ## 1.1.  Musskriterien
 
-Funktionalität
-
 - Charteraufträge erfassen und bearbeiten (Daten ändern, Auftrag löschen)
 - Rechnung erstellen
     - export als pdf
@@ -38,19 +36,19 @@ Die HINOTORI Executive beauftragt die Erstellung des Programms zur internen Verw
 
 ## 2.1. Anwendungsbereiche
 
-### 1.1.1 Charterflugplanung
+### 2.1.1. Charterflugplanung
 
-### 1.1.1 Charterflugabrechnung
+### 2.1.2. Charterflugabrechnung
 
-### 1.1.1 Resourcenplanung
+### 2.1.3. Resourcenplanung
 
-### 1.1.1 Rechnungserstellung
+### 2.1.4. Rechnungserstellung
 
 ## 2.2. Zielgruppen
 
-### 1.1.1 Kunde
+### 2.2.1. Kunde
 
-### 1.1.1 Verwaltung
+### 2.2.2. Verwaltung
 
 ## 2.3. Betriebsbedingungen
 
@@ -84,7 +82,7 @@ FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemein
 
 # 5. Produktdaten
 
-## 1.1 Flugzeugdaten
+## 5.1. Flugzeugdaten
  - Hersteller
  - Typ
  - Flugbetriebsmannschaft
@@ -98,7 +96,7 @@ FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemein
  - variable Kosten pro Stunde
  - Status (aktiv/inaktiv)
 
-## 1.1 Personaldaten
+## 5.2. Personaldaten
  - Name
  - Vorname
  - Position (Captain, Copilot, Cabin, Crew)
@@ -106,18 +104,18 @@ FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemein
  - Gehalt nach Position
  - Status (aktiv/inaktiv)
 
-## 1.1 Flugziele
+## 5.3. Flugziele
  - Bezeichnung (Flughafen)
  - Ort
  - Land
  - Geo-Koordinaten
 
-## 1.1 Termine
+## 5.4. Termine
  - Art (Charter, Urlaub Crew, Wartung, Jahresscheck Flugzeug, etc)
  - von (Datum, Zeit)
  - bis (Datum, Zeit)
 
-## 1.1 Auftrag
+## 5.5. Auftrag
  - Auftraggeber (Kontaktdaten)
  - Termin (Link zu Termine)
  - Art (Option 1,2 oder 3)
@@ -134,19 +132,19 @@ FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemein
  - Status (geplant, beauftragt, in Durchführung, beendet, abgebrochen)
  - Anmerkungen (z.B. Abbruchgrund)
 
-## 1.1 Mahnwesen
+## 5.6. Mahnwesen
  - Auftrag (Link zum Auftrag)
  - Status (Rechnung erstellt, verschickt, bezahlt; Erinnerung 1, 2; Mahnung 1,2; Rechnung nicht bezahlt)
  - Zusatzkosten
 
 # 6. Produktleistungen
 
-## 1.1 Analyse
+## 6.1. Analyse
  - Kundenzufriedenheit analysieren
  - Ablehnungsgründe der Angebote analysieren
  - Profitabilität der Flugzeuge analysieren (Annahme: 2000h pro Flugzeug pro Jahr = Profitabilität)
 
-## 1.1 Berechnungen bei Angebotserstellung
+## 6.2. Berechnungen bei Angebotserstellung
  - Anzahl der nötigen Zwischenlandungen (pro Landung +45min Charterdauer)
  - Kosten (Anteil Fixkosten + Anteil Personalkosten + Stundensatz * Flugzeit)
 
