@@ -44,6 +44,10 @@ Wird der Flug gebucht wird für den Kunden automatisch eine Rechnung erstellt un
 
 ### 2.1.2. Charterflugabrechnung
 
+Rechnungserstellung für fertige Aufträge von charterflügen wird automatisch vom Programm vorgenommen. Sie wird nach einer Vorlage in PDF-Form ausgegeben und enthält die wesentlichen Eckdaten des Flugs, die Kosten, Steuern und Kontoverbindungsdaten. Für die Zuordnung der Papierabschrift wird auch die Buchungsnummer mit aufgeführt.
+
+Wenn sich ein Charterflugauftrag sich ändert und der Rechnungsbetrag sich dabei ebenfalls ändert, wird am Ende der Änderung eine neue Rechnung erstellt. Diese enthält zusätzlich zu einer neuen Rechnungsnummer auch einen Verweis auf die bereits erstellte, und mit der neuen Rechnung nun unwirksame, Rechnung.
+
 ### 2.1.3. Resourcenplanung
 
 ### 2.1.4. Rechnungserstellung
