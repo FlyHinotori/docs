@@ -81,30 +81,124 @@ Die Firma HINOTORI stellt derzeit die einzige Zielgruppe dar. Die Software ist a
 # 3. Produktübersicht
 
 # 4. Geschäftsprozesse
-- WF01-Charterflug
- - Anfrage aufnehmen
- - Prüfen der Durchführbarkeit zum Termin
-  - Flugzeug verfügbar?
-  - FlightCrew verfügbar?
-  - CabinCrew verfügbar?
- - nicht durchführbar --> Benachrichtigung incl. Begründung --> Ende
- - durchführbar --> Angebotserstellung --> verschicken --> warten auf Antwort
- - Bei Vorliegen der Antwort
-  - positiv --> Vertrag vorbereiten (siehe Vertragsvordruck) --> verschicken --> warten auf Antwort
-  - negativ --> Grund erfragen --> Ende
- - Vertrag unterschrieben zurück --> Flugzeug, Crew, Catering bereitstellen --> Rechnung erstellen und verschicken, Zahlung verfolgen --> Flug durchführen --> Flugnachbereitung (Abfrage von Motorenlaufzeiten und Crewzeit) --> Kundenzufriedenheit erfragen --> Ende
- - Vertrag nicht zurück --> Dokumentation --> Ende
 
-FRAGE: Workflow passt nicht zu den Charteroptionen! Anpassung?
+## /F11/
+- Geschäftsprozess: Neues Angebot erfassen
+- Ziel: verschicktes Angebot
+- Vorbedingung: Kundenanfrage liegt vor
+- Nachbedingung Erfolg: alle notwendigen Daten sind erfasst, Angebot wird an Kunden versandt
+- Nachbedingung Fehlschlag: Mitteilung an Benutzer, Angebot kann nicht erstellt werden
+- Auslösendes Ereignis: eingehende Kundenanfrage
+- Beschreibung: Eingabe alle notwendigen Daten zur Angebotserstellung
 
-- WF02-Kostenverfolgung
- - Zahlungseingänge verfolgen
- - Zahlung überfällig
-  - Mahnwesen (je nach Kundengruppe)
-  - 2 Zahlungserinnerungen kostenlos --> 2 Mahnstufen (+5%, +10%)
- - evtl. Überzahlung bei Kundenstatus PRE zurückerstatten
+## /F12/
+- Geschäftsprozess: Angebotsantwort erfassen
+- Ziel: ausgefüllte Vertragsunterlagen, Reservierung von Crew und Flugzeug
+- Vorbedingung: verschicktes Angebot
+- Nachbedingung Erfolg: Vertrag erstellten und verschicken
+- Nachbedingung Fehlschlag: Grund der Ablehnung erfassen
+- Auslösendes Ereignis: eingehende Angebotsantwort
+- Beschreibung: kommt es zu einer positiven Angebotsantwort, soll anschließend ein Vertrag erstellt und verschickt werden.
 
-FRAGE: Bisher gab es keine Statuus für Kunden! Ist hier die Kundengruppe gemeint?
+## /F13/
+- Geschäftsprozess: Vertragsantwort erfassen
+- Ziel: Rechnungslegung und Terminierung von Crew, Catering und Flugzeug
+- Vorbedingung: verschickter Vertrag
+- Nachbedingung Erfolg: Rechnung wird an Kunden verschickt
+- Nachbedingung Fehlschlag: Dokumentation der negativen Antwort
+- Auslösendes Ereignis: eingehende Vertragsantwort
+- Beschreibung: bei einer positiven Vertragsantwort soll es zur festen Terminierung von Crew, Catering und Flugzeug sowie zur Rechnungslegung kommen.
+
+## /F14/
+- Geschäftsprozess: Flugnachbereitung
+- Ziel: Endabrechnung des Auftrages - Rechnung
+- Vorbedingung: durchgeführter Flug
+- Nachbedingung Erfolg: Rechnung und Abfrage der Kundenzufriedenheit
+- Nachbedingung Fehlschlag: ???
+- Auslösendes Ereignis: Meldung der Flugdurchführung durch Crew
+- Beschreibung: um den Auftrag abzuschließen und somit eine Rechnung zu erstellen, sind noch einige Daten wie Maschinenlaufzeiten und Crewzeit notwendig.
+
+## /F15/
+- Geschäftsprozess: Kundenzufriedenheit erfassen
+- Ziel: Kundenzufriedenheit
+- Vorbedingung: abgeschlossener Auftrag
+- Nachbedingung Erfolg: bereitgestellte Daten zur Auswertung
+- Nachbedingung Fehlschlag: ---
+- Auslösendes Ereignis: eingehende Antwort zur Kundenzufriedenheit
+- Beschreibung: 
+
+## /F16/
+- Geschäftsprozess: bestehende Angebote anzeigen
+- Ziel: Angebotsdaten einsehen
+- Vorbedingung: Angebot wurde erfasst
+- Nachbedingung Erfolg: Daten wurden angezeigt
+- Nachbedingung Fehlschlag: ---
+- Auslösendes Ereignis: ---
+- Beschreibung: Visualisierung bestehender Angebote
+
+## /F17/
+- Geschäftsprozess: bestehendes Angebot ändern
+- Ziel: Angebotsdaten ändern
+- Vorbedingung: Angebot wurde erfasst
+- Nachbedingung Erfolg: Daten wurden geändert und neues Angebot erstellt
+- Nachbedingung Fehlschlag: Mitteilung an Benutzer
+- Auslösendes Ereignis: ---
+- Beschreibung: Anpassung bestehender Angebote
+
+## /F18/
+- Geschäftsprozess: bestehende Verträge anzeigen
+- Ziel: Vertragsdaten einsehen
+- Vorbedingung: Vertrag wurde erfasst
+- Nachbedingung Erfolg: Daten wurden angezeigt
+- Nachbedingung Fehlschlag: ---
+- Auslösendes Ereignis: ---
+- Beschreibung: Visualisierung bestehender Verträge
+
+## /F17/
+- Geschäftsprozess: bestehenden Vertrag ändern
+- Ziel: Vertragsdaten ändern
+- Vorbedingung: Vertrag wurde erfasst
+- Nachbedingung Erfolg: Daten wurden geändert und neuer Vertrag erstellt
+- Nachbedingung Fehlschlag: Mitteilung an Benutzer
+- Auslösendes Ereignis: ---
+- Beschreibung: Anpassung bestehender Verträge
+
+## /F21/
+- Geschäftsprozess: Zahlungseingang erfassen
+- Ziel: Zuordnung von Zahlungen zu Aufträgen
+- Vorbedingung: Rechnungslegung
+- Nachbedingung Erfolg: Verringerung des fälligen Betrages
+- Nachbedingung Fehlschlag: Zahlung als nicht zugeordnet gekennzeichnet
+- Auslösendes Ereignis: Zahlungseingang durch Kunden
+- Beschreibung: eingegangene Zahlungen sollen einem Auftrag zugeordnet werden. Kann keine Zuordnung erfolgen, bedarf es eines gesonderten Kennzeichen für diese Zahlung zur Recherche
+
+
+## /F22/
+- Geschäftsprozess: Mahnlauf
+- Ziel: Liste offener Posten incl. entsprechender Mahnung bzw. offener Überzahlungen
+- Vorbedingung: Auftrag abgeschglossen
+- Nachbedingung Erfolg: je nach Kundengruppe entsprechende Mahnstufen an den Aufträgen
+- Nachbedingung Fehlschlag: --- (keine offenen Posten)
+- Auslösendes Ereignis: manuelles Auslösen
+- Beschreibung: der Mahnlauf soll bei offenen Forderungen den jeweiligen Aufträgen eine entsprechedne Mahnstufe (abhängig von der Kundengruppe) zuordnen. Zwei Zahlungserinnerungen sind kostenlos. Bei den nächsten zwei Mahnungen kommt ein Aufschlag von 5% bzw. 10% hinzu.
+
+## /F31/
+- Geschäftsprozess: Termin erfassen
+- Ziel: Flugzeuge und Crewmitglieder in der Verfügbarkeit beschränken
+- Vorbedingung: keine Terminkollision
+- Nachbedingung Erfolg: entsprechender Termineintrag
+- Nachbedingung Fehlschlag: Mitteilung an Benutzer
+- Auslösendes Ereignis: eingehende Mitteilung
+- Beschreibung: Crewmitglieder und Flugzeuge können durch unterschiedliche Termin (Wartung, Urlaub, Krankheit,...) nicht verfügbar sein. Diese Termin müssen erfasst werden.
+
+## /WF???/
+- Geschäftsprozess:
+- Ziel:
+- Vorbedingung: 
+- Nachbedingung Erfolg:
+- Nachbedingung Fehlschlag:
+- Auslösendes Ereignis:
+- Beschreibung:
 
 # 5. Produktdaten
 
