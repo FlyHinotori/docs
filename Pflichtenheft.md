@@ -8,7 +8,7 @@ Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte An
 - Rechnung erstellen
     - export als pdf
     - editierbare Vorlage
-- Überwachnung der Fälligkeit von Rechnungen
+- Überwachung der Fälligkeit von Rechnungen
 - automatische Mahnungserstellung
 - Stammdatenerfassung/ -änderung für Flugzeuge
 - Stammdatenerfassung/ -änderung für Personal
@@ -44,19 +44,19 @@ Wird der Flug gebucht wird für den Kunden automatisch eine Rechnung erstellt un
 
 ### 2.1.2. Charterflugabrechnung
 
-Rechnungserstellung für fertige Aufträge von charterflügen wird automatisch vom Programm vorgenommen. Sie wird nach einer Vorlage in PDF-Form ausgegeben und enthält die wesentlichen Eckdaten des Flugs, die Kosten, Steuern und Kontoverbindungsdaten. Für die Zuordnung der Papierabschrift wird auch die Buchungsnummer mit aufgeführt.
+Rechnungserstellung für fertige Aufträge von Charterflügen wird automatisch vom Programm vorgenommen. Sie wird nach einer Vorlage in PDF-Form ausgegeben und enthält die wesentlichen Eckdaten des Flugs, die Kosten, Steuern und Kontoverbindungsdaten. Für die Zuordnung der Papierabschrift wird auch die Buchungsnummer mit aufgeführt.
 
 Wenn sich ein Charterflugauftrag sich ändert und der Rechnungsbetrag sich dabei ebenfalls ändert, wird am Ende der Änderung eine neue Rechnung erstellt. Diese enthält zusätzlich zu einer neuen Rechnungsnummer auch einen Verweis auf die bereits erstellte, und mit der neuen Rechnung nun unwirksame, Rechnung.
 
-### 2.1.3. Resourcenplanung
+### 2.1.3. Ressourcenplanung
 
 Grundsätzlich ist davon auszugehen das Flugpersonal jederzeit einsatzfähig ist. Nachtflüge oder Langstreckenflüge werden also nicht ausgeschlossen. Entsprechend werden die jeweiligen Beteiligten nur als gebucht gekennzeichnet wenn sie einer Buchung zugeordnet sind. Feste Arbeitszeiten oder Feiertage bleiben unberücksichtigt.
 
-Personal und Fluggerät wird nur einer Buchung zugeordnet. Mehrere Buchungen miteinander zu Verbinden (z.B. Hin- und Rückflug am gleichen Tag in verschiedenen Buchungen) wird ausdrücklich ausgeschlossen.
+Personal und Fluggerät wird nur einer Buchung zugeordnet. Mehrere Buchungen miteinander zu verbinden (z.B. Hin- und Rückflug am gleichen Tag in verschiedenen Buchungen) wird ausdrücklich ausgeschlossen.
 
 ### 2.1.4. Rechnungserstellung
 
-Für jede vollständig asugefüllte Buchung die eingeht wird eine Rechnung erstellt. Ändert sich eine Buchung und die Kosten ändern sich dabei ebenfalls wird eine neue Rechnung für die gleiche Buchung erstellt.
+Für jede vollständig ausgefüllte Buchung die eingeht, wird eine Rechnung erstellt. Ändert sich eine Buchung und die Kosten ändern sich dabei ebenfalls wird eine neue Rechnung für die gleiche Buchung erstellt.
 
 Jede Rechnung wird dem Kunden in PDF Form zur Verfügung gestellt. Wenn sich Buchungen ändert wird eine weitere PDF Rechnung erstellt, die zusätzlich zu den üblichen Rechnungsdaten auch den Hinweis enthält das alle vorherigen Rechnungen ihre Gültigkeit verlieren.
 
@@ -176,11 +176,11 @@ Die Firma HINOTORI stellt derzeit die einzige Zielgruppe dar. Die Software ist a
 ## /F22/
 - Geschäftsprozess: Mahnlauf
 - Ziel: Liste offener Posten incl. entsprechender Mahnung bzw. offener Überzahlungen
-- Vorbedingung: Auftrag abgeschglossen
+- Vorbedingung: Auftrag abgeschlossen
 - Nachbedingung Erfolg: je nach Kundengruppe entsprechende Mahnstufen an den Aufträgen
 - Nachbedingung Fehlschlag: --- (keine offenen Posten)
 - Auslösendes Ereignis: manuelles Auslösen
-- Beschreibung: der Mahnlauf soll bei offenen Forderungen den jeweiligen Aufträgen eine entsprechedne Mahnstufe (abhängig von der Kundengruppe) zuordnen. Zwei Zahlungserinnerungen sind kostenlos. Bei den nächsten zwei Mahnungen kommt ein Aufschlag von 5% bzw. 10% hinzu.
+- Beschreibung: der Mahnlauf soll bei offenen Forderungen den jeweiligen Aufträgen eine entsprechende Mahnstufe (abhängig von der Kundengruppe) zuordnen. Zwei Zahlungserinnerungen sind kostenlos. Bei den nächsten zwei Mahnungen kommt ein Aufschlag von 5% bzw. 10% hinzu.
 
 ## /F31/
 - Geschäftsprozess: Termin erfassen
@@ -189,9 +189,9 @@ Die Firma HINOTORI stellt derzeit die einzige Zielgruppe dar. Die Software ist a
 - Nachbedingung Erfolg: entsprechender Termineintrag
 - Nachbedingung Fehlschlag: Mitteilung an Benutzer
 - Auslösendes Ereignis: eingehende Mitteilung
-- Beschreibung: Crewmitglieder und Flugzeuge können durch unterschiedliche Termin (Wartung, Urlaub, Krankheit,...) nicht verfügbar sein. Diese Termin müssen erfasst werden.
+- Beschreibung: Crewmitglieder und Flugzeuge können durch unterschiedliche Termin (Wartung, Urlaub, Krankheit,...) nicht verfügbar sein. Diese Termine müssen erfasst werden.
 
-## /WF???/
+## /F???/
 - Geschäftsprozess:
 - Ziel:
 - Vorbedingung: 
