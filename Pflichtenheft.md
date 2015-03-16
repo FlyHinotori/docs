@@ -272,13 +272,13 @@ Die Firma HINOTORI stellt derzeit die einzige Zielgruppe dar. Die Software ist a
 
 Eine einfach zu bedienende und übersichtliche Software wird vom Auftraggeber gefordert. Dies impliziert die folgenden Qualitätsanforderungen an die Benutzerschnittstelle.
 
-Die Benutzeroberfläche wird zweckgebunden aufgebaut. Oberflächen dienen einem bestimmten Ziel, und erlauben nur die Anzeige oder Erfassung entsprechender Daten. Die Bedienelemente werden durch verständliche Symbole oder Beschreibungen die erwarteten Funktionen bieten.  
+Die Benutzeroberfläche wird sinnvoll aufgeteilt, indem zusammengehörige Informationen gruppiert und dadurch optisch vom Rest abgrenzbar sind. Durch verständliche Symbole oder Beschreibungen wird dem Benutzer die Funktion eines Bedienelementes vermittelt.  
 
-Wiederkehrende Aufgaben werden einfach und in wenigen Schritten bearbeitbar sein. Gängige Tastaturkürzel (Shortcuts) helfen dabei einfache, wie auch komplexere Aufgaben in möglichst kurzer Zeit zu bewältigen.
+Wiederkehrende Aufgaben werden einfach und in wenigen Schritten bearbeitbar sein. Gängige Tastaturkürzel (Shortcuts) helfen dabei, einfache, wie auch komplexere Aufgaben, in möglichst kurzer Zeit zu bewältigen.
 
-Bei der Bearbeitung einer Aufgabe wird auf redundante Informationen verzichtet. Für den Benutzer werden nur die relevanten Informationen und Bedienelemente sichtbar sein. Zusatzfunktionen, sofern diese dem Zweck dienen, werden nur über Menüs oder die besagten Shortcuts erreichbar sein.
+Bei der Bearbeitung einer Aufgabe wird auf redundante Informationen verzichtet. Dem Benutzer werden nur die relevanten Informationen und Bedienelemente direkt angezeigt. Zusatzfunktionen, sofern diese dem Zweck des jeweiligen Kontextes dienen, werden nur über Menüs oder die besagten Shortcuts erreichbar sein.
 
-Warnungen, Hinweise oder Fehlermeldungen, die für den Benutzer von Interesse sind, werden klar und in einer für den Benutzer verständlichen Sprache präsentiert. 
+Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, werden klar und in einer für den Benutzer verständlichen Sprache präsentiert. 
 
 Das Verhalten der Software wird in sich konsistent und an vergleichbare Anwendungen im Windows-Umfeld angelehnt sein.
 
