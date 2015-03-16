@@ -62,11 +62,21 @@ Jede Rechnung wird dem Kunden in PDF Form zur Verfügung gestellt. Wenn sich Buc
 
 ## 2.2. Zielgruppen
 
+Die Unterteilung in zwei Zielgruppen ist der optionalen Forderung einer Möglichkeit der Buchung per Internet geschuldet.
+
 ### 2.2.1. Kunde
+
+Die Erstellung einer Internetpräsenz steht derzeit nicht im Focus unserer Bemühungen. Eine Implementierung in einem späteren Projekt stehen wir jedoch positiv entgegen.
 
 ### 2.2.2. Verwaltung
 
+Die Firma HINOTORI stellt derzeit die einzige Zielgruppe dar. Die Software ist ausschließlich auf ihre Tätigkeiten zugeschnitten.
+
 ## 2.3. Betriebsbedingungen
+- Betriebssystem: Microsoft Windows 7 oder höher
+- .NET Framework 4.5
+- Microsoft SQLServer Compact
+- Eingabegeräte: Mause und Tastatur
 
 # 3. Produktübersicht
 
