@@ -40,23 +40,23 @@ Die HINOTORI Executive beauftragt die Erstellung des Programms zur internen Verw
 
 Erstellung eines Charterfluges mit Rückmeldung über Verfügbarkeit der Crew, des Flugzeugs, und aller anderen Ressourcen die dafür erforderlich sind. Dabei wird auch der Zeitraum und die Flugroute, sowie Start- und Zielpunkte festgelegt und die Kosten errechnet.
 
-Wird der Flug gebucht wird für den Kunden automatisch eine Rechnung erstellt und die Ressourcen werden für den gewünschten Zeitraum als belegt markiert. Eventuelle Buchungskonflikte, die sich auch gleichzeitiger Buchung oder Änderungen einer Buchung ergeben werden in einer Mitteilung im Programm deutlich gemacht.
+Wird der Flug gebucht wird für den Kunden automatisch eine Rechnung erstellt und die Ressourcen werden für den gewünschten Zeitraum als belegt markiert. Eventuelle Buchungskonflikte, die sich aus gleichzeitiger Buchung oder Änderungen einer Buchung ergeben, werden in einer Mitteilung im Programm deutlich gemacht.
 
 ### 2.1.2. Charterflugabrechnung
 
 Rechnungserstellung für fertige Aufträge von Charterflügen wird automatisch vom Programm vorgenommen. Sie wird nach einer Vorlage in PDF-Form ausgegeben und enthält die wesentlichen Eckdaten des Flugs, die Kosten, Steuern und Kontoverbindungsdaten. Für die Zuordnung der Papierabschrift wird auch die Buchungsnummer mit aufgeführt.
 
-Wenn sich ein Charterflugauftrag sich ändert und der Rechnungsbetrag sich dabei ebenfalls ändert, wird am Ende der Änderung eine neue Rechnung erstellt. Diese enthält zusätzlich zu einer neuen Rechnungsnummer auch einen Verweis auf die bereits erstellte, und mit der neuen Rechnung nun unwirksame, Rechnung.
+Wenn sich ein Charterflugauftrag, und dabei der Rechnungsbetrag, ändert, wird am Ende eine neue Rechnung erstellt. Diese enthält, zusätzlich zu einer neuen Rechnungsnummer, einen Verweis auf die bereits erstellte, und nun unwirksame, Rechnung.
 
 ### 2.1.3. Ressourcenplanung
 
-Grundsätzlich ist davon auszugehen das Flugpersonal jederzeit einsatzfähig ist. Nachtflüge oder Langstreckenflüge werden also nicht ausgeschlossen. Entsprechend werden die jeweiligen Beteiligten nur als gebucht gekennzeichnet wenn sie einer Buchung zugeordnet sind. Feste Arbeitszeiten oder Feiertage bleiben unberücksichtigt.
+Grundsätzlich ist davon auszugehen, dass Flugpersonal jederzeit einsatzfähig ist. Nachtflüge oder Langstreckenflüge werden also nicht ausgeschlossen. Entsprechend werden die jeweiligen Beteiligten nur als gebucht gekennzeichnet, wenn sie einer Buchung zugeordnet sind. Feste Arbeitszeiten oder Feiertage bleiben unberücksichtigt.
 
-Personal und Fluggerät wird nur einer Buchung zugeordnet. Mehrere Buchungen miteinander zu verbinden (z.B. Hin- und Rückflug am gleichen Tag in verschiedenen Buchungen) wird ausdrücklich ausgeschlossen.
+Personal und Fluggerät werden nur einer Buchung zugeordnet. Mehrere Buchungen miteinander zu verbinden (z.B. Hin- und Rückflug am gleichen Tag in verschiedenen Buchungen) wird ausdrücklich ausgeschlossen.
 
 ### 2.1.4. Rechnungserstellung
 
-Für jede vollständig ausgefüllte Buchung die eingeht, wird eine Rechnung erstellt. Ändert sich eine Buchung und die Kosten ändern sich dabei ebenfalls wird eine neue Rechnung für die gleiche Buchung erstellt.
+Für jede vollständig ausgefüllte Buchung, die eingeht, wird eine Rechnung erstellt. Ändert sich eine Buchung und die Kosten ändern sich dabei ebenfalls wird eine neue Rechnung für die gleiche Buchung erstellt.
 
 Jede Rechnung wird dem Kunden in PDF Form zur Verfügung gestellt. Wenn sich Buchungen ändert wird eine weitere PDF Rechnung erstellt, die zusätzlich zu den üblichen Rechnungsdaten auch den Hinweis enthält das alle vorherigen Rechnungen ihre Gültigkeit verlieren.
 
@@ -73,10 +73,8 @@ Die Erstellung einer Internetpräsenz steht derzeit nicht im Focus unserer Bemü
 Die Firma HINOTORI stellt derzeit die einzige Zielgruppe dar. Die Software ist ausschließlich auf ihre Tätigkeiten zugeschnitten.
 
 ## 2.3. Betriebsbedingungen
-- Betriebssystem: Microsoft Windows 7 oder höher
-- .NET Framework 4.5
-- Microsoft SQLServer Compact
-- Eingabegeräte: Mause und Tastatur
+
+
 
 # 3. Produktübersicht
 
