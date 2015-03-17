@@ -278,7 +278,7 @@ Wiederkehrende Aufgaben werden einfach und in wenigen Schritten bearbeitbar sein
 
 Bei der Bearbeitung einer Aufgabe wird auf die Darstellung wie auch Erfassung redundanter Informationen verzichtet. Dem Benutzer sind nur die relevanten Informationen und Bedienelemente direkt dargestellt. Zusatzfunktionen, sofern diese dem Zweck des jeweiligen Kontextes dienen, werden nur über Menüs oder den besagten Shortcuts erreichbar sein.
 
-Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, werden klar und in einer für den Benutzer verständlichen Sprache präsentiert. 
+Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, werden klar präsentiert. Deutsch wird dabei, wie in der restlichen Oberfläche, die verwendete Sprache sein. 
 
 Das Verhalten der Software wird in sich konsistent und an vergleichbare Anwendungen im Windows-Umfeld angelehnt sein.
 
