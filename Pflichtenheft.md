@@ -276,7 +276,7 @@ Die Benutzeroberfläche wird sinnvoll aufgeteilt, indem zusammengehörige Inform
 
 Wiederkehrende Aufgaben werden einfach und in wenigen Schritten bearbeitbar sein. Gängige Tastaturkürzel (Shortcuts) helfen dabei, einfache, wie auch komplexere Aufgaben, in möglichst kurzer Zeit zu bewältigen.
 
-Bei der Bearbeitung einer Aufgabe wird auf redundante Informationen verzichtet. Dem Benutzer werden nur die relevanten Informationen und Bedienelemente direkt angezeigt. Zusatzfunktionen, sofern diese dem Zweck des jeweiligen Kontextes dienen, werden nur über Menüs oder die besagten Shortcuts erreichbar sein.
+Bei der Bearbeitung einer Aufgabe wird auf die Darstellung wie auch Erfassung redundanter Informationen verzichtet. Dem Benutzer sind nur die relevanten Informationen und Bedienelemente direkt dargestellt. Zusatzfunktionen, sofern diese dem Zweck des jeweiligen Kontextes dienen, werden nur über Menüs oder den besagten Shortcuts erreichbar sein.
 
 Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, werden klar und in einer für den Benutzer verständlichen Sprache präsentiert. 
 
