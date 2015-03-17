@@ -56,19 +56,19 @@ Personal und Fluggerät werden nur einer Buchung zugeordnet. Mehrere Buchungen m
 
 ## 2.2. Zielgruppen
 
-Die Unterteilung in zwei Zielgruppen ist der optionalen Forderung einer Möglichkeit der Buchung per Internet geschuldet.
+Die Software wird ausschließlich von Mitarbeitern des Kunden bedient. Zu diesen Mitarbeitern gehören primär Bürofachkräfte sowie Manager. 
 
-### 2.2.1. Kunde
+Erstere sind für die Charterflugplanung, Angebots- und Vertragserstellung sowie dem Mahnwesen zuständig. Letztere für die Pflege der Stammdaten (Personal, Flugzeug, etc.).
 
-Die Erstellung einer Internetpräsenz steht derzeit nicht im Focus unserer Bemühungen. Eine Implementierung in einem späteren Projekt stehen wir jedoch positiv entgegen.
-
-### 2.2.2. Verwaltung
-
-Die Firma HINOTORI stellt derzeit die einzige Zielgruppe dar. Die Software ist ausschließlich auf ihre Tätigkeiten zugeschnitten.
+Endkunden werden explizit von der Zielgruppe ausgeschlossen, da die Erstellung einer Internetpräsenz kein Teil dieses Projekts ist.
 
 ## 2.3. Betriebsbedingungen
 
+Die Lauffähigkeit der Software erfordert Computer-Hardware sowie zusätzliche Software. Auf Details zu diesen Anforderungen wird später in dem Kapitel "Technische Produktumgebung" eingegangen.
 
+Es wird davon ausgegangen, dass die Software in einer Büroumgebung zum Einsatz kommt. Sie wird zu den Geschäftszeiten des Kunden betrieben, ist aber nicht für den Dauerbetrieb (24/7) gedacht. 
+
+Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem betrieben. Ein zentraler Datenbankserver, der das parallele Arbeiten auf mehreren Klientensystemen erlaubt, ist nicht Teil dieses Projekts.
 
 # 3. Produktübersicht
 
