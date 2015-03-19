@@ -277,15 +277,14 @@ Die Firma HINOTORI stellt derzeit die einzige Zielgruppe dar. Die Software ist a
 Standardmässig ist das Windows-Regelwerk anzuwenden. Das vorrangige Bedieninstrument soll die Maus darstellen. Außerdem soll die ISO-Norm 9241-10 in Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung Beachtung finden.
 
 - Komponenten
- - Angebotsausgabe als Brief auf Word oder PDF oder per Mail incl. Bild
- - Vertragsausgabe wie Angebotsausgabe (ohne Bild)
- - Rechnungsausgabe wie Angebotsausgabe
 
-- Startmaske
+In den einzelnen Komponenten soll versucht werden, ein wiederkehrendes Grundgerüst zu erzeugen, um eine intuitive und selbsterklärende Benutzung zu ermöglichen.
 
-- Projektübersicht
+-- Startmaske
 
-- Mitarbeiterdetails
+-- Maske1
+
+-- Maske2
 
 # 9. Nichtfunktionale Anforderungen
 
