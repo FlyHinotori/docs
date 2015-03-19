@@ -40,7 +40,7 @@ Die HINOTORI Executive beauftragt die Erstellung des Programms zur internen Verw
 
 Erstellung eines Charterfluges mit Rückmeldung über Verfügbarkeit der Crew, des Flugzeugs, und aller anderen Ressourcen die dafür erforderlich sind. Dabei wird auch der Zeitraum und die Flugroute, sowie Start- und Zielpunkte festgelegt und die Kosten errechnet.
 
-Wird der Flug gebucht wird für den Kunden automatisch eine Rechnung erstellt und die Ressourcen werden für den gewünschten Zeitraum als belegt markiert. Eventuelle Buchungskonflikte, die sich aus gleichzeitiger Buchung oder Änderungen einer Buchung ergeben, werden in einer Mitteilung im Programm deutlich gemacht.
+Wird der Flug gebucht, werden die jeweiligen Ressourcen für den gewünschten Zeitraum als belegt markiert. Eventuelle Buchungskonflikte, die sich aus gleichzeitiger Buchung oder Änderungen einer Buchung ergeben, werden in einer Mitteilung im Programm deutlich gemacht.
 
 ### 2.1.2. Charterflugabrechnung
 
