@@ -273,9 +273,8 @@ Die Firma HINOTORI stellt derzeit die einzige Zielgruppe dar. Die Software ist a
 # 8. Benutzeroberfläche
 
 - Allgemeine Anforderungen
- - einfache Bedienung
- - übersichtlich
- - erweiterbar
+
+Standardmässig ist das Windows-Regelwerk anzuwenden. Das vorrangige Bedieninstrument soll die Maus darstellen. Außerdem soll die ISO-Norm 9241-10 in Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung Beachtung finden.
 
 - Komponenten
  - Angebotsausgabe als Brief auf Word oder PDF oder per Mail incl. Bild
