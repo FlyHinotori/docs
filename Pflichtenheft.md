@@ -8,6 +8,12 @@ Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte An
 - Rechnung erstellen
     - export als pdf
     - editierbare Vorlage
+- Angebotsausgabe als Brief incl. Bild
+    - per Word oder 
+	- per PDF oder
+	- per Mail
+- Vertragsausgabe wie Angebotsausgabe (ohne Bild)
+- Rechnungsausgabe wie Angebotsausgabe
 - Überwachung der Fälligkeit von Rechnungen
 - automatische Mahnungserstellung
 - Stammdatenerfassung/ -änderung für Flugzeuge
