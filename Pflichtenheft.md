@@ -46,8 +46,6 @@ Wird der Flug gebucht, werden die jeweiligen Ressourcen für den gewünschten Ze
 
 Rechnungserstellung für fertige Aufträge von Charterflügen wird automatisch vom Programm vorgenommen. Sie wird nach einer Vorlage in PDF-Form ausgegeben und enthält die wesentlichen Eckdaten des Flugs, die Kosten, Steuern und Kontoverbindungsdaten. Für die Zuordnung der Papierabschrift wird auch die Buchungsnummer mit aufgeführt.
 
-Eine Änderung des Charterauftrags, welche sich auf den Rechnungsbetrag auswirkt, führt zu einer neuen Rechnung. Diese enthält, zusätzlich zu einer neuen Rechnungsnummer, einen Verweis auf die bereits erstellte, und nun unwirksame, Rechnung.
-
 ### 2.1.3. Ressourcenplanung
 
 Grundsätzlich ist davon auszugehen, dass Flugpersonal jederzeit einsatzfähig ist. Nachtflüge oder Langstreckenflüge werden also nicht ausgeschlossen. Entsprechend werden die jeweiligen Beteiligten nur als gebucht gekennzeichnet, wenn sie einer Buchung zugeordnet sind. Feste Arbeitszeiten oder Feiertage bleiben unberücksichtigt.
