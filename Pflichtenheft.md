@@ -8,6 +8,12 @@ Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte An
 - Rechnung erstellen
     - export als pdf
     - editierbare Vorlage
+- Angebotsausgabe als Brief incl. Bild
+    - per Word oder 
+	- per PDF oder
+	- per Mail
+- Vertragsausgabe wie Angebotsausgabe (ohne Bild)
+- Rechnungsausgabe wie Angebotsausgabe
 - Überwachung der Fälligkeit von Rechnungen
 - automatische Mahnungserstellung
 - Stammdatenerfassung/ -änderung für Flugzeuge
@@ -276,18 +282,18 @@ Das Verhalten der Software wird in sich konsistent und an vergleichbare Anwendun
 # 8. Benutzeroberfläche
 
 - Allgemeine Anforderungen
- - erweiterbar
+
+Standardmässig ist das Windows-Regelwerk anzuwenden. Das vorrangige Bedieninstrument soll die Maus darstellen. Außerdem soll die ISO-Norm 9241-10 in Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung Beachtung finden.
 
 - Komponenten
- - Angebotsausgabe als Brief auf Word oder PDF oder per Mail incl. Bild
- - Vertragsausgabe wie Angebotsausgabe (ohne Bild)
- - Rechnungsausgabe wie Angebotsausgabe
 
-- Startmaske
+In den einzelnen Komponenten soll versucht werden, ein wiederkehrendes Grundgerüst zu erzeugen, um eine intuitive und selbsterklärende Benutzung zu ermöglichen.
 
-- Projektübersicht
+-- Startmaske
 
-- Mitarbeiterdetails
+-- Maske1
+
+-- Maske2
 
 # 9. Nichtfunktionale Anforderungen
 
