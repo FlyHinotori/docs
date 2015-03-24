@@ -23,19 +23,19 @@
 - Keine Geschäftsprozesse beschreiben/anreißen, sondern auf den entsprechenden definierten Geschäftsprozesse weiter unten Verweisen
 - Wunschkriterien würde ich in den Abschnitt Abgrenzungskriterien verschieben, da diese nicht realisiert werden
 
-# Geschäftsprozesse *Hannes*
+# Geschäftsprozesse 
 
-- Generelles Review
-- Auf Vollständigkeit prüfen (Vergleich mit Skript)
+- Generelles Review **Hannes**
+- Auf Vollständigkeit prüfen (Vergleich mit Skript) **Hannes**
 
-# Produktdaten *Hannes*
+# Produktdaten
 
-- Auf Vollständigkeit prüfen (Vergleich mit Skript)
-- Anstatt "Option 1/2/3" einen Geschätsprozess oder ähnliches referenzieren, wenn möglich
+- Auf Vollständigkeit prüfen (Vergleich mit Skript) **Hannes**
+- Anstatt "Option 1/2/3" einen Geschätsprozess oder ähnliches referenzieren, wenn möglich **Hannes**
 
-# Produktleistungen *Hannes*
+# Produktleistungen
 
-- Auf Vollständigkeit prüfen (Vergleich mit Skript)
+- Auf Vollständigkeit prüfen (Vergleich mit Skript) **Hannes**
 
 # Benutzeroberfläche
 
