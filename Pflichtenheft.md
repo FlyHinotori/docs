@@ -46,43 +46,33 @@ Die HINOTORI Executive beauftragt die Erstellung des Programms zur internen Verw
 
 Erstellung eines Charterfluges mit Rückmeldung über Verfügbarkeit der Crew, des Flugzeugs, und aller anderen Ressourcen die dafür erforderlich sind. Dabei wird auch der Zeitraum und die Flugroute, sowie Start- und Zielpunkte festgelegt und die Kosten errechnet.
 
-Wird der Flug gebucht wird für den Kunden automatisch eine Rechnung erstellt und die Ressourcen werden für den gewünschten Zeitraum als belegt markiert. Eventuelle Buchungskonflikte, die sich auch gleichzeitiger Buchung oder Änderungen einer Buchung ergeben werden in einer Mitteilung im Programm deutlich gemacht.
+Wird der Flug gebucht, werden die jeweiligen Ressourcen für den gewünschten Zeitraum als belegt markiert. Eventuelle Buchungskonflikte, die sich aus gleichzeitiger Buchung oder Änderungen einer Buchung ergeben, werden in einer Mitteilung im Programm deutlich gemacht.
 
 ### 2.1.2. Charterflugabrechnung
 
 Rechnungserstellung für fertige Aufträge von Charterflügen wird automatisch vom Programm vorgenommen. Sie wird nach einer Vorlage in PDF-Form ausgegeben und enthält die wesentlichen Eckdaten des Flugs, die Kosten, Steuern und Kontoverbindungsdaten. Für die Zuordnung der Papierabschrift wird auch die Buchungsnummer mit aufgeführt.
 
-Wenn sich ein Charterflugauftrag sich ändert und der Rechnungsbetrag sich dabei ebenfalls ändert, wird am Ende der Änderung eine neue Rechnung erstellt. Diese enthält zusätzlich zu einer neuen Rechnungsnummer auch einen Verweis auf die bereits erstellte, und mit der neuen Rechnung nun unwirksame, Rechnung.
-
 ### 2.1.3. Ressourcenplanung
 
-Grundsätzlich ist davon auszugehen das Flugpersonal jederzeit einsatzfähig ist. Nachtflüge oder Langstreckenflüge werden also nicht ausgeschlossen. Entsprechend werden die jeweiligen Beteiligten nur als gebucht gekennzeichnet wenn sie einer Buchung zugeordnet sind. Feste Arbeitszeiten oder Feiertage bleiben unberücksichtigt.
+Grundsätzlich ist davon auszugehen, dass Flugpersonal jederzeit einsatzfähig ist. Nachtflüge oder Langstreckenflüge werden also nicht ausgeschlossen. Entsprechend werden die jeweiligen Beteiligten nur als gebucht gekennzeichnet, wenn sie einer Buchung zugeordnet sind. Feste Arbeitszeiten oder Feiertage bleiben unberücksichtigt.
 
-Personal und Fluggerät wird nur einer Buchung zugeordnet. Mehrere Buchungen miteinander zu verbinden (z.B. Hin- und Rückflug am gleichen Tag in verschiedenen Buchungen) wird ausdrücklich ausgeschlossen.
-
-### 2.1.4. Rechnungserstellung
-
-Für jede vollständig ausgefüllte Buchung die eingeht, wird eine Rechnung erstellt. Ändert sich eine Buchung und die Kosten ändern sich dabei ebenfalls wird eine neue Rechnung für die gleiche Buchung erstellt.
-
-Jede Rechnung wird dem Kunden in PDF Form zur Verfügung gestellt. Wenn sich Buchungen ändert wird eine weitere PDF Rechnung erstellt, die zusätzlich zu den üblichen Rechnungsdaten auch den Hinweis enthält das alle vorherigen Rechnungen ihre Gültigkeit verlieren.
+Personal und Fluggerät werden nur einer Buchung zugeordnet. Mehrere Buchungen miteinander zu verbinden (z.B. Hin- und Rückflug am gleichen Tag in verschiedenen Buchungen) wird ausdrücklich ausgeschlossen.
 
 ## 2.2. Zielgruppen
 
-Die Unterteilung in zwei Zielgruppen ist der optionalen Forderung einer Möglichkeit der Buchung per Internet geschuldet.
+Die Software wird ausschließlich von Mitarbeitern des Kunden bedient. Zu diesen Mitarbeitern gehören primär Bürofachkräfte sowie Manager. 
 
-### 2.2.1. Kunde
+Erstere sind für die Charterflugplanung, Angebots- und Vertragserstellung sowie dem Mahnwesen zuständig. Letztere für die Pflege der Stammdaten (Personal, Flugzeug, etc.).
 
-Die Erstellung einer Internetpräsenz steht derzeit nicht im Focus unserer Bemühungen. Eine Implementierung in einem späteren Projekt stehen wir jedoch positiv entgegen.
-
-### 2.2.2. Verwaltung
-
-Die Firma HINOTORI stellt derzeit die einzige Zielgruppe dar. Die Software ist ausschließlich auf ihre Tätigkeiten zugeschnitten.
+Endkunden werden explizit von der Zielgruppe ausgeschlossen, da die Erstellung einer Internetpräsenz kein Teil dieses Projekts ist.
 
 ## 2.3. Betriebsbedingungen
-- Betriebssystem: Microsoft Windows 7 oder höher
-- .NET Framework 4.5
-- Microsoft SQLServer Compact
-- Eingabegeräte: Mause und Tastatur
+
+Die Lauffähigkeit der Software erfordert Computer-Hardware sowie zusätzliche Software. Auf Details zu diesen Anforderungen wird später in dem Kapitel "Technische Produktumgebung" eingegangen.
+
+Es wird davon ausgegangen, dass die Software in einer Büroumgebung zum Einsatz kommt. Sie wird zu den Geschäftszeiten des Kunden betrieben, ist aber nicht für den Dauerbetrieb (24/7) gedacht. 
+
+Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem betrieben. Ein zentraler Datenbankserver, der das parallele Arbeiten auf mehreren Klientensystemen erlaubt, ist nicht Teil dieses Projekts.
 
 # 3. Produktübersicht
 
@@ -275,6 +265,19 @@ Die Firma HINOTORI stellt derzeit die einzige Zielgruppe dar. Die Software ist a
  - Kosten (Anteil Fixkosten + Anteil Personalkosten + Stundensatz * Flugzeit)
 
 # 7. Qualitätsanforderungen
+
+Eine einfach zu bedienende und übersichtliche Software wird vom Auftraggeber gefordert. Dies impliziert die folgenden Qualitätsanforderungen an die Benutzerschnittstelle.
+
+Die Benutzeroberfläche wird sinnvoll aufgeteilt, indem zusammengehörige Informationen gruppiert und dadurch optisch vom Rest abgrenzbar sind. Durch verständliche Symbole oder Beschreibungen wird dem Benutzer die Funktion eines Bedienelementes vermittelt.  
+
+Wiederkehrende Aufgaben werden einfach und in wenigen Schritten bearbeitbar sein. Gängige Tastaturkürzel (Shortcuts) helfen dabei, einfache, wie auch komplexere Aufgaben, in möglichst kurzer Zeit zu bewältigen.
+
+Bei der Bearbeitung einer Aufgabe wird auf die Darstellung wie auch Erfassung redundanter Informationen verzichtet. Dem Benutzer sind nur die relevanten Informationen und Bedienelemente direkt dargestellt. Zusatzfunktionen, sofern diese dem Zweck des jeweiligen Kontextes dienen, werden nur über Menüs oder den besagten Shortcuts erreichbar sein.
+
+Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, werden klar präsentiert. Deutsch wird dabei, wie in der restlichen Oberfläche, die verwendete Sprache sein. 
+
+Das Verhalten der Software wird in sich konsistent und an vergleichbare Anwendungen im Windows-Umfeld angelehnt sein.
+
 
 # 8. Benutzeroberfläche
 
