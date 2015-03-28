@@ -223,7 +223,7 @@ Das Flugpersonal lässt sich durch folgende Attribute beschreiben:
  - Vorname
  - Position (Captain, Copilot, Cabin, Crew)
  - Lizenzen (Qualifizierung für bestimmte Flugzeuge)
- - Gehalt (nach Position)
+ - Gehalt
  - Status (aktiv/inaktiv)
 
 ## 5.3. Flugziele
@@ -244,7 +244,7 @@ Termine repräsentieren die aktuell verplanten Ressourcen. Dabei wird der Zweck 
 
 ## 5.5. Auftrag
 
-Zum Auftrag gehören Daten, die bei der Angebotserstellung erfasst werden. Hier finden sich alle anderen Daten wieder. Aus einem Auftrag werden sowohl der Vertrag, als auch die Rechnung, sowie ggf. Zahlungsaufforderungen und Mahnungen, abgeleitet. Erfasst werden:
+Zum Auftrag gehören Daten, die bei der Angebotserstellung erfasst werden. Hier finden sich auch alle anderen Daten wieder. Aus einem Auftrag werden sowohl der Vertrag, als auch die Rechnung, sowie ggf. Zahlungserinnerungen und Mahnungen, abgeleitet. Erfasst werden:
 
  - Auftraggeber (Kontaktdaten)
  - Termin (Link zu Termine)
@@ -257,7 +257,7 @@ Zum Auftrag gehören Daten, die bei der Angebotserstellung erfasst werden. Hier 
  - Anmerkungen (z.B. Abbruchgrund)
  - Art (Einzelflug, Flug mit Zwischenaufenthalten, Zeitcharter)
 
-sowie, abhängig von der Art des Auftrags: 
+Zusätzlich wird, abhängig von der Art des Auftrags, folgendes gespeichert: 
  
  - Art = Einzelflug oder Flug mit Zwischenaufenthalten
   - Von (Flughafen/Ort)
