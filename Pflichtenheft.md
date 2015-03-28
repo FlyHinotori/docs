@@ -89,12 +89,12 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 
 ## /F12/
 - Geschäftsprozess: Angebotsantwort erfassen
-- Ziel: ausgefüllte Vertragsunterlagen, Reservierung von Crew und Flugzeug
+- Ziel: Vorbereitung der Vertragsunterlagen, Reservierung von Crew und Flugzeug
 - Vorbedingung: verschicktes Angebot
-- Nachbedingung Erfolg: Vertrag erstellten und verschicken
-- Nachbedingung Fehlschlag: Grund der Ablehnung erfassen
+- Nachbedingung Erfolg: Vertrag vorbereitet (basierend auf der Vorlage aus der Ausschreibung) 
+- Nachbedingung Fehlschlag: Vertrag nicht erstellt, Grund der Ablehnung wird erfasst
 - Auslösendes Ereignis: eingehende Angebotsantwort
-- Beschreibung: kommt es zu einer positiven Angebotsantwort, soll anschließend ein Vertrag erstellt und verschickt werden.
+- Beschreibung: kommt es zu einer positiven Angebotsantwort, soll anschließend ein Vertrag vorbereitet werden
 
 ## /F13/
 - Geschäftsprozess: Vertragsantwort erfassen
