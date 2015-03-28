@@ -297,11 +297,11 @@ In den einzelnen Komponenten soll versucht werden, ein wiederkehrendes Grundger�
 
 # 9. Nichtfunktionale Anforderungen
 
-# Technische Produktumgebung
+# 10. Technische Produktumgebung
 
 Dieses Kapitel beschreibt in welcher Umgebung das Programm laufen soll.
 
-## Software ##
+## 10.1. Software
 
 Die Software wird für die folgende Softwareumgebung entwickelt:
 
@@ -311,7 +311,7 @@ Die Software wird für die folgende Softwareumgebung entwickelt:
 - .NET Framework 4.5
 
 
-## Hardware ##
+## 10.2. Hardware
 
 Die Software wird auf einem Computer mit den folgenden technischen Daten lauffähig sein:
 
@@ -323,9 +323,9 @@ Die Software wird auf einem Computer mit den folgenden technischen Daten lauffä
 
 Zusätzliche Standardperipheriegeräte wie Maus, Tastatur und Monitor werden vorausgesetzt.
 
-## Produktschnittstellen ##
+## 10.3. Produktschnittstellen
 
-Keine externen Schnittstellen zu anderer Software geplant.
+Es ist keine externe Schnittstelle zu einer anderen Software geplant. Jedoch wird es möglich sein, an sinnvollen Stellen externe Programme, wie zum Beispiel das Standard-eMail-Programm oder den Adobe-Reader aufzurufen.
 
 # 11. spezielle Anforderungen an die Entwicklerumgebung
 
