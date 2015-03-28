@@ -136,8 +136,8 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Geschäftsprozess: bestehendes Angebot ändern
 - Ziel: Angebotsdaten ändern
 - Vorbedingung: Angebot wurde erfasst
-- Nachbedingung Erfolg: Daten wurden geändert und neues Angebot erstellt
-- Nachbedingung Fehlschlag: Mitteilung an Benutzer
+- Nachbedingung Erfolg: Daten werden geändert und Angebotsstatus zurück gesetzt
+- Nachbedingung Fehlschlag: Mitteilung an Benutzer (inkl. Begründung)
 - Auslösendes Ereignis: ---
 - Beschreibung: Anpassung bestehender Angebote
 
