@@ -127,10 +127,10 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Geschäftsprozess: bestehende Angebote anzeigen
 - Ziel: Angebotsdaten einsehen
 - Vorbedingung: Angebot wurde erfasst
-- Nachbedingung Erfolg: Daten wurden angezeigt
+- Nachbedingung Erfolg: Daten werden angezeigt
 - Nachbedingung Fehlschlag: ---
 - Auslösendes Ereignis: ---
-- Beschreibung: Visualisierung bestehender Angebote
+- Beschreibung: Visualisierung bestehender Angebote inkl. deren Status
 
 ## /F17/
 - Geschäftsprozess: bestehendes Angebot ändern
