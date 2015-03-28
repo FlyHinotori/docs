@@ -1,7 +1,6 @@
 ## Todos
 
 # Generell
-- Visualisierung der Workflows (**Torsten**)
 - Neuer Abschnitt "Projektplan"
  - Zeitliche Abschätzung zur Realisierung der einzelnen Geschäftsprozesse und des Handbuchs
  - Zuweisung der Aufgaben an einzelne Personen (muss nicht zwingend mit der Realität übereinstimmen)
@@ -13,7 +12,7 @@
 
 - Mehr Details wie Rechnungserstellung, Mahnwesen und dass es sich um Thick-Client Software handelt
 
-# Musskriterien / Wunschkriterien / Abgrenzungskriterien
+# Musskriterien / Wunschkriterien / Abgrenzungskriterien **Torsten**
 
 - Mehr über die Rechnungserstellung (Skript S. 10):
  - Status der Rechnung wird verwaltet 
@@ -43,19 +42,9 @@
 
 # Nichtfunktioniale Anforderungen 
 
-- Bezug auf die ISO Norm aus Abschnitt 8 hierher verschieben
 - Weitere Definitionen. z.B.
- - Deutsches Handbuch
- - Englische Sprache im Code (z.B. Variablenbezeichnung)
+ - Englische Sprache im Code (z.B. Variablenbezeichnung) --> Das sollte dem Kunden eigentlich egal sein bzw. nicht interessieren
 
-# Technische Produktumgebung
 
-- In Dokumenten Nummerierung eingeliedern
-- Produktschnittstellen: Word, Email Program
-
-# Spezielle Anforderungen ...
-
-- C# als Programmiersprache
-- Microsoft SQL Server Compact als DB
 
  
