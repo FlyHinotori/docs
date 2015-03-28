@@ -110,18 +110,18 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Ziel: Endabrechnung des Auftrages - Rechnung
 - Vorbedingung: durchgeführter Flug
 - Nachbedingung Erfolg: Rechnung und Abfrage der Kundenzufriedenheit
-- Nachbedingung Fehlschlag: ???
+- Nachbedingung Fehlschlag: ---
 - Auslösendes Ereignis: Meldung der Flugdurchführung durch Crew
 - Beschreibung: um den Auftrag abzuschließen und somit eine Rechnung zu erstellen, sind noch einige Daten wie Maschinenlaufzeiten und Crewzeit notwendig.
 
 ## /F15/
 - Geschäftsprozess: Kundenzufriedenheit erfassen
-- Ziel: Kundenzufriedenheit
-- Vorbedingung: abgeschlossener Auftrag
+- Ziel: Dokumentation der Kundenzufriedenheit
+- Vorbedingung: durchgeführter Flug
 - Nachbedingung Erfolg: bereitgestellte Daten zur Auswertung
 - Nachbedingung Fehlschlag: ---
-- Auslösendes Ereignis: eingehende Antwort zur Kundenzufriedenheit
-- Beschreibung: 
+- Auslösendes Ereignis: Meldung der Flugdurchführung durch Crew
+- Beschreibung: Durch einen Fragebogen wird die Kundenzufriedenheit erfasst
 
 ## /F16/
 - Geschäftsprozess: bestehende Angebote anzeigen
