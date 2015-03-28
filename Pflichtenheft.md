@@ -281,11 +281,11 @@ Das Verhalten der Software wird in sich konsistent und an vergleichbare Anwendun
 
 # 8. Benutzeroberfläche
 
-- Allgemeine Anforderungen
+## 8.1. Allgemeine Anforderungen
 
-Standardmässig ist das Windows-Regelwerk anzuwenden. Das vorrangige Bedieninstrument soll die Maus darstellen. Außerdem soll die ISO-Norm 9241-10 in Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung Beachtung finden.
+Standardmässig ist das Windows-Regelwerk anzuwenden. Das vorrangige Bedieninstrument soll die Maus darstellen. 
 
-- Komponenten
+## 8.2. Komponenten
 
 In den einzelnen Komponenten soll versucht werden, ein wiederkehrendes Grundgerüst zu erzeugen, um eine intuitive und selbsterklärende Benutzung zu ermöglichen.
 
@@ -296,6 +296,8 @@ In den einzelnen Komponenten soll versucht werden, ein wiederkehrendes Grundger�
 -- Maske2
 
 # 9. Nichtfunktionale Anforderungen
+
+In Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung soll die ISO-Norm 9241-10 Beachtung finden. Die Software wird zusätzlich mit einem Handbuch in deutscher Sprache ausgeliefert. 
 
 # 10. Technische Produktumgebung
 
