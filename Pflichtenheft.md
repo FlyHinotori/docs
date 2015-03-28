@@ -4,37 +4,37 @@ Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte An
 
 ## 1.1.  Musskriterien
 
-- Charteraufträge erfassen und bearbeiten (Daten ändern, Auftrag löschen)
-- Rechnung erstellen
-    - export als pdf
-    - editierbare Vorlage
-- Angebotsausgabe als Brief incl. Bild
-    - per Word oder 
-	- per PDF oder
-	- per Mail
-- Vertragsausgabe wie Angebotsausgabe (ohne Bild)
-- Rechnungsausgabe wie Angebotsausgabe
-- Überwachung der Fälligkeit von Rechnungen
-- automatische Mahnungserstellung
-- Stammdatenerfassung/ -änderung für Flugzeuge
-- Stammdatenerfassung/ -änderung für Personal
-- Zuordnung von Flugbegleitern zu einem Flug
-    - optional bei kleinen Flugzeugen
-    - obligatorisch bei größeren Maschinen
-- Abdecken verschiedener Charteroptionen (Einzelflug von A nach B [Fixpreisangebot], Einzelflug von A nach B mit Zwischenstopp [Fixpreisangebot], Charter über einen Zeitraum [Fixpreisanteil und variabler Kostenanteil nach tatsächlicher Flugzeit])
-- Einteilung der Kunden in Gruppen (VIP [grundsätzlich keine Mahnung], CORP [Dokumentation der Bonität, normales Mahnwesen],  PRE [unbekannte Bonität oder bei früheren Flügen (mind. 2) erst nach 2. Mahnung gezahlt, Vorkasse (Angebotspreis + 5%)]
-- Telefonische Aufnahme einer Anfrage mit mind. folgenden Daten (Name und Kontaktdaten des Kunden, Art der Charteroption; für Einzelflug und Zwischenhalt zusätzlich Abflugort, Ziel, evtl. Zwischenziel mit Aufenthaltsdauer, gewünschte Flugdaten, Anzahl Passagiere; für Charteroption über einen Zeitraum nur den Zeitraum; Sonderwünsche wie bestimmtes Flugzeug, Crew, Catering, flight attendants,... )
-- Angebot soll enthalten (Daten der Aufnahme, Aussage über Ausführbarkeit, Flugzeugtyp mit Bild, Flugplan, Strecke in km, Kosten in EUR)
-- Terminverwaltung (anstehende, derzeitige Aufträge; Flugzeugverfügbarkeit [Flug, Wartung, ...], Crewverfügbarkeit)
-- Programmgestützte Durchführbarkeitsprüfung anhand Auftragsparametern (Ziel, Crew, Flugzeug,...) unter Berücksichtigung von Flugzeiten, Charterdauer und Zusatzzeiten bei Zwischenlandungen (pro Landung +45min)
+- Der Kunde kann Charteranfragen erfassen, Angebote erstellen und nach Flugdurchführung entsprechende Rechnungen an den Kunden versenden. Dabei wird es dem Kunden zu jederzeit möglich sein Änderungen in den Daten vorzunehmen.
+- Die Aufnahme einer Charteranfrage erfolgt in der Regel telefonisch. Hierbei sind mindestens folgende Daten zu erfassen:
+ - Name und Kontaktdaten des Kunden
+ - für Charteroption Einzelflug und Zwischenhalt (Abflugort, Ziel, evtl. Zwischenziel mit Aufenthaltsdauer, gewünschte Flugdaten, Anzahl Passagiere) 
+ - für Charteroption über einen Zeitraum nur den Zeitraum
+ - Sonderwünsche wie bestimmtes Flugzeug, Crew, Catering, flight attendants,... 
+- Die Ausgabe des Angebotes, des Vertrages und der Rechnung für den Interessenten bzw. Kunden erfolgt als Brief per Word oder PDF oder direkt als e-Mail. Das Angebot und die Rechnung sollen zusätzlich ein Bild des Flugzeuges enthalten.
+- Im Angebot sollen enthalten sein - die Daten der Aufnahme, eine Aussage über die Ausführbarkeit, der Flugzeugtyp mit Bild, ein Flugplan, die Strecke in km sowie die Kosten in EUR.
+- Das System soll die Fälligkeiten von Rechnungen überwachen und ein intergriertes Mahnwesen beinhalten. Kunden der Gruppe "VIP" werden jedoch nicht gemahnt. Desweiteren sollen vier Mahnstufen mit mahnstufenabhängigen Kosten ihre Anwendung finden.
+- Dem Kunden soll es möglich sein, Stammdatenerfassung/ -änderung für Flugzeuge und Personal vorzunehmen.
+- Eine Zuordnung von Flugbegleitern zu einem Flug soll bei kleinen Flugzeugen optional sein. Bei größeren Maschinen ist eine Zuordnung von Flugbegleitern obligatorisch.
+- Dem Kunden soll es möglich sein verschiedene Charteroptionen anzubieten. 
+ - Einzelflug von A nach B [Fixpreisangebot]
+ - Einzelflug von A nach B mit Zwischenstopp [Fixpreisangebot]
+ - Charter über einen Zeitraum [Fixpreisanteil und variabler Kostenanteil nach tatsächlicher Flugzeit]
+- Die Anwendung soll die Möglichkeit bieten, Kunden in verschiedene Gruppen einzuteilen. Abhängig von der Kundengruppe sind die Optionen Vorkasse und Mahnstufen zu betrachten.
+ - VIP [grundsätzlich keine Mahnung]
+ - CORP [Dokumentation der Bonität, normales Mahnwesen]
+ - PRE [unbekannte Bonität oder bei früheren Flügen (mind. 2) erst nach 2. Mahnung gezahlt, Vorkasse (Angebotspreis + 5%)]
+- Mittels einer Terminverwaltung sollen anstehende und derzeitige Aufträge dargestellt werden. Außerdem soll im Hinblick auf die Flugzeugverfügbarkeit Termine wie Flug und Wartung und für die Crewverfügbarkeit Urlaub, Krankheit darstell- und editierbar sein.
+- Das System soll selbständig eine Durchführbarkeitsprüfung anhand der Auftragsparameter (Ziel, Crew, Flugzeug,...) unter Berücksichtigung von Flugzeiten, Charterdauer und Zusatzzeiten bei Zwischenlandungen (pro Landung +45min) durchführen können.
 
 ## 1.2.  Wunschkriterien
-- Anfrage des Kunden per Webseite
-- WF01-Charterflug kann komplett per Webseite ablaufen. Jedoch muss die Funktion des Druckens des Vertrages gegeben sein.
+
+keine
 
 ## 1.3.  Abgrenzungskriterien
-- kein umfassendes ERP, das System ist nur für den konkreten Anwendungsfall ausgelegt
-- kein umfassendes ERM, Kunden werden manuell bearbeitet
+
+- Die Anwendung ist kein umfassendes ERP, sondern nur für den konkreten Anwendungsfall ausgelegt.
+- Die Anwendung ist weiterhin kein umfassendes ERM. Kunden werden manuell bearbeitet.
+- Eine Anfragenaufnahme per Webseite wird nicht Teil dieses Projektes sein.
 
 # 2. Produkteinsatz
 
