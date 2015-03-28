@@ -161,13 +161,12 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 
 ## /F21/
 - Geschäftsprozess: Zahlungseingang erfassen
-- Ziel: Zuordnung von Zahlungen zu Aufträgen
+- Ziel: Zuordnung von Zahlungen zu Rechnungen
 - Vorbedingung: Rechnungslegung
-- Nachbedingung Erfolg: Verringerung des fälligen Betrages
+- Nachbedingung Erfolg: Verringerung des fälligen Betrages einer Rechnung
 - Nachbedingung Fehlschlag: Zahlung als nicht zugeordnet gekennzeichnet
 - Auslösendes Ereignis: Zahlungseingang durch Kunden
-- Beschreibung: eingegangene Zahlungen sollen einem Auftrag zugeordnet werden. Kann keine Zuordnung erfolgen, bedarf es eines gesonderten Kennzeichen für diese Zahlung zur Recherche
-
+- Beschreibung: eingegangene Zahlungen sollen einer Rechnung zugeordnet werden. Kann keine Zuordnung erfolgen, bedarf es eines gesonderten Kennzeichens für diese Zahlung zur Recherche
 
 ## /F22/
 - Geschäftsprozess: Mahnlauf
