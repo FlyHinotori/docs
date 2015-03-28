@@ -80,12 +80,12 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 
 ## /F11/
 - Geschäftsprozess: Neues Angebot erfassen
-- Ziel: verschicktes Angebot
+- Ziel: Erstellung des Angebots in oben genannter Form
 - Vorbedingung: Kundenanfrage liegt vor
-- Nachbedingung Erfolg: alle notwendigen Daten sind erfasst, Angebot wird an Kunden versandt
-- Nachbedingung Fehlschlag: Mitteilung an Benutzer, Angebot kann nicht erstellt werden
+- Nachbedingung Erfolg: alle notwendigen Daten sind erfasst, Angebot wurde erstellt
+- Nachbedingung Fehlschlag: Mitteilung an Benutzer (inkl. Begründung), Angebot kann nicht erstellt werden
 - Auslösendes Ereignis: eingehende Kundenanfrage
-- Beschreibung: Eingabe alle notwendigen Daten zur Angebotserstellung
+- Beschreibung: Eingabe aller notwendigen Daten zur Angebotserstellung
 
 ## /F12/
 - Geschäftsprozess: Angebotsantwort erfassen
