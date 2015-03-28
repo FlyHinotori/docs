@@ -10,17 +10,7 @@
 
 # Zielbestimmung
 
-- Mehr Details wie Rechnungserstellung, Mahnwesen und dass es sich um Thick-Client Software handelt
-
-# Musskriterien / Wunschkriterien / Abgrenzungskriterien **Torsten**
-
-- Mehr über die Rechnungserstellung (Skript S. 10):
- - Status der Rechnung wird verwaltet 
- - Zahlungsziel 
- - Zusatzkosten
-- Kriterien in Unterpunkte aufteilen und ausformulieren ("Der Kunde kann...", "Das System wird...", usw.), wobei der Detailgrad (z.B. beim Punkt "Stammdaten für Flugzeuge erfassen") ausreichend ist
-- Keine Geschäftsprozesse beschreiben/anreißen, sondern auf den entsprechenden definierten Geschäftsprozesse weiter unten Verweisen
-- Wunschkriterien würde ich in den Abschnitt Abgrenzungskriterien verschieben, da diese nicht realisiert werden
+- Mehr Details wie Rechnungserstellung, Mahnwesen und dass es sich um Thick-Client Software handelt **Torsten**
 
 # Geschäftsprozesse 
 
