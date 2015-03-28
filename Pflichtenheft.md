@@ -328,3 +328,8 @@ Zusätzliche Standardperipheriegeräte wie Maus, Tastatur und Monitor werden vor
 Keine externen Schnittstellen zu anderer Software geplant.
 
 # 11. spezielle Anforderungen an die Entwicklerumgebung
+
+Für die Entwicklerumgebung gelten folgende Anforderungen:
+- C# als Programmiersprache
+- Microsoft SQL Server Compact als Datenbank
+- SQL Server Compact Toolbox zur Datenbankverwaltung
