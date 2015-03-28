@@ -180,20 +180,11 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 ## /F31/
 - Geschäftsprozess: Termin erfassen
 - Ziel: Flugzeuge und Crewmitglieder in der Verfügbarkeit beschränken
-- Vorbedingung: keine Terminkollision
+- Vorbedingung: Flugzeug oder Crew ist zu einem gegebenen Zeitpunkt nicht verfügbar
 - Nachbedingung Erfolg: entsprechender Termineintrag
 - Nachbedingung Fehlschlag: Mitteilung an Benutzer
 - Auslösendes Ereignis: eingehende Mitteilung
-- Beschreibung: Crewmitglieder und Flugzeuge können durch unterschiedliche Termin (Wartung, Urlaub, Krankheit,...) nicht verfügbar sein. Diese Termine müssen erfasst werden.
-
-## /F???/
-- Geschäftsprozess:
-- Ziel:
-- Vorbedingung: 
-- Nachbedingung Erfolg:
-- Nachbedingung Fehlschlag:
-- Auslösendes Ereignis:
-- Beschreibung:
+- Beschreibung: Crewmitglieder und Flugzeuge können durch unterschiedliche Termine (Wartung, Urlaub, Krankheit,...) nicht verfügbar sein. Diese Termine müssen erfasst werden.
 
 # 5. Produktdaten
 
