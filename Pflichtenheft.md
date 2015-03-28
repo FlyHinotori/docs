@@ -170,11 +170,11 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 
 ## /F22/
 - Geschäftsprozess: Mahnlauf
-- Ziel: Liste offener Posten incl. entsprechender Mahnung bzw. offener Überzahlungen
+- Ziel: Liste offener Posten inkl. entsprechender Mahnung bzw. offener Überzahlungen
 - Vorbedingung: Auftrag abgeschlossen
 - Nachbedingung Erfolg: je nach Kundengruppe entsprechende Mahnstufen an den Aufträgen
 - Nachbedingung Fehlschlag: --- (keine offenen Posten)
-- Auslösendes Ereignis: manuelles Auslösen
+- Auslösendes Ereignis: ---
 - Beschreibung: der Mahnlauf soll bei offenen Forderungen den jeweiligen Aufträgen eine entsprechende Mahnstufe (abhängig von der Kundengruppe) zuordnen. Zwei Zahlungserinnerungen sind kostenlos. Bei den nächsten zwei Mahnungen kommt ein Aufschlag von 5% bzw. 10% hinzu.
 
 ## /F31/
