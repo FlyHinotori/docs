@@ -150,7 +150,7 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Auslösendes Ereignis: ---
 - Beschreibung: Visualisierung bestehender Verträge
 
-## /F17/
+## /F19/
 - Geschäftsprozess: bestehenden Vertrag ändern
 - Ziel: Vertragsdaten ändern
 - Vorbedingung: Vertrag wurde erfasst
@@ -167,7 +167,6 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Nachbedingung Fehlschlag: Zahlung als nicht zugeordnet gekennzeichnet
 - Auslösendes Ereignis: Zahlungseingang durch Kunden
 - Beschreibung: eingegangene Zahlungen sollen einem Auftrag zugeordnet werden. Kann keine Zuordnung erfolgen, bedarf es eines gesonderten Kennzeichen für diese Zahlung zur Recherche
-
 
 ## /F22/
 - Geschäftsprozess: Mahnlauf
@@ -186,15 +185,6 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Nachbedingung Fehlschlag: Mitteilung an Benutzer
 - Auslösendes Ereignis: eingehende Mitteilung
 - Beschreibung: Crewmitglieder und Flugzeuge können durch unterschiedliche Termin (Wartung, Urlaub, Krankheit,...) nicht verfügbar sein. Diese Termine müssen erfasst werden.
-
-## /F???/
-- Geschäftsprozess:
-- Ziel:
-- Vorbedingung: 
-- Nachbedingung Erfolg:
-- Nachbedingung Fehlschlag:
-- Auslösendes Ereignis:
-- Beschreibung:
 
 # 5. Produktdaten
 
