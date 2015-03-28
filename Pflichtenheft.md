@@ -1,6 +1,9 @@
 # 1. Zielbestimmung
 
-Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte Angebotserstellung zur Vercharterung von Geschäftsreiseflugzeugen ermöglichen.
+Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte Abarbeitung bei der Vercharterung von Geschäftsreiseflugzeugen ermöglichen. 
+Der HINOTORI Executive soll ein "Werkzeug" zur Verfügung gestellt werden, mit dem die unterschiedlichen Stati von der Aufnahme von Anfragen, das Versenden von Angeboten, Verträgen und Rechnung sowie ein intergriertes Mahnwesen abgebildet werden können. 
+
+Die Software soll durch automatische Verfügbarkeitsprüfungen die Abarbeitung erleichtern und überlagernde Buchungen verhindern.
 
 ## 1.1.  Musskriterien
 
