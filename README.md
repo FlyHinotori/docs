@@ -12,11 +12,6 @@
 
 - Mehr Details wie Rechnungserstellung, Mahnwesen und dass es sich um Thick-Client Software handelt **Torsten**
 
-# Geschäftsprozesse 
-
-- Generelles Review **Hannes**
-- Auf Vollständigkeit prüfen (Vergleich mit Skript) **Hannes**
-
 # Produktdaten
 
 - Auf Vollständigkeit prüfen (Vergleich mit Skript) **Hannes**
