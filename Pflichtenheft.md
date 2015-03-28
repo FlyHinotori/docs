@@ -145,16 +145,16 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Geschäftsprozess: bestehende Verträge anzeigen
 - Ziel: Vertragsdaten einsehen
 - Vorbedingung: Vertrag wurde erfasst
-- Nachbedingung Erfolg: Daten wurden angezeigt
+- Nachbedingung Erfolg: Daten werden angezeigt
 - Nachbedingung Fehlschlag: ---
 - Auslösendes Ereignis: ---
 - Beschreibung: Visualisierung bestehender Verträge
 
-## /F17/
+## /F19/
 - Geschäftsprozess: bestehenden Vertrag ändern
 - Ziel: Vertragsdaten ändern
 - Vorbedingung: Vertrag wurde erfasst
-- Nachbedingung Erfolg: Daten wurden geändert und neuer Vertrag erstellt
+- Nachbedingung Erfolg: Daten werden geändert und neuer Vertrag erstellt
 - Nachbedingung Fehlschlag: Mitteilung an Benutzer
 - Auslösendes Ereignis: ---
 - Beschreibung: Anpassung bestehender Verträge
