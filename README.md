@@ -17,6 +17,11 @@
 - Generelles Review **Hannes**
 - Auf Vollständigkeit prüfen (Vergleich mit Skript) **Hannes**
 
+# Produktdaten
+
+- Auf Vollständigkeit prüfen (Vergleich mit Skript) **Hannes**
+- Anstatt "Option 1/2/3" einen Geschätsprozess oder ähnliches referenzieren, wenn möglich **Hannes**
+
 # Produktleistungen
 
 - Auf Vollständigkeit prüfen (Vergleich mit Skript) **Hannes**
