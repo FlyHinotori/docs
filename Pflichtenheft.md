@@ -276,11 +276,12 @@ Zu Rechnungen werden die folgenden Informationen erfasst:
 ## 6.1. Analyse
  - Kundenzufriedenheit analysieren
  - Ablehnungsgründe der Angebote analysieren
- - Profitabilität der Flugzeuge analysieren (Annahme: 2000h pro Flugzeug pro Jahr = Profitabilität)
+ - Profitabilität der Flugzeuge analysieren (Annahme: über 2000h pro Flugzeug pro Jahr ist profitabel)
 
 ## 6.2. Berechnungen bei Angebotserstellung
- - Anzahl der nötigen Zwischenlandungen (pro Landung +45min Charterdauer)
+ - Anzahl der nötigen Zwischenlandungen (pro Landung +45min Flugzeit/Charterdauer)
  - Kosten (Anteil Fixkosten + Anteil Personalkosten + Stundensatz * Flugzeit)
+  - Personalkosten berechnen sich aus Gehalt * 1,2
 
 # 7. Qualitätsanforderungen
 
