@@ -8,10 +8,6 @@
  - Siehe: [https://www.mdt.tu-berlin.de/fileadmin/fg184/Lehre/Projekte/Pflichtenheft.pdf](https://www.mdt.tu-berlin.de/fileadmin/fg184/Lehre/Projekte/Pflichtenheft.pdf)
 - Abkürzungsverzeichnis
 
-# Zielbestimmung
-
-- Mehr Details wie Rechnungserstellung, Mahnwesen und dass es sich um Thick-Client Software handelt **Torsten**
-
 # Benutzeroberfläche
 
 - Generelle Mockups zur Veranschaulichung der geplanten UI - Tool? (**Hans**) --> Balsamiq, wenn ich nicht noch was krasses mit GitHub Integration finde ^^
