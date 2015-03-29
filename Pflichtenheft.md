@@ -14,13 +14,13 @@ Die Software soll durch automatische Verfügbarkeitsprüfungen die Abarbeitung e
  - für Charteroption über einen Zeitraum nur den Zeitraum
  - Sonderwünsche wie bestimmtes Flugzeug, Crew, Catering, flight attendants,... 
 - Die Ausgabe des Angebotes, des Vertrages und der Rechnung für den Interessenten bzw. Kunden erfolgt als Brief per Word oder PDF oder direkt als e-Mail. Das Angebot und die Rechnung sollen zusätzlich ein Bild des Flugzeuges enthalten.
-- Im Angebot sollen enthalten sein - die Daten der Aufnahme, eine Aussage über die Ausführbarkeit, der Flugzeugtyp mit Bild, ein Flugplan, die Strecke in km sowie die Kosten in EUR.
+- Im Angebot sollen die Daten der Aufnahme, eine Aussage über die Ausführbarkeit, der Flugzeugtyp mit Bild, ein Flugplan, die Strecke in km sowie die Kosten in EUR enthalten sein.
 - Das System soll die Fälligkeiten von Rechnungen überwachen und ein intergriertes Mahnwesen beinhalten. Kunden der Gruppe "VIP" werden jedoch nicht gemahnt. Desweiteren sollen vier Mahnstufen mit mahnstufenabhängigen Kosten ihre Anwendung finden.
 - Dem Kunden soll es möglich sein, Stammdatenerfassung/ -änderung für Flugzeuge und Personal vorzunehmen.
 - Eine Zuordnung von Flugbegleitern zu einem Flug soll bei kleinen Flugzeugen optional sein. Bei größeren Maschinen ist eine Zuordnung von Flugbegleitern obligatorisch.
 - Dem Kunden soll es möglich sein verschiedene Charteroptionen anzubieten. 
  - Einzelflug von A nach B [Fixpreisangebot]
- - Einzelflug von A nach B mit Zwischenstopp [Fixpreisangebot]
+ - Einzelflug von A nach B mit Zwischenstopps [Fixpreisangebot]
  - Charter über einen Zeitraum [Fixpreisanteil und variabler Kostenanteil nach tatsächlicher Flugzeit]
 - Die Anwendung soll die Möglichkeit bieten, Kunden in verschiedene Gruppen einzuteilen. Abhängig von der Kundengruppe sind die Optionen Vorkasse und Mahnstufen zu betrachten.
  - VIP [grundsätzlich keine Mahnung]
