@@ -8,8 +8,8 @@ Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte An
 - Rechnung erstellen
     - export als pdf
     - editierbare Vorlage
-- Angebotsausgabe als Brief incl. Bild
-    - per Word oder 
+- Angebotsausgabe als Brief inkl. Bild
+    - per Word oder
 	- per PDF oder
 	- per Mail
 - Vertragsausgabe wie Angebotsausgabe (ohne Bild)
@@ -60,7 +60,7 @@ Personal und Fluggerät werden nur einer Buchung zugeordnet. Mehrere Buchungen m
 
 ## 2.2. Zielgruppen
 
-Die Software wird ausschließlich von Mitarbeitern des Kunden bedient. Zu diesen Mitarbeitern gehören primär Bürofachkräfte sowie Manager. 
+Die Software wird ausschließlich von Mitarbeitern des Kunden bedient. Zu diesen Mitarbeitern gehören primär Bürofachkräfte sowie Manager.
 
 Erstere sind für die Charterflugplanung, Angebots- und Vertragserstellung sowie dem Mahnwesen zuständig. Letztere für die Pflege der Stammdaten (Personal, Flugzeug, etc.).
 
@@ -70,7 +70,7 @@ Endkunden werden explizit von der Zielgruppe ausgeschlossen, da die Erstellung e
 
 Die Lauffähigkeit der Software erfordert Computer-Hardware sowie zusätzliche Software. Auf Details zu diesen Anforderungen wird später in dem Kapitel "Technische Produktumgebung" eingegangen.
 
-Es wird davon ausgegangen, dass die Software in einer Büroumgebung zum Einsatz kommt. Sie wird zu den Geschäftszeiten des Kunden betrieben, ist aber nicht für den Dauerbetrieb (24/7) gedacht. 
+Es wird davon ausgegangen, dass die Software in einer Büroumgebung zum Einsatz kommt. Sie wird zu den Geschäftszeiten des Kunden betrieben, ist aber nicht für den Dauerbetrieb (24/7) gedacht.
 
 Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem betrieben. Ein zentraler Datenbankserver, der das parallele Arbeiten auf mehreren Klientensystemen erlaubt, ist nicht Teil dieses Projekts.
 
@@ -121,7 +121,7 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Nachbedingung Erfolg: bereitgestellte Daten zur Auswertung
 - Nachbedingung Fehlschlag: ---
 - Auslösendes Ereignis: eingehende Antwort zur Kundenzufriedenheit
-- Beschreibung: 
+- Beschreibung:
 
 ## /F16/
 - Geschäftsprozess: bestehende Angebote anzeigen
@@ -190,7 +190,7 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 ## /F???/
 - Geschäftsprozess:
 - Ziel:
-- Vorbedingung: 
+- Vorbedingung:
 - Nachbedingung Erfolg:
 - Nachbedingung Fehlschlag:
 - Auslösendes Ereignis:
@@ -274,26 +274,34 @@ Wiederkehrende Aufgaben werden einfach und in wenigen Schritten bearbeitbar sein
 
 Bei der Bearbeitung einer Aufgabe wird auf die Darstellung wie auch Erfassung redundanter Informationen verzichtet. Dem Benutzer sind nur die relevanten Informationen und Bedienelemente direkt dargestellt. Zusatzfunktionen, sofern diese dem Zweck des jeweiligen Kontextes dienen, werden nur über Menüs oder den besagten Shortcuts erreichbar sein.
 
-Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, werden klar präsentiert. Deutsch wird dabei, wie in der restlichen Oberfläche, die verwendete Sprache sein. 
+Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, werden klar präsentiert. Deutsch wird dabei, wie in der restlichen Oberfläche, die verwendete Sprache sein.
 
 Das Verhalten der Software wird in sich konsistent und an vergleichbare Anwendungen im Windows-Umfeld angelehnt sein.
 
 
 # 8. Benutzeroberfläche
 
-- Allgemeine Anforderungen
+## 8.1 Allgemeine Anforderungen
 
 Standardmässig ist das Windows-Regelwerk anzuwenden. Das vorrangige Bedieninstrument soll die Maus darstellen. Außerdem soll die ISO-Norm 9241-10 in Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung Beachtung finden.
 
-- Komponenten
+## 8.2 Grundsätze
 
-In den einzelnen Komponenten soll versucht werden, ein wiederkehrendes Grundgerüst zu erzeugen, um eine intuitive und selbsterklärende Benutzung zu ermöglichen.
+Die Anwendung soll den Richtlinien für universelle Apps folgen damit sie sowohl als App (Windows 8) als auch als Desktopanwendung laufen kann. Entsprechend wird eine einzelne Seite angezeigt die per Navigation die gewünschten Programmbereiche im Arbeitsfeld anzeigt (SinglePageApp). Alle Programmbereiche werden durch entsprechende Symbole dargestellt um Text auf die wesentlichen Teile der Anzeige zu beschränken.
 
--- Startmaske
+## 8.2 Mockups
 
--- Maske1
+### 8.2.1 Startseite
 
--- Maske2
+![Starseite](mockups/Startscreen.png)
+
+### 8.2.2 Kalender
+
+![Kalenderansicht](mockups/Kalenderansicht.png)
+
+### 8.2.3 Auftragsübersicht
+
+![Aufträge](mockups/Aufträge.png)
 
 # 9. Nichtfunktionale Anforderungen
 
