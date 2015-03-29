@@ -273,7 +273,7 @@ Zusätzlich wird, abhängig von der Art des Auftrags, folgendes gespeichert:
 Zu Rechnungen werden die folgenden Informationen erfasst:
 
  - Auftrag (Link zum Auftrag)
- - Status (erstellt, verschickt, bezahlt, 1. Erinnerung verschickt, 2. Erinnerung verschickt, 1. Mahnung verschickt, 2. Mahnung verschickt, Rechnung nicht bezahlt)
+ - Status (erstellt, verschickt, bezahlt, 1. Erinnerung verschickt, 2. Erinnerung verschickt, 1. Mahnung verschickt, 2. Mahnung verschickt)
  - Zahlungsziel
  - Zusatzkosten
 
