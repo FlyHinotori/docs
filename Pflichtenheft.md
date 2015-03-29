@@ -1,40 +1,43 @@
 # 1. Zielbestimmung
 
-Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte Angebotserstellung zur Vercharterung von Geschäftsreiseflugzeugen ermöglichen.
+Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte Abarbeitung bei der Vercharterung von Geschäftsreiseflugzeugen ermöglichen.
+Der HINOTORI Executive soll ein "Werkzeug" zur Verfügung gestellt werden, mit dem die unterschiedlichen Status von der Aufnahme von Anfragen, das Versenden von Angeboten, Verträgen und Rechnung sowie ein intergriertes Mahnwesen abgebildet werden können.
+
+Die Software soll durch automatische Verfügbarkeitsprüfungen die Abarbeitung erleichtern und Doppelbuchungen verhindern.
 
 ## 1.1.  Musskriterien
 
-- Charteraufträge erfassen und bearbeiten (Daten ändern, Auftrag löschen)
-- Rechnung erstellen
-    - export als pdf
-    - editierbare Vorlage
-- Angebotsausgabe als Brief incl. Bild
-    - per Word oder 
-	- per PDF oder
-	- per Mail
-- Vertragsausgabe wie Angebotsausgabe (ohne Bild)
-- Rechnungsausgabe wie Angebotsausgabe
-- Überwachung der Fälligkeit von Rechnungen
-- automatische Mahnungserstellung
-- Stammdatenerfassung/ -änderung für Flugzeuge
-- Stammdatenerfassung/ -änderung für Personal
-- Zuordnung von Flugbegleitern zu einem Flug
-    - optional bei kleinen Flugzeugen
-    - obligatorisch bei größeren Maschinen
-- Abdecken verschiedener Charteroptionen (Einzelflug von A nach B [Fixpreisangebot], Einzelflug von A nach B mit Zwischenstopp [Fixpreisangebot], Charter über einen Zeitraum [Fixpreisanteil und variabler Kostenanteil nach tatsächlicher Flugzeit])
-- Einteilung der Kunden in Gruppen (VIP [grundsätzlich keine Mahnung], CORP [Dokumentation der Bonität, normales Mahnwesen],  PRE [unbekannte Bonität oder bei früheren Flügen (mind. 2) erst nach 2. Mahnung gezahlt, Vorkasse (Angebotspreis + 5%)]
-- Telefonische Aufnahme einer Anfrage mit mind. folgenden Daten (Name und Kontaktdaten des Kunden, Art der Charteroption; für Einzelflug und Zwischenhalt zusätzlich Abflugort, Ziel, evtl. Zwischenziel mit Aufenthaltsdauer, gewünschte Flugdaten, Anzahl Passagiere; für Charteroption über einen Zeitraum nur den Zeitraum; Sonderwünsche wie bestimmtes Flugzeug, Crew, Catering, flight attendants,... )
-- Angebot soll enthalten (Daten der Aufnahme, Aussage über Ausführbarkeit, Flugzeugtyp mit Bild, Flugplan, Strecke in km, Kosten in EUR)
-- Terminverwaltung (anstehende, derzeitige Aufträge; Flugzeugverfügbarkeit [Flug, Wartung, ...], Crewverfügbarkeit)
-- Programmgestützte Durchführbarkeitsprüfung anhand Auftragsparametern (Ziel, Crew, Flugzeug,...) unter Berücksichtigung von Flugzeiten, Charterdauer und Zusatzzeiten bei Zwischenlandungen (pro Landung +45min)
+- Der Kunde kann Charteranfragen erfassen, Angebote erstellen und nach Flugdurchführung entsprechende Rechnungen an den Kunden versenden. Dabei wird es dem Kunden zu jederzeit möglich sein Änderungen in den Daten vorzunehmen.
+- Die Aufnahme einer Charteranfrage erfolgt in der Regel telefonisch. Hierbei sind mindestens folgende Daten zu erfassen:
+ - Name und Kontaktdaten des Kunden
+ - für Charteroption Einzelflug und Zwischenhalt (Abflugort, Ziel, evtl. Zwischenziel mit Aufenthaltsdauer, gewünschte Flugdaten, Anzahl Passagiere)
+ - für Charteroption über einen Zeitraum nur den Zeitraum
+ - Sonderwünsche wie bestimmtes Flugzeug, Crew, Catering, flight attendants,...
+- Die Ausgabe des Angebotes, des Vertrages und der Rechnung für den Interessenten bzw. Kunden erfolgt als Brief per Word oder PDF oder direkt als e-Mail. Das Angebot und die Rechnung sollen zusätzlich ein Bild des Flugzeuges enthalten.
+- Im Angebot sollen die Daten der Aufnahme, eine Aussage über die Ausführbarkeit, der Flugzeugtyp mit Bild, ein Flugplan, die Strecke in km sowie die Kosten in EUR enthalten sein.
+- Das System soll die Fälligkeiten von Rechnungen überwachen und ein intergriertes Mahnwesen beinhalten. Kunden der Gruppe "VIP" werden jedoch nicht gemahnt. Desweiteren sollen vier Mahnstufen mit mahnstufenabhängigen Kosten ihre Anwendung finden.
+- Dem Kunden soll es möglich sein, Stammdatenerfassung/ -änderung für Flugzeuge und Personal vorzunehmen.
+- Eine Zuordnung von Flugbegleitern zu einem Flug soll bei kleinen Flugzeugen optional sein. Bei größeren Maschinen ist eine Zuordnung von Flugbegleitern obligatorisch.
+- Dem Kunden soll es möglich sein verschiedene Charteroptionen anzubieten.
+ - Einzelflug von A nach B [Fixpreisangebot]
+ - Einzelflug von A nach B mit Zwischenstopps [Fixpreisangebot]
+ - Charter über einen Zeitraum [Fixpreisanteil und variabler Kostenanteil nach tatsächlicher Flugzeit]
+- Die Anwendung soll die Möglichkeit bieten, Kunden in verschiedene Gruppen einzuteilen. Abhängig von der Kundengruppe sind die Optionen Vorkasse und Mahnstufen zu betrachten.
+ - VIP [grundsätzlich keine Mahnung]
+ - CORP [Dokumentation der Bonität, normales Mahnwesen]
+ - PRE [unbekannte Bonität oder bei früheren Flügen (mind. 2) erst nach 2. Mahnung gezahlt, Vorkasse (Angebotspreis + 5%)]
+- Mittels einer Terminverwaltung sollen anstehende und derzeitige Aufträge dargestellt werden. Außerdem soll im Hinblick auf die Flugzeugverfügbarkeit Termine wie Flug und Wartung und für die Crewverfügbarkeit Urlaub, Krankheit darstell- und editierbar sein.
+- Das System soll selbständig eine Durchführbarkeitsprüfung anhand der Auftragsparameter (Ziel, Crew, Flugzeug,...) unter Berücksichtigung von Flugzeiten, Charterdauer und Zusatzzeiten bei Zwischenlandungen (pro Landung +45min) durchführen können.
 
 ## 1.2.  Wunschkriterien
-- Anfrage des Kunden per Webseite
-- WF01-Charterflug kann komplett per Webseite ablaufen. Jedoch muss die Funktion des Druckens des Vertrages gegeben sein.
+
+keine
 
 ## 1.3.  Abgrenzungskriterien
-- kein umfassendes ERP, das System ist nur für den konkreten Anwendungsfall ausgelegt
-- kein umfassendes ERM, Kunden werden manuell bearbeitet
+
+- Die Anwendung ist kein umfassendes ERP, sondern nur für den konkreten Anwendungsfall ausgelegt.
+- Die Anwendung ist weiterhin kein umfassendes ERM. Kunden werden manuell bearbeitet.
+- Eine Anfragenaufnahme per Webseite wird nicht Teil dieses Projektes sein.
 
 # 2. Produkteinsatz
 
@@ -60,7 +63,7 @@ Personal und Fluggerät werden nur einer Buchung zugeordnet. Mehrere Buchungen m
 
 ## 2.2. Zielgruppen
 
-Die Software wird ausschließlich von Mitarbeitern des Kunden bedient. Zu diesen Mitarbeitern gehören primär Bürofachkräfte sowie Manager. 
+Die Software wird ausschließlich von Mitarbeitern des Kunden bedient. Zu diesen Mitarbeitern gehören primär Bürofachkräfte sowie Manager.
 
 Erstere sind für die Charterflugplanung, Angebots- und Vertragserstellung sowie dem Mahnwesen zuständig. Letztere für die Pflege der Stammdaten (Personal, Flugzeug, etc.).
 
@@ -70,7 +73,7 @@ Endkunden werden explizit von der Zielgruppe ausgeschlossen, da die Erstellung e
 
 Die Lauffähigkeit der Software erfordert Computer-Hardware sowie zusätzliche Software. Auf Details zu diesen Anforderungen wird später in dem Kapitel "Technische Produktumgebung" eingegangen.
 
-Es wird davon ausgegangen, dass die Software in einer Büroumgebung zum Einsatz kommt. Sie wird zu den Geschäftszeiten des Kunden betrieben, ist aber nicht für den Dauerbetrieb (24/7) gedacht. 
+Es wird davon ausgegangen, dass die Software in einer Büroumgebung zum Einsatz kommt. Sie wird zu den Geschäftszeiten des Kunden betrieben, ist aber nicht für den Dauerbetrieb (24/7) gedacht.
 
 Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem betrieben. Ein zentraler Datenbankserver, der das parallele Arbeiten auf mehreren Klientensystemen erlaubt, ist nicht Teil dieses Projekts.
 
@@ -91,7 +94,7 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Geschäftsprozess: Angebotsantwort erfassen
 - Ziel: Vorbereitung der Vertragsunterlagen, Reservierung von Crew und Flugzeug
 - Vorbedingung: verschicktes Angebot
-- Nachbedingung Erfolg: Vertrag vorbereitet (basierend auf der Vorlage aus der Ausschreibung) 
+- Nachbedingung Erfolg: Vertrag vorbereitet (basierend auf der Vorlage aus der Ausschreibung)
 - Nachbedingung Fehlschlag: Vertrag nicht erstellt, Grund der Ablehnung wird erfasst
 - Auslösendes Ereignis: eingehende Angebotsantwort
 - Beschreibung: kommt es zu einer positiven Angebotsantwort, soll anschließend ein Vertrag vorbereitet werden
@@ -166,7 +169,7 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Nachbedingung Erfolg: Verringerung des fälligen Betrages einer Rechnung
 - Nachbedingung Fehlschlag: Zahlung als nicht zugeordnet gekennzeichnet
 - Auslösendes Ereignis: Zahlungseingang durch Kunden
-- Beschreibung: eingegangene Zahlungen sollen einer Rechnung zugeordnet werden. Kann keine Zuordnung erfolgen, bedarf es eines gesonderten Kennzeichens für diese Zahlung zur Recherche
+- Beschreibung: eingegangene Zahlungen sollen einem Auftrag zugeordnet werden. Kann keine Zuordnung erfolgen, bedarf es eines gesonderten Kennzeichen für diese Zahlung zur Recherche
 
 ## /F22/
 - Geschäftsprozess: Mahnlauf
@@ -186,9 +189,10 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Auslösendes Ereignis: eingehende Mitteilung
 - Beschreibung: Crewmitglieder und Flugzeuge können durch unterschiedliche Termine (Wartung, Urlaub, Krankheit,...) nicht verfügbar sein. Diese Termine müssen erfasst werden.
 
+
 # 5. Produktdaten
 
-Dieser Abschnitt listet die persistenten Daten, die die Geschäftsprozesse, welche durch die Software abgedeckt werden, unterstützen. 
+Dieser Abschnitt listet die persistenten Daten, die die Geschäftsprozesse, welche durch die Software abgedeckt werden, unterstützen.
 
 ## 5.1. Flugzeugdaten
 
@@ -228,7 +232,7 @@ Die Flugziele stellen die möglichen Flughäfen für Starts und Landungen dar. E
 ## 5.4. Termine
 
 Termine repräsentieren die aktuell verplanten Ressourcen. Dabei wird der Zweck der Planung (Charter, Urlaub Crew, Wartung, Jahresscheck Flugzeug, etc) über das Attribut "Art" definiert. Weitere Attribute sind:
- 
+
  - von (Datum, Zeit)
  - bis (Datum, Zeit)
 
@@ -247,8 +251,8 @@ Zum Auftrag gehören Daten, die bei der Angebotserstellung erfasst werden. Hier 
  - Anmerkungen (z.B. Abbruchgrund)
  - Art (Einzelflug, Flug mit Zwischenaufenthalten, Zeitcharter)
 
-Zusätzlich wird, abhängig von der Art des Auftrags, folgendes gespeichert: 
- 
+Zusätzlich wird, abhängig von der Art des Auftrags, folgendes gespeichert:
+
  - Art = Einzelflug oder Flug mit Zwischenaufenthalten
   - Von (Flughafen/Ort)
   - Nach (Flughafen/Ort)
@@ -256,7 +260,7 @@ Zusätzlich wird, abhängig von der Art des Auftrags, folgendes gespeichert:
   - Anzahl der Passagiere (bei Einzelflug und Flug mit Zwischenaufenthalten)
  - Art = Zeitcharter
   - Charterdauer
- 
+
 
 ## 5.6. Rechnungen
 
@@ -288,18 +292,18 @@ Wiederkehrende Aufgaben werden einfach und in wenigen Schritten bearbeitbar sein
 
 Bei der Bearbeitung einer Aufgabe wird auf die Darstellung wie auch Erfassung redundanter Informationen verzichtet. Dem Benutzer sind nur die relevanten Informationen und Bedienelemente direkt dargestellt. Zusatzfunktionen, sofern diese dem Zweck des jeweiligen Kontextes dienen, werden nur über Menüs oder den besagten Shortcuts erreichbar sein.
 
-Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, werden klar präsentiert. Deutsch wird dabei, wie in der restlichen Oberfläche, die verwendete Sprache sein. 
+Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, werden klar präsentiert. Deutsch wird dabei, wie in der restlichen Oberfläche, die verwendete Sprache sein.
 
 Das Verhalten der Software wird in sich konsistent und an vergleichbare Anwendungen im Windows-Umfeld angelehnt sein.
 
 
 # 8. Benutzeroberfläche
 
-- Allgemeine Anforderungen
+## 8.1. Allgemeine Anforderungen
 
-Standardmässig ist das Windows-Regelwerk anzuwenden. Das vorrangige Bedieninstrument soll die Maus darstellen. Außerdem soll die ISO-Norm 9241-10 in Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung Beachtung finden.
+Standardmässig ist das Windows-Regelwerk anzuwenden. Das vorrangige Bedieninstrument soll die Maus darstellen.
 
-- Komponenten
+## 8.2. Komponenten
 
 In den einzelnen Komponenten soll versucht werden, ein wiederkehrendes Grundgerüst zu erzeugen, um eine intuitive und selbsterklärende Benutzung zu ermöglichen.
 
@@ -311,11 +315,13 @@ In den einzelnen Komponenten soll versucht werden, ein wiederkehrendes Grundger�
 
 # 9. Nichtfunktionale Anforderungen
 
-# Technische Produktumgebung
+In Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung soll die ISO-Norm 9241-10 Beachtung finden. Die Software wird zusätzlich mit einem Handbuch in deutscher Sprache ausgeliefert.
+
+# 10. Technische Produktumgebung
 
 Dieses Kapitel beschreibt in welcher Umgebung das Programm laufen soll.
 
-## Software ##
+## 10.1. Software
 
 Die Software wird für die folgende Softwareumgebung entwickelt:
 
@@ -325,7 +331,7 @@ Die Software wird für die folgende Softwareumgebung entwickelt:
 - .NET Framework 4.5
 
 
-## Hardware ##
+## 10.2. Hardware
 
 Die Software wird auf einem Computer mit den folgenden technischen Daten lauffähig sein:
 
@@ -337,8 +343,13 @@ Die Software wird auf einem Computer mit den folgenden technischen Daten lauffä
 
 Zusätzliche Standardperipheriegeräte wie Maus, Tastatur und Monitor werden vorausgesetzt.
 
-## Produktschnittstellen ##
+## 10.3. Produktschnittstellen
 
-Keine externen Schnittstellen zu anderer Software geplant.
+Um Angebote, Verträge und Rechnungen zu exportieren, wird eine Schnittstelle mit MS Word angestrebt. Diese Dritt-Software wird damit unabdingbar für die Nutzung des vollen Funktionsumfangs des hier beschriebenen Programms. Zudem wird es, zwecks der Verteilung oben genannter Dokumente, eine einfache Schnittstelle zu dem Standard-eMail-Programm geben.
 
 # 11. spezielle Anforderungen an die Entwicklerumgebung
+
+Für die Entwicklerumgebung gelten folgende Anforderungen:
+- C# als Programmiersprache
+- Microsoft SQL Server Compact als Datenbank
+- SQL Server Compact Toolbox zur Datenbankverwaltung
