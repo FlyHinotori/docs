@@ -1,7 +1,7 @@
 # 1. Zielbestimmung
 
-Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte Abarbeitung bei der Vercharterung von Geschäftsreiseflugzeugen ermöglichen. 
-Der HINOTORI Executive soll ein "Werkzeug" zur Verfügung gestellt werden, mit dem die unterschiedlichen Status von der Aufnahme von Anfragen, das Versenden von Angeboten, Verträgen und Rechnung sowie ein intergriertes Mahnwesen abgebildet werden können. 
+Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte Abarbeitung bei der Vercharterung von Geschäftsreiseflugzeugen ermöglichen.
+Der HINOTORI Executive soll ein "Werkzeug" zur Verfügung gestellt werden, mit dem die unterschiedlichen Status von der Aufnahme von Anfragen, das Versenden von Angeboten, Verträgen und Rechnung sowie ein intergriertes Mahnwesen abgebildet werden können.
 
 Die Software soll durch automatische Verfügbarkeitsprüfungen die Abarbeitung erleichtern und Doppelbuchungen verhindern.
 
@@ -10,15 +10,15 @@ Die Software soll durch automatische Verfügbarkeitsprüfungen die Abarbeitung e
 - Der Kunde kann Charteranfragen erfassen, Angebote erstellen und nach Flugdurchführung entsprechende Rechnungen an den Kunden versenden. Dabei wird es dem Kunden zu jederzeit möglich sein Änderungen in den Daten vorzunehmen.
 - Die Aufnahme einer Charteranfrage erfolgt in der Regel telefonisch. Hierbei sind mindestens folgende Daten zu erfassen:
  - Name und Kontaktdaten des Kunden
- - für Charteroption Einzelflug und Zwischenhalt (Abflugort, Ziel, evtl. Zwischenziel mit Aufenthaltsdauer, gewünschte Flugdaten, Anzahl Passagiere) 
+ - für Charteroption Einzelflug und Zwischenhalt (Abflugort, Ziel, evtl. Zwischenziel mit Aufenthaltsdauer, gewünschte Flugdaten, Anzahl Passagiere)
  - für Charteroption über einen Zeitraum nur den Zeitraum
- - Sonderwünsche wie bestimmtes Flugzeug, Crew, Catering, flight attendants,... 
+ - Sonderwünsche wie bestimmtes Flugzeug, Crew, Catering, flight attendants,...
 - Die Ausgabe des Angebotes, des Vertrages und der Rechnung für den Interessenten bzw. Kunden erfolgt als Brief per Word oder PDF oder direkt als e-Mail. Das Angebot und die Rechnung sollen zusätzlich ein Bild des Flugzeuges enthalten.
 - Im Angebot sollen die Daten der Aufnahme, eine Aussage über die Ausführbarkeit, der Flugzeugtyp mit Bild, ein Flugplan, die Strecke in km sowie die Kosten in EUR enthalten sein.
 - Das System soll die Fälligkeiten von Rechnungen überwachen und ein intergriertes Mahnwesen beinhalten. Kunden der Gruppe "VIP" werden jedoch nicht gemahnt. Desweiteren sollen vier Mahnstufen mit mahnstufenabhängigen Kosten ihre Anwendung finden.
 - Dem Kunden soll es möglich sein, Stammdatenerfassung/ -änderung für Flugzeuge und Personal vorzunehmen.
 - Eine Zuordnung von Flugbegleitern zu einem Flug soll bei kleinen Flugzeugen optional sein. Bei größeren Maschinen ist eine Zuordnung von Flugbegleitern obligatorisch.
-- Dem Kunden soll es möglich sein verschiedene Charteroptionen anzubieten. 
+- Dem Kunden soll es möglich sein verschiedene Charteroptionen anzubieten.
  - Einzelflug von A nach B [Fixpreisangebot]
  - Einzelflug von A nach B mit Zwischenstopps [Fixpreisangebot]
  - Charter über einen Zeitraum [Fixpreisanteil und variabler Kostenanteil nach tatsächlicher Flugzeit]
@@ -63,7 +63,7 @@ Personal und Fluggerät werden nur einer Buchung zugeordnet. Mehrere Buchungen m
 
 ## 2.2. Zielgruppen
 
-Die Software wird ausschließlich von Mitarbeitern des Kunden bedient. Zu diesen Mitarbeitern gehören primär Bürofachkräfte sowie Manager. 
+Die Software wird ausschließlich von Mitarbeitern des Kunden bedient. Zu diesen Mitarbeitern gehören primär Bürofachkräfte sowie Manager.
 
 Erstere sind für die Charterflugplanung, Angebots- und Vertragserstellung sowie dem Mahnwesen zuständig. Letztere für die Pflege der Stammdaten (Personal, Flugzeug, etc.).
 
@@ -73,7 +73,7 @@ Endkunden werden explizit von der Zielgruppe ausgeschlossen, da die Erstellung e
 
 Die Lauffähigkeit der Software erfordert Computer-Hardware sowie zusätzliche Software. Auf Details zu diesen Anforderungen wird später in dem Kapitel "Technische Produktumgebung" eingegangen.
 
-Es wird davon ausgegangen, dass die Software in einer Büroumgebung zum Einsatz kommt. Sie wird zu den Geschäftszeiten des Kunden betrieben, ist aber nicht für den Dauerbetrieb (24/7) gedacht. 
+Es wird davon ausgegangen, dass die Software in einer Büroumgebung zum Einsatz kommt. Sie wird zu den Geschäftszeiten des Kunden betrieben, ist aber nicht für den Dauerbetrieb (24/7) gedacht.
 
 Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem betrieben. Ein zentraler Datenbankserver, der das parallele Arbeiten auf mehreren Klientensystemen erlaubt, ist nicht Teil dieses Projekts.
 
@@ -83,21 +83,21 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 
 ## /F11/
 - Geschäftsprozess: Neues Angebot erfassen
-- Ziel: verschicktes Angebot
+- Ziel: Erstellung des Angebots in oben genannter Form
 - Vorbedingung: Kundenanfrage liegt vor
-- Nachbedingung Erfolg: alle notwendigen Daten sind erfasst, Angebot wird an Kunden versandt
-- Nachbedingung Fehlschlag: Mitteilung an Benutzer, Angebot kann nicht erstellt werden
+- Nachbedingung Erfolg: alle notwendigen Daten sind erfasst, Angebot wurde erstellt
+- Nachbedingung Fehlschlag: Mitteilung an Benutzer (inkl. Begründung), Angebot kann nicht erstellt werden
 - Auslösendes Ereignis: eingehende Kundenanfrage
-- Beschreibung: Eingabe alle notwendigen Daten zur Angebotserstellung
+- Beschreibung: Eingabe aller notwendigen Daten zur Angebotserstellung
 
 ## /F12/
 - Geschäftsprozess: Angebotsantwort erfassen
-- Ziel: ausgefüllte Vertragsunterlagen, Reservierung von Crew und Flugzeug
+- Ziel: Vorbereitung der Vertragsunterlagen, Reservierung von Crew und Flugzeug
 - Vorbedingung: verschicktes Angebot
-- Nachbedingung Erfolg: Vertrag erstellten und verschicken
-- Nachbedingung Fehlschlag: Grund der Ablehnung erfassen
+- Nachbedingung Erfolg: Vertrag vorbereitet (basierend auf der Vorlage aus der Ausschreibung)
+- Nachbedingung Fehlschlag: Vertrag nicht erstellt, Grund der Ablehnung wird erfasst
 - Auslösendes Ereignis: eingehende Angebotsantwort
-- Beschreibung: kommt es zu einer positiven Angebotsantwort, soll anschließend ein Vertrag erstellt und verschickt werden.
+- Beschreibung: kommt es zu einer positiven Angebotsantwort, soll anschließend ein Vertrag vorbereitet werden
 
 ## /F13/
 - Geschäftsprozess: Vertragsantwort erfassen
@@ -113,34 +113,34 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Ziel: Endabrechnung des Auftrages - Rechnung
 - Vorbedingung: durchgeführter Flug
 - Nachbedingung Erfolg: Rechnung und Abfrage der Kundenzufriedenheit
-- Nachbedingung Fehlschlag: ???
+- Nachbedingung Fehlschlag: ---
 - Auslösendes Ereignis: Meldung der Flugdurchführung durch Crew
 - Beschreibung: um den Auftrag abzuschließen und somit eine Rechnung zu erstellen, sind noch einige Daten wie Maschinenlaufzeiten und Crewzeit notwendig.
 
 ## /F15/
 - Geschäftsprozess: Kundenzufriedenheit erfassen
-- Ziel: Kundenzufriedenheit
-- Vorbedingung: abgeschlossener Auftrag
+- Ziel: Dokumentation der Kundenzufriedenheit
+- Vorbedingung: durchgeführter Flug
 - Nachbedingung Erfolg: bereitgestellte Daten zur Auswertung
 - Nachbedingung Fehlschlag: ---
-- Auslösendes Ereignis: eingehende Antwort zur Kundenzufriedenheit
-- Beschreibung: 
+- Auslösendes Ereignis: Meldung der Flugdurchführung durch Crew
+- Beschreibung: Durch einen Fragebogen wird die Kundenzufriedenheit erfasst
 
 ## /F16/
 - Geschäftsprozess: bestehende Angebote anzeigen
 - Ziel: Angebotsdaten einsehen
 - Vorbedingung: Angebot wurde erfasst
-- Nachbedingung Erfolg: Daten wurden angezeigt
+- Nachbedingung Erfolg: Daten werden angezeigt
 - Nachbedingung Fehlschlag: ---
 - Auslösendes Ereignis: ---
-- Beschreibung: Visualisierung bestehender Angebote
+- Beschreibung: Visualisierung bestehender Angebote inkl. deren Status
 
 ## /F17/
 - Geschäftsprozess: bestehendes Angebot ändern
 - Ziel: Angebotsdaten ändern
 - Vorbedingung: Angebot wurde erfasst
-- Nachbedingung Erfolg: Daten wurden geändert und neues Angebot erstellt
-- Nachbedingung Fehlschlag: Mitteilung an Benutzer
+- Nachbedingung Erfolg: Daten werden geändert und Angebotsstatus zurück gesetzt
+- Nachbedingung Fehlschlag: Mitteilung an Benutzer (inkl. Begründung)
 - Auslösendes Ereignis: ---
 - Beschreibung: Anpassung bestehender Angebote
 
@@ -148,7 +148,7 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Geschäftsprozess: bestehende Verträge anzeigen
 - Ziel: Vertragsdaten einsehen
 - Vorbedingung: Vertrag wurde erfasst
-- Nachbedingung Erfolg: Daten wurden angezeigt
+- Nachbedingung Erfolg: Daten werden angezeigt
 - Nachbedingung Fehlschlag: ---
 - Auslösendes Ereignis: ---
 - Beschreibung: Visualisierung bestehender Verträge
@@ -157,46 +157,50 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Geschäftsprozess: bestehenden Vertrag ändern
 - Ziel: Vertragsdaten ändern
 - Vorbedingung: Vertrag wurde erfasst
-- Nachbedingung Erfolg: Daten wurden geändert und neuer Vertrag erstellt
+- Nachbedingung Erfolg: Daten werden geändert und neuer Vertrag erstellt
 - Nachbedingung Fehlschlag: Mitteilung an Benutzer
 - Auslösendes Ereignis: ---
 - Beschreibung: Anpassung bestehender Verträge
 
 ## /F21/
 - Geschäftsprozess: Zahlungseingang erfassen
-- Ziel: Zuordnung von Zahlungen zu Aufträgen
+- Ziel: Zuordnung von Zahlungen zu Rechnungen
 - Vorbedingung: Rechnungslegung
-- Nachbedingung Erfolg: Verringerung des fälligen Betrages
+- Nachbedingung Erfolg: Verringerung des fälligen Betrages einer Rechnung
 - Nachbedingung Fehlschlag: Zahlung als nicht zugeordnet gekennzeichnet
 - Auslösendes Ereignis: Zahlungseingang durch Kunden
 - Beschreibung: eingegangene Zahlungen sollen einem Auftrag zugeordnet werden. Kann keine Zuordnung erfolgen, bedarf es eines gesonderten Kennzeichen für diese Zahlung zur Recherche
 
 ## /F22/
 - Geschäftsprozess: Mahnlauf
-- Ziel: Liste offener Posten incl. entsprechender Mahnung bzw. offener Überzahlungen
+- Ziel: Liste offener Posten inkl. entsprechender Mahnung bzw. offener Überzahlungen
 - Vorbedingung: Auftrag abgeschlossen
 - Nachbedingung Erfolg: je nach Kundengruppe entsprechende Mahnstufen an den Aufträgen
 - Nachbedingung Fehlschlag: --- (keine offenen Posten)
-- Auslösendes Ereignis: manuelles Auslösen
+- Auslösendes Ereignis: ---
 - Beschreibung: der Mahnlauf soll bei offenen Forderungen den jeweiligen Aufträgen eine entsprechende Mahnstufe (abhängig von der Kundengruppe) zuordnen. Zwei Zahlungserinnerungen sind kostenlos. Bei den nächsten zwei Mahnungen kommt ein Aufschlag von 5% bzw. 10% hinzu.
 
 ## /F31/
 - Geschäftsprozess: Termin erfassen
 - Ziel: Flugzeuge und Crewmitglieder in der Verfügbarkeit beschränken
-- Vorbedingung: keine Terminkollision
+- Vorbedingung: Flugzeug oder Crew ist zu einem gegebenen Zeitpunkt nicht verfügbar
 - Nachbedingung Erfolg: entsprechender Termineintrag
 - Nachbedingung Fehlschlag: Mitteilung an Benutzer
 - Auslösendes Ereignis: eingehende Mitteilung
-- Beschreibung: Crewmitglieder und Flugzeuge können durch unterschiedliche Termin (Wartung, Urlaub, Krankheit,...) nicht verfügbar sein. Diese Termine müssen erfasst werden.
+- Beschreibung: Crewmitglieder und Flugzeuge können durch unterschiedliche Termine (Wartung, Urlaub, Krankheit,...) nicht verfügbar sein. Diese Termine müssen erfasst werden.
+
 
 # 5. Produktdaten
 
+Dieser Abschnitt listet die persistenten Daten, die die Geschäftsprozesse, welche durch die Software abgedeckt werden, unterstützen.
+
 ## 5.1. Flugzeugdaten
+
+Für die zu vercharternden Flugzeuge können folgende Eigenschaften gespeichert werden:
+
  - Hersteller
  - Typ
- - Flugbetriebsmannschaft
- - Stewardessen
- - Reichweite in km
+ - Reichweite (in km)
  - Anzahl Passagiere
  - Reisegeschwindigkeit
  - Anzahl der Triebwerke
@@ -206,33 +210,38 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
  - Status (aktiv/inaktiv)
 
 ## 5.2. Personaldaten
+
+Das Flugpersonal lässt sich durch folgende Attribute beschreiben:
+
  - Name
  - Vorname
  - Position (Captain, Copilot, Cabin, Crew)
- - Lizenzen (Hier eine Liste der Flugzeuge, für die die Person qualifiziert ist)
- - Gehalt nach Position
+ - Lizenzen (Qualifizierung für bestimmte Flugzeuge)
+ - Gehalt
  - Status (aktiv/inaktiv)
 
 ## 5.3. Flugziele
+
+Die Flugziele stellen die möglichen Flughäfen für Starts und Landungen dar. Es kann folgendes definiert werden:
+
  - Bezeichnung (Flughafen)
  - Ort
  - Land
  - Geo-Koordinaten
 
 ## 5.4. Termine
- - Art (Charter, Urlaub Crew, Wartung, Jahresscheck Flugzeug, etc)
+
+Termine repräsentieren die aktuell verplanten Ressourcen. Dabei wird der Zweck der Planung (Charter, Urlaub Crew, Wartung, Jahresscheck Flugzeug, etc) über das Attribut "Art" definiert. Weitere Attribute sind:
+
  - von (Datum, Zeit)
  - bis (Datum, Zeit)
 
 ## 5.5. Auftrag
+
+Zum Auftrag gehören Daten, die bei der Angebotserstellung erfasst werden. Hier finden sich auch alle anderen Daten wieder. Aus einem Auftrag werden sowohl der Vertrag, als auch die Rechnung, sowie ggf. Zahlungserinnerungen und Mahnungen, abgeleitet. Erfasst werden:
+
  - Auftraggeber (Kontaktdaten)
  - Termin (Link zu Termine)
- - Art (Option 1,2 oder 3)
- - Von (Flughafen/Ort) bei Option 1 und 2
- - Nach (Flughafen/Ort) bei Option 1 und 2
- - Zwischenziele (Flughäfen/Orte) bei Option 1 und 2
- - Anzahl der Passagiere bei Option 1 und 2
- - Charterdauer bei Option 3
  - Wunschflugzeug
  - Wunschcrew (Flight)
  - Wunschcrew (Cabin)
@@ -240,10 +249,26 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
  - Preis
  - Status (geplant, beauftragt, in Durchführung, beendet, abgebrochen)
  - Anmerkungen (z.B. Abbruchgrund)
+ - Art (Einzelflug, Flug mit Zwischenaufenthalten, Zeitcharter)
 
-## 5.6. Mahnwesen
+Zusätzlich wird, abhängig von der Art des Auftrags, folgendes gespeichert:
+
+ - Art = Einzelflug oder Flug mit Zwischenaufenthalten
+  - Von (Flughafen/Ort)
+  - Nach (Flughafen/Ort)
+  - Zwischenziele (Flughäfen/Orte)
+  - Anzahl der Passagiere (bei Einzelflug und Flug mit Zwischenaufenthalten)
+ - Art = Zeitcharter
+  - Charterdauer
+
+
+## 5.6. Rechnungen
+
+Zu Rechnungen werden die folgenden Informationen erfasst:
+
  - Auftrag (Link zum Auftrag)
- - Status (Rechnung erstellt, verschickt, bezahlt; Erinnerung 1, 2; Mahnung 1,2; Rechnung nicht bezahlt)
+ - Status (erstellt, verschickt, bezahlt, 1. Erinnerung verschickt, 2. Erinnerung verschickt, 1. Mahnung verschickt, 2. Mahnung verschickt)
+ - Zahlungsziel
  - Zusatzkosten
 
 # 6. Produktleistungen
@@ -267,7 +292,7 @@ Wiederkehrende Aufgaben werden einfach und in wenigen Schritten bearbeitbar sein
 
 Bei der Bearbeitung einer Aufgabe wird auf die Darstellung wie auch Erfassung redundanter Informationen verzichtet. Dem Benutzer sind nur die relevanten Informationen und Bedienelemente direkt dargestellt. Zusatzfunktionen, sofern diese dem Zweck des jeweiligen Kontextes dienen, werden nur über Menüs oder den besagten Shortcuts erreichbar sein.
 
-Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, werden klar präsentiert. Deutsch wird dabei, wie in der restlichen Oberfläche, die verwendete Sprache sein. 
+Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, werden klar präsentiert. Deutsch wird dabei, wie in der restlichen Oberfläche, die verwendete Sprache sein.
 
 Das Verhalten der Software wird in sich konsistent und an vergleichbare Anwendungen im Windows-Umfeld angelehnt sein.
 
@@ -276,7 +301,7 @@ Das Verhalten der Software wird in sich konsistent und an vergleichbare Anwendun
 
 ## 8.1. Allgemeine Anforderungen
 
-Standardmässig ist das Windows-Regelwerk anzuwenden. Das vorrangige Bedieninstrument soll die Maus darstellen. 
+Standardmässig ist das Windows-Regelwerk anzuwenden. Das vorrangige Bedieninstrument soll die Maus darstellen.
 
 ## 8.2. Komponenten
 
@@ -290,7 +315,7 @@ In den einzelnen Komponenten soll versucht werden, ein wiederkehrendes Grundger�
 
 # 9. Nichtfunktionale Anforderungen
 
-In Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung soll die ISO-Norm 9241-10 Beachtung finden. Die Software wird zusätzlich mit einem Handbuch in deutscher Sprache ausgeliefert. 
+In Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung soll die ISO-Norm 9241-10 Beachtung finden. Die Software wird zusätzlich mit einem Handbuch in deutscher Sprache ausgeliefert.
 
 # 10. Technische Produktumgebung
 
