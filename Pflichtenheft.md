@@ -198,12 +198,15 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 
 # 5. Produktdaten
 
+Dieser Abschnitt listet die persistenten Daten, die die Geschäftsprozesse, welche durch die Software abgedeckt werden, unterstützen. 
+
 ## 5.1. Flugzeugdaten
+
+Für die zu vercharternden Flugzeuge können folgende Eigenschaften gespeichert werden:
+
  - Hersteller
  - Typ
- - Flugbetriebsmannschaft
- - Stewardessen
- - Reichweite in km
+ - Reichweite (in km)
  - Anzahl Passagiere
  - Reisegeschwindigkeit
  - Anzahl der Triebwerke
@@ -213,33 +216,38 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
  - Status (aktiv/inaktiv)
 
 ## 5.2. Personaldaten
+
+Das Flugpersonal lässt sich durch folgende Attribute beschreiben:
+
  - Name
  - Vorname
  - Position (Captain, Copilot, Cabin, Crew)
- - Lizenzen (Hier eine Liste der Flugzeuge, für die die Person qualifiziert ist)
- - Gehalt nach Position
+ - Lizenzen (Qualifizierung für bestimmte Flugzeuge)
+ - Gehalt
  - Status (aktiv/inaktiv)
 
 ## 5.3. Flugziele
+
+Die Flugziele stellen die möglichen Flughäfen für Starts und Landungen dar. Es kann folgendes definiert werden:
+
  - Bezeichnung (Flughafen)
  - Ort
  - Land
  - Geo-Koordinaten
 
 ## 5.4. Termine
- - Art (Charter, Urlaub Crew, Wartung, Jahresscheck Flugzeug, etc)
+
+Termine repräsentieren die aktuell verplanten Ressourcen. Dabei wird der Zweck der Planung (Charter, Urlaub Crew, Wartung, Jahresscheck Flugzeug, etc) über das Attribut "Art" definiert. Weitere Attribute sind:
+ 
  - von (Datum, Zeit)
  - bis (Datum, Zeit)
 
 ## 5.5. Auftrag
+
+Zum Auftrag gehören Daten, die bei der Angebotserstellung erfasst werden. Hier finden sich auch alle anderen Daten wieder. Aus einem Auftrag werden sowohl der Vertrag, als auch die Rechnung, sowie ggf. Zahlungserinnerungen und Mahnungen, abgeleitet. Erfasst werden:
+
  - Auftraggeber (Kontaktdaten)
  - Termin (Link zu Termine)
- - Art (Option 1,2 oder 3)
- - Von (Flughafen/Ort) bei Option 1 und 2
- - Nach (Flughafen/Ort) bei Option 1 und 2
- - Zwischenziele (Flughäfen/Orte) bei Option 1 und 2
- - Anzahl der Passagiere bei Option 1 und 2
- - Charterdauer bei Option 3
  - Wunschflugzeug
  - Wunschcrew (Flight)
  - Wunschcrew (Cabin)
@@ -247,10 +255,26 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
  - Preis
  - Status (geplant, beauftragt, in Durchführung, beendet, abgebrochen)
  - Anmerkungen (z.B. Abbruchgrund)
+ - Art (Einzelflug, Flug mit Zwischenaufenthalten, Zeitcharter)
 
-## 5.6. Mahnwesen
+Zusätzlich wird, abhängig von der Art des Auftrags, folgendes gespeichert: 
+ 
+ - Art = Einzelflug oder Flug mit Zwischenaufenthalten
+  - Von (Flughafen/Ort)
+  - Nach (Flughafen/Ort)
+  - Zwischenziele (Flughäfen/Orte)
+  - Anzahl der Passagiere (bei Einzelflug und Flug mit Zwischenaufenthalten)
+ - Art = Zeitcharter
+  - Charterdauer
+ 
+
+## 5.6. Rechnungen
+
+Zu Rechnungen werden die folgenden Informationen erfasst:
+
  - Auftrag (Link zum Auftrag)
- - Status (Rechnung erstellt, verschickt, bezahlt; Erinnerung 1, 2; Mahnung 1,2; Rechnung nicht bezahlt)
+ - Status (erstellt, verschickt, bezahlt, 1. Erinnerung verschickt, 2. Erinnerung verschickt, 1. Mahnung verschickt, 2. Mahnung verschickt)
+ - Zahlungsziel
  - Zusatzkosten
 
 # 6. Produktleistungen
