@@ -13,10 +13,6 @@
 - Generelles Review **Hannes**
 - Auf Vollständigkeit prüfen (Vergleich mit Skript) **Hannes**
 
-# Produktleistungen
-
-- Auf Vollständigkeit prüfen (Vergleich mit Skript) **Hannes**
-
 # Benutzeroberfläche
 
 - Generelle Mockups zur Veranschaulichung der geplanten UI - Tool? (**Hans**) --> Balsamiq, wenn ich nicht noch was krasses mit GitHub Integration finde ^^
