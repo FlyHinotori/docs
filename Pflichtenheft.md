@@ -320,7 +320,7 @@ Zusätzliche Standardperipheriegeräte wie Maus, Tastatur und Monitor werden vor
 
 ## 10.3. Produktschnittstellen
 
-Es ist keine externe Schnittstelle zu einer anderen Software geplant. Jedoch wird es möglich sein, an sinnvollen Stellen externe Programme, wie zum Beispiel das Standard-eMail-Programm oder den Adobe-Reader aufzurufen.
+Um Angebote, Verträge und Rechnungen zu exportieren, wird eine Schnittstelle mit MS Word angestrebt. Diese Dritt-Software wird damit unabdingbar für die Nutzung des vollen Funktionsumfangs des hier beschriebenen Programms. Zudem wird es, zwecks der Verteilung oben genannter Dokumente, eine einfache Schnittstelle zu dem Standard-eMail-Programm geben.
 
 # 11. spezielle Anforderungen an die Entwicklerumgebung
 
