@@ -425,19 +425,19 @@ Projektübergabe: Zu diesem Meilenstein wird das komplette Projekt inklusive Sof
 # 13. Anhang
 
 ## 13.1. Abkürzungsverzeichnis
-bzw.   beziehungsweise
-ERM    Enterprise-Relationship-Management,
-ERP    Enterprise-Resource-Planning 
-etc    et cetera
-EUR    Euro
-GB     Gigabyte
-ggf.   gegebenenfalls
-GHz    Gigahertz
-h      Stunde
-inkl.  inklusive
-km     Kilometer
-min    Minuten
-mind.  mindestens
-MS     Microsoft
-RAM    Random-Access Memory (Arbeitsspeicher)
-z.B.   zum Beispiel
+bzw.   beziehungsweise  
+ERM    Enterprise-Relationship-Management  
+ERP    Enterprise-Resource-Planning   
+etc    et cetera  
+EUR    Euro  
+GB     Gigabyte  
+ggf.   gegebenenfalls  
+GHz    Gigahertz  
+h      Stunde  
+inkl.  inklusive  
+km     Kilometer  
+min    Minuten  
+mind.  mindestens  
+MS     Microsoft  
+RAM    Random-Access Memory (Arbeitsspeicher)  
+z.B.   zum Beispiel  
