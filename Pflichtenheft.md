@@ -421,3 +421,23 @@ Endpräsentation: Zu diesem Meilenstein wird der fastendgültige Softwarestand p
 Projektübergabe: Zu diesem Meilenstein wird das komplette Projekt inklusive Software, Dokumentation und verbleibender Mängelliste an den Auftraggeber übergeben.
 
 ![Gantt-Diagramm](pics/Gantt.jpg)
+
+# 13. Anhang
+
+## 13.1. Abkürzungsverzeichnis
+bzw.   beziehungsweise
+ERM    Enterprise-Relationship-Management,
+ERP    Enterprise-Resource-Planning 
+etc    et cetera
+EUR    Euro
+GB     Gigabyte
+ggf.   gegebenenfalls
+GHz    Gigahertz
+h      Stunde
+inkl.  inklusive
+km     Kilometer
+min    Minuten
+mind.  mindestens
+MS     Microsoft
+RAM    Random-Access Memory (Arbeitsspeicher)
+z.B.   zum Beispiel
