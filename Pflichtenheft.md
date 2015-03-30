@@ -401,5 +401,6 @@ Dieses Arbeitspaket umfasst den Test der entwickelten Software. Es wird versucht
 
 Angebotsabgabe: Zu diesem Meilenstein ist das Angebot incl. Pflichtenheft dem Auftraggeber zu übergeben.
 Zwischenpräsentation: Zu diesem Meilenstein werden die bisherigen Ergebnisse dem Auftraggeber präsentiert.
+Endpräsentation: Zu diesem Meilenstein wird der fastendgültige Softwarestand präsentiert. Fehler, Mängel oder Nachbesserungen werden im nachfolgenden Arbeitspaket abgehandelt.
 
 ![Gantt-Diagramm](pics/Gantt.jpg)
