@@ -189,7 +189,6 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Auslösendes Ereignis: eingehende Mitteilung
 - Beschreibung: Crewmitglieder und Flugzeuge können durch unterschiedliche Termine (Wartung, Urlaub, Krankheit,...) nicht verfügbar sein. Diese Termine müssen erfasst werden.
 
-
 # 5. Produktdaten
 
 Dieser Abschnitt listet die persistenten Daten, die die Geschäftsprozesse, welche durch die Software abgedeckt werden, unterstützen.
@@ -300,19 +299,39 @@ Das Verhalten der Software wird in sich konsistent und an vergleichbare Anwendun
 
 # 8. Benutzeroberfläche
 
-## 8.1. Allgemeine Anforderungen
+## 8.1 Allgemeine Anforderungen
 
 Standardmässig ist das Windows-Regelwerk anzuwenden. Das vorrangige Bedieninstrument soll die Maus darstellen.
 
-## 8.2. Komponenten
+## 8.2 Grundsätze
 
-In den einzelnen Komponenten soll versucht werden, ein wiederkehrendes Grundgerüst zu erzeugen, um eine intuitive und selbsterklärende Benutzung zu ermöglichen.
+Die Anwendung soll den Richtlinien für universelle Apps folgen damit sie sowohl als App (Windows 8) als auch als Desktopanwendung laufen kann. Entsprechend wird eine einzelne Seite angezeigt die per Navigation die gewünschten Programmbereiche im Arbeitsfeld anzeigt (SinglePageApp). Alle Programmbereiche werden durch entsprechende Symbole dargestellt um Text auf die wesentlichen Teile der Anzeige zu beschränken.
 
--- Startmaske
+## 8.2 Mockups
 
--- Maske1
+### 8.2.1 Startseite
 
--- Maske2
+![Starseite](mockups/Startscreen.png)
+
+### 8.2.2 Neuer Auftrag
+
+![Starseite](mockups/Neuer Auftrag - Kunde.png)
+
+![Starseite](mockups/Neuer Auftrag - Route.png)
+
+![Starseite](mockups/Neuer Auftrag - Zeit.png)
+
+### 8.2.3 Auftragsübersicht
+
+![Aufträge](mockups/Aufträge.png)
+
+### 8.2.4 Kalender
+
+![Kalenderansicht](mockups/Kalenderansicht.png)
+
+### 8.2.5 Rechnungen
+
+![Kalenderansicht](mockups/Rechnungen.png)
 
 # 9. Nichtfunktionale Anforderungen
 
