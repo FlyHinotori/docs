@@ -331,7 +331,7 @@ In den einzelnen Komponenten soll versucht werden, ein wiederkehrendes Grundger�
 
 # 9. Nichtfunktionale Anforderungen (Autor: Torsten Noack)
 
-In Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung soll die ISO-Norm 9241-10 Beachtung finden. Die Software wird zusätzlich mit einem Handbuch in deutscher Sprache ausgeliefert.
+In Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung soll die ISO-Norm 9241-110 Beachtung finden. Die Software wird zusätzlich mit einem Handbuch in deutscher Sprache ausgeliefert.
 
 # 10. Technische Produktumgebung (Autor: Hannes Marien, Torsten Noack)
 
