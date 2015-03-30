@@ -365,5 +365,13 @@ Dieses Arbeitspaket umfasst das Sammeln, Ordnen und konzeptionelle Zusammenstell
 - Arbeitsmittel: Semesterprojektbeschreibung, Internet, eigene Aufzeichnungen
 - Ergebnis: Grobkonzept für die Software
 
+## 12.2. Pflichtenhefterstellung
+
+Dieses Arbeitspaket umfasst die Erstellung des Pflichtenheftes zu dem Projekt.
+- Aufwand: 48h
+- Personen: Hannes Marien, Hans Meyer, Torsten Noack
+- Arbeitsmittel: Semesterprojektbeschreibung
+- Ergebnis: Pflichtenheft
+
 
 ![Gantt-Diagramm](pics/Gantt.jpg)
