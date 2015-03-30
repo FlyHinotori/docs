@@ -374,4 +374,9 @@ Dieses Arbeitspaket umfasst die Erstellung des Pflichtenheftes zu dem Projekt.
 - Ergebnis: Pflichtenheft
 
 
+
+## 12.X. Meilensteine
+
+Angebotsabgabe: Zu diesem Meilenstein ist das Angebot incl. Pflichtenheft dem Auftraggeber zu übergeben.
+
 ![Gantt-Diagramm](pics/Gantt.jpg)
