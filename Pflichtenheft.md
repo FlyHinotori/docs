@@ -355,9 +355,15 @@ Für die Entwicklerumgebung gelten folgende Anforderungen:
 - Microsoft SQL Server Compact als Datenbank
 - SQL Server Compact Toolbox zur Datenbankverwaltung
 
-# 12. Projektplan
+# 12. Projektplanung 
 
-- Zeitliche Abschätzung zur Realisierung der einzelnen Geschäftsprozesse und des Handbuchs
-- Zuweisung der Aufgaben an einzelne Personen (muss nicht zwingend mit der Realität übereinstimmen)
+## 12.1. Informationssammlung
+
+Dieses Arbeitspaket umfasst das Sammeln, Ordnen und konzeptionelle Zusammenstellen von Informationen aus den gegebenen Quellen sowie dem Festlegen verschiedener Standards wie Programmiersprache und Datenbank.
+- Aufwand: 32h
+- Personen: Hannes Marien, Hans Meyer, Torsten Noack
+- Arbeitsmittel: Semesterprojektbeschreibung, Internet, eigene Aufzeichnungen
+- Ergebnis: Grobkonzept für die Software
+
 
 ![Gantt-Diagramm](pics/Gantt.jpg)
