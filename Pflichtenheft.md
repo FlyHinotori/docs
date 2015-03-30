@@ -192,6 +192,7 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 ## 4.1. Workflows
 
 Die oben beschriebenen Geschäftsprozesse werden nachfolgend in funktionsübergreifenden Flussdiagrammen visualisiert.
+
 ![/F11/](pics/F11.jpg)
 
 ![/F12/](pics/F12.jpg)
@@ -309,7 +310,7 @@ Bei der Bearbeitung einer Aufgabe wird auf die Darstellung wie auch Erfassung re
 
 Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, werden klar präsentiert. Deutsch wird dabei, wie in der restlichen Oberfläche, die verwendete Sprache sein.
 
-Das Verhalten der Software wird in sich konsistent und an vergleichbare Anwendungen im Windows-Umfeld angelehnt sein.
+Das Verhalten der Software wird in sich konsistent, und an vergleichbare Anwendungen im Windows-Umfeld angelehnt sein.
 
 
 # 8. Benutzeroberfläche
