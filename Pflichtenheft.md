@@ -354,3 +354,10 @@ Für die Entwicklerumgebung gelten folgende Anforderungen:
 - C# als Programmiersprache
 - Microsoft SQL Server Compact als Datenbank
 - SQL Server Compact Toolbox zur Datenbankverwaltung
+
+# 12. Projektplan
+
+- Zeitliche Abschätzung zur Realisierung der einzelnen Geschäftsprozesse und des Handbuchs
+- Zuweisung der Aufgaben an einzelne Personen (muss nicht zwingend mit der Realität übereinstimmen)
+
+[Gantt-Diagramm](pics/Gantt.jpg)
