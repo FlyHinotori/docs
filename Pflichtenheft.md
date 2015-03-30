@@ -383,7 +383,7 @@ Dieses Arbeitspaket umfasst den Entwurf der Software. Der Programmablauf wird en
 
 ## 12.4. Softwareerstellung
 
-Dieses Arbeitspaket umfasst die Erstellung der Software. Die Software wird vollständig geschrieben, kompiliert und soweit möglich im Simulator der Entwicklungsumgebung getestet.
+Dieses Arbeitspaket umfasst die Erstellung der Software. Die Software wird in dem beschriebenen Funktionsumfang geschrieben, kompiliert und getroffene Annahmen mit Hilfe des Debuggers, soweit möglich, getestet.
 - Aufwand: 240h
 - Personen: Hannes Marien, Hans Meyer, Torsten Noack
 - Arbeitsmittel: Ergebnisse aus 12.3., Entwicklungsumgebung
@@ -391,7 +391,7 @@ Dieses Arbeitspaket umfasst die Erstellung der Software. Die Software wird volls
 
 ## 12.5. Funktionstests
 
-Dieses Arbeitspaket umfasst den Test der entwickelten Software. Es wird versucht alle erdenklichen Geschäftsvorfälle mittles der Software abzubilden.
+Dieses Arbeitspaket umfasst den Test der entwickelten Software. Die beschriebenen Geschäftsfälle werden verifiziert und validiert.
 - Aufwand: 24h
 - Personen: Hannes Marien, Hans Meyer, Torsten Noack
 - Arbeitsmittel: Ergebnis aus 12.4.
@@ -399,7 +399,7 @@ Dieses Arbeitspaket umfasst den Test der entwickelten Software. Es wird versucht
 
 ## 12.6. Fehlerbereinigung
 
-Dieses Arbeitspaket umfasst die Behebung der in 12.5. und der Endpräsentation festgestellten Mängel.
+Dieses Arbeitspaket umfasst die Behebung der in 12.5. festgestellten Mängel sowie die Realisierung etwaiger Nachbesserungswünsche des Auftraggebers.
 - Aufwand: 24h
 - Personen: Hannes Marien, Hans Meyer, Torsten Noack
 - Arbeitsmittel: Mängelliste, Entwicklungsumgebung
