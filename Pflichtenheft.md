@@ -397,6 +397,14 @@ Dieses Arbeitspaket umfasst den Test der entwickelten Software. Es wird versucht
 - Arbeitsmittel: Ergebnis aus 12.4.
 - Ergebnisse: Dokumentation der Testergebnisse, Liste der Mängel
 
+## 12.6. Fehlerbereinigung
+
+Dieses Arbeitspaket umfasst die Behebung der in 12.5. und der Endpräsentation festgestellten Mängel.
+- Aufwand: 24h
+- Personen: Hannes Marien, Hans Meyer, Torsten Noack
+- Arbeitsmittel: Mängelliste, Entwicklungsumgebung
+- Ergebnisse: Fehlerbereinigte Software, Liste verbleibender Mängel
+
 ## 12.X. Meilensteine
 
 Angebotsabgabe: Zu diesem Meilenstein ist das Angebot incl. Pflichtenheft dem Auftraggeber zu übergeben.
