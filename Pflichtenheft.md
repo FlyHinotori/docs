@@ -189,6 +189,20 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Auslösendes Ereignis: eingehende Mitteilung
 - Beschreibung: Crewmitglieder und Flugzeuge können durch unterschiedliche Termine (Wartung, Urlaub, Krankheit,...) nicht verfügbar sein. Diese Termine müssen erfasst werden.
 
+## 4.1. Workflows
+
+Die oben beschriebenen Geschäftsprozesse werden nachfolgend in funktionsübergreifenden Flussdiagrammen visualisiert.
+![/F11/](pics/F11.jpg)
+
+![/F12/](pics/F12.jpg)
+
+![/F13/](pics/F13.jpg)
+
+![/F21/](pics/F21.jpg)
+
+![/F22/](pics/F22.jpg)
+
+![/F31/](pics/F31.jpg)
 
 # 5. Produktdaten
 
