@@ -418,5 +418,6 @@ Dieses Arbeitspaket umfasst die Erstellung der Projektdokumentation.
 Angebotsabgabe: Zu diesem Meilenstein ist das Angebot incl. Pflichtenheft dem Auftraggeber zu übergeben.
 Zwischenpräsentation: Zu diesem Meilenstein werden die bisherigen Ergebnisse dem Auftraggeber präsentiert.
 Endpräsentation: Zu diesem Meilenstein wird der fastendgültige Softwarestand präsentiert. Fehler, Mängel oder Nachbesserungen werden im nachfolgenden Arbeitspaket abgehandelt.
+Projektübergabe: Zu diesem Meilenstein wird das komplette Projekt inklusive Software, Dokumentation und verbleibender Mängelliste an den Auftraggeber übergeben.
 
 ![Gantt-Diagramm](pics/Gantt.jpg)
