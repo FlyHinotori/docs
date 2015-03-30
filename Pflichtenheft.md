@@ -360,4 +360,4 @@ Für die Entwicklerumgebung gelten folgende Anforderungen:
 - Zeitliche Abschätzung zur Realisierung der einzelnen Geschäftsprozesse und des Handbuchs
 - Zuweisung der Aufgaben an einzelne Personen (muss nicht zwingend mit der Realität übereinstimmen)
 
-[Gantt-Diagramm](pics/Gantt.jpg)
+![Gantt-Diagramm](pics/Gantt.jpg)
