@@ -389,6 +389,14 @@ Dieses Arbeitspaket umfasst die Erstellung der Software. Die Software wird volls
 - Arbeitsmittel: Ergebnisse aus 12.3., Entwicklungsumgebung
 - Ergebnis: Software
 
+## 12.5. Funktionstests
+
+Dieses Arbeitspaket umfasst den Test der entwickelten Software. Es wird versucht alle erdenklichen Geschäftsvorfälle mittles der Software abzubilden.
+- Aufwand: 24h
+- Personen: Hannes Marien, Hans Meyer, Torsten Noack
+- Arbeitsmittel: Ergebnis aus 12.4.
+- Ergebnisse: Dokumentation der Testergebnisse, Liste der Mängel
+
 ## 12.X. Meilensteine
 
 Angebotsabgabe: Zu diesem Meilenstein ist das Angebot incl. Pflichtenheft dem Auftraggeber zu übergeben.
