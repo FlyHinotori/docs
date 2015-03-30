@@ -373,7 +373,13 @@ Dieses Arbeitspaket umfasst die Erstellung des Pflichtenheftes zu dem Projekt.
 - Arbeitsmittel: Semesterprojektbeschreibung
 - Ergebnis: Pflichtenheft
 
+## 12.3. Softwareentwurf
 
+Dieses Arbeitspaket umfasst den Entwurf der Software. Der Programmablauf wird entworfen, Benutzermasken skizziert und das Datenmodell festgelegt.
+- Aufwand: 24h
+- Personen: Hannes Marien, Hans Meyer, Torsten Noack
+- Arbeitsmittel: Ergebnisse aus 12.1, Microsoft Visio, Balsamiq Mockups
+- Ergebnis: diverse Geschäftsprozesse
 
 ## 12.X. Meilensteine
 
