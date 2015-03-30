@@ -405,7 +405,15 @@ Dieses Arbeitspaket umfasst die Behebung der in 12.5. und der Endpräsentation f
 - Arbeitsmittel: Mängelliste, Entwicklungsumgebung
 - Ergebnisse: Fehlerbereinigte Software, Liste verbleibender Mängel
 
-## 12.X. Meilensteine
+## 12.7. Dokumentation
+
+Dieses Arbeitspaket umfasst die Erstellung der Projektdokumentation.
+- Aufwand: 32h
+- Personen: Hannes Marien, Hans Meyer, Torsten Noack
+- Arbeitsmittel: Textverarbeitung
+- Ergebnis: Projektdokumentation
+
+## 12.8. Meilensteine
 
 Angebotsabgabe: Zu diesem Meilenstein ist das Angebot incl. Pflichtenheft dem Auftraggeber zu übergeben.
 Zwischenpräsentation: Zu diesem Meilenstein werden die bisherigen Ergebnisse dem Auftraggeber präsentiert.
