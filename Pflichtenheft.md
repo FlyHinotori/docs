@@ -77,7 +77,7 @@ Es wird davon ausgegangen, dass die Software in einer Büroumgebung zum Einsatz 
 
 Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem betrieben. Ein zentraler Datenbankserver, der das parallele Arbeiten auf mehreren Klientensystemen erlaubt, ist nicht Teil dieses Projekts.
 
-# 3. Geschäftsprozesse (Autor: Hans Meyer, Torsten Noack, Hannes Marien)
+# 3. Geschäftsprozesse (Autor: Torsten Noack, Hannes Marien)
 
 ## /F11/
 - Geschäftsprozess: Neues Angebot erfassen
