@@ -381,6 +381,14 @@ Dieses Arbeitspaket umfasst den Entwurf der Software. Der Programmablauf wird en
 - Arbeitsmittel: Ergebnisse aus 12.1, Microsoft Visio, Balsamiq Mockups
 - Ergebnis: diverse Geschäftsprozesse
 
+## 12.4. Softwareerstellung
+
+Dieses Arbeitspaket umfasst die Erstellung der Software. Die Software wird vollständig geschrieben, kompiliert und soweit möglich im Simulator der Entwicklungsumgebung getestet.
+- Aufwand: 240h
+- Personen: Hannes Marien, Hans Meyer, Torsten Noack
+- Arbeitsmittel: Ergebnisse aus 12.3., Entwicklungsumgebung
+- Ergebnis: Software
+
 ## 12.X. Meilensteine
 
 Angebotsabgabe: Zu diesem Meilenstein ist das Angebot incl. Pflichtenheft dem Auftraggeber zu übergeben.
