@@ -384,5 +384,6 @@ Dieses Arbeitspaket umfasst den Entwurf der Software. Der Programmablauf wird en
 ## 12.X. Meilensteine
 
 Angebotsabgabe: Zu diesem Meilenstein ist das Angebot incl. Pflichtenheft dem Auftraggeber zu übergeben.
+Zwischenpräsentation: Zu diesem Meilenstein werden die bisherigen Ergebnisse dem Auftraggeber präsentiert.
 
 ![Gantt-Diagramm](pics/Gantt.jpg)
