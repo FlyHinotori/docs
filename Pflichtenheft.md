@@ -320,13 +320,17 @@ Die Anwendung soll den Richtlinien für universelle Apps folgen damit sie sowohl
 
 ![Starseite](mockups/Neuer Auftrag - Zeit.png)
 
-### 8.2.3 Kalender
+### 8.2.3 Auftragsübersicht
+
+![Aufträge](mockups/Aufträge.png)
+
+### 8.2.4 Kalender
 
 ![Kalenderansicht](mockups/Kalenderansicht.png)
 
-### 8.2.4 Auftragsübersicht
+### 8.2.5 Rechnungen
 
-![Aufträge](mockups/Aufträge.png)
+![Kalenderansicht](mockups/Rechnungen.png)
 
 # 9. Nichtfunktionale Anforderungen
 
