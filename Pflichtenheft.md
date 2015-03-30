@@ -1,4 +1,4 @@
-# 1. Zielbestimmung
+# 1. Zielbestimmung (Autor: Hans Meyer, Torsten Noack)
 
 Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte Abarbeitung bei der Vercharterung von Geschäftsreiseflugzeugen ermöglichen.
 Der HINOTORI Executive soll ein "Werkzeug" zur Verfügung gestellt werden, mit dem die unterschiedlichen Status von der Aufnahme von Anfragen, das Versenden von Angeboten, Verträgen und Rechnung sowie ein integriertes Mahnwesen abgebildet werden können.
@@ -39,7 +39,7 @@ keine
 - Die Anwendung ist weiterhin kein umfassendes ERM. Kunden werden manuell bearbeitet.
 - Eine Anfragenaufnahme per Webseite wird nicht Teil dieses Projektes sein.
 
-# 2. Produkteinsatz
+# 2. Produkteinsatz (Autor: Hans Meyer, Hannes Marien)
 
 Die HINOTORI Executive beauftragt die Erstellung des Programms zur internen Verwendung. Ein Weiterverkauf oder eine Weitergabe ist ausgeschlossen.
 
@@ -79,7 +79,7 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 
 # 3. Produktübersicht
 
-# 4. Geschäftsprozesse
+# 4. Geschäftsprozesse (Autor: Hans Meyer, Torsten Noack, Hannes Marien)
 
 ## /F11/
 - Geschäftsprozess: Neues Angebot erfassen
@@ -205,7 +205,7 @@ Die oben beschriebenen Geschäftsprozesse werden nachfolgend in funktionsübergr
 
 ![/F31/](pics/F31.jpg)
 
-# 5. Produktdaten
+# 5. Produktdaten (Autor: Torsten Noack, Hannes Marien)
 
 Dieser Abschnitt listet die persistenten Daten, die die Geschäftsprozesse, welche durch die Software abgedeckt werden, unterstützen.
 
@@ -286,7 +286,7 @@ Zu Rechnungen werden die folgenden Informationen erfasst:
  - Zahlungsziel
  - Zusatzkosten
 
-# 6. Produktleistungen
+# 6. Produktleistungen (Autor: Torsten Noack)
 
 ## 6.1. Analyse
  - Kundenzufriedenheit analysieren
@@ -298,7 +298,7 @@ Zu Rechnungen werden die folgenden Informationen erfasst:
  - Kosten (Anteil Fixkosten + Anteil Personalkosten + Stundensatz * Flugzeit)
   - Personalkosten berechnen sich aus Gehalt * 1,2
 
-# 7. Qualitätsanforderungen
+# 7. Qualitätsanforderungen (Autor: Hannes Marien)
 
 Eine einfach zu bedienende und übersichtliche Software wird vom Auftraggeber gefordert. Dies impliziert die folgenden Qualitätsanforderungen an die Benutzerschnittstelle.
 
@@ -313,7 +313,7 @@ Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, 
 Das Verhalten der Software wird in sich konsistent, und an vergleichbare Anwendungen im Windows-Umfeld angelehnt sein.
 
 
-# 8. Benutzeroberfläche
+# 8. Benutzeroberfläche (Autor: Hans Meyer)
 
 ## 8.1. Allgemeine Anforderungen
 
@@ -329,11 +329,11 @@ In den einzelnen Komponenten soll versucht werden, ein wiederkehrendes Grundger�
 
 -- Maske2
 
-# 9. Nichtfunktionale Anforderungen
+# 9. Nichtfunktionale Anforderungen (Autor: Torsten Noack)
 
 In Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung soll die ISO-Norm 9241-10 Beachtung finden. Die Software wird zusätzlich mit einem Handbuch in deutscher Sprache ausgeliefert.
 
-# 10. Technische Produktumgebung
+# 10. Technische Produktumgebung (Autor: Hannes Marien, Torsten Noack)
 
 Dieses Kapitel beschreibt in welcher Umgebung das Programm laufen soll.
 
@@ -363,7 +363,7 @@ Zusätzliche Standardperipheriegeräte wie Maus, Tastatur und Monitor werden vor
 
 Um Angebote, Verträge und Rechnungen zu exportieren, wird eine Schnittstelle mit MS Word angestrebt. Diese Dritt-Software wird damit unabdingbar für die Nutzung des vollen Funktionsumfangs des hier beschriebenen Programms. Zudem wird es, zwecks der Verteilung oben genannter Dokumente, eine einfache Schnittstelle zu dem Standard-eMail-Programm geben.
 
-# 11. spezielle Anforderungen an die Entwicklerumgebung
+# 11. spezielle Anforderungen an die Entwicklerumgebung (Autor: Torsten Noack)
 
 Für die Entwicklerumgebung gelten folgende Anforderungen:
 - C# als Programmiersprache
