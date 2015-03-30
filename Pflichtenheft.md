@@ -370,7 +370,7 @@ Für die Entwicklerumgebung gelten folgende Anforderungen:
 - Microsoft SQL Server Compact als Datenbank
 - SQL Server Compact Toolbox zur Datenbankverwaltung
 
-# 12. Projektplanung 
+# 12. Projektplanung (Autor: Torsten Noack)
 
 ## 12.1. Informationssammlung
 
@@ -439,7 +439,7 @@ Dieses Arbeitspaket umfasst die Erstellung der Projektdokumentation.
 
 ![Gantt-Diagramm](pics/Gantt.jpg)
 
-# 13. Anhang
+# 13. Anhang (Autor: Torsten Noack)
 
 ## 13.1. Abkürzungsverzeichnis
 
