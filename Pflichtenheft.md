@@ -369,3 +369,95 @@ Für die Entwicklerumgebung gelten folgende Anforderungen:
 - C# als Programmiersprache
 - Microsoft SQL Server Compact als Datenbank
 - SQL Server Compact Toolbox zur Datenbankverwaltung
+
+# 12. Projektplanung 
+
+## 12.1. Informationssammlung
+
+Dieses Arbeitspaket umfasst das Sammeln, Ordnen und konzeptionelle Zusammenstellen von Informationen aus den gegebenen Quellen sowie dem Festlegen verschiedener Standards wie Programmiersprache und Datenbank.
+- Aufwand: 32h
+- Personen: Hannes Marien, Hans Meyer, Torsten Noack
+- Arbeitsmittel: Semesterprojektbeschreibung, Internet, eigene Aufzeichnungen
+- Ergebnis: Grobkonzept für die Software
+
+## 12.2. Pflichtenhefterstellung
+
+Dieses Arbeitspaket umfasst die Erstellung des Pflichtenheftes zu dem Projekt.
+- Aufwand: 48h
+- Personen: Hannes Marien, Hans Meyer, Torsten Noack
+- Arbeitsmittel: Semesterprojektbeschreibung
+- Ergebnis: Pflichtenheft
+
+## 12.3. Softwareentwurf
+
+Dieses Arbeitspaket umfasst den Entwurf der Software. Der Programmablauf wird entworfen, Benutzermasken skizziert und das Datenmodell festgelegt.
+- Aufwand: 24h
+- Personen: Hannes Marien, Hans Meyer, Torsten Noack
+- Arbeitsmittel: Ergebnisse aus 12.1, Microsoft Visio, Balsamiq Mockups
+- Ergebnis: diverse Geschäftsprozesse
+
+## 12.4. Softwareerstellung
+
+Dieses Arbeitspaket umfasst die Erstellung der Software. Die Software wird in dem beschriebenen Funktionsumfang geschrieben, kompiliert und getroffene Annahmen mit Hilfe des Debuggers, soweit möglich, getestet.
+- Aufwand: 240h
+- Personen: Hannes Marien, Hans Meyer, Torsten Noack
+- Arbeitsmittel: Ergebnisse aus 12.3., Entwicklungsumgebung
+- Ergebnis: Software
+
+## 12.5. Funktionstests
+
+Dieses Arbeitspaket umfasst den Test der entwickelten Software. Die beschriebenen Geschäftsfälle werden verifiziert und validiert.
+- Aufwand: 24h
+- Personen: Hannes Marien, Hans Meyer, Torsten Noack
+- Arbeitsmittel: Ergebnis aus 12.4.
+- Ergebnisse: Dokumentation der Testergebnisse, Liste der Mängel
+
+## 12.6. Fehlerbereinigung
+
+Dieses Arbeitspaket umfasst die Behebung der in 12.5. festgestellten Mängel sowie die Realisierung etwaiger Nachbesserungswünsche des Auftraggebers.
+- Aufwand: 24h
+- Personen: Hannes Marien, Hans Meyer, Torsten Noack
+- Arbeitsmittel: Mängelliste, Entwicklungsumgebung
+- Ergebnisse: Fehlerbereinigte Software, Liste verbleibender Mängel
+
+## 12.7. Dokumentation
+
+Dieses Arbeitspaket umfasst die Erstellung der Projektdokumentation.
+- Aufwand: 32h
+- Personen: Hannes Marien, Hans Meyer, Torsten Noack
+- Arbeitsmittel: Textverarbeitung
+- Ergebnis: Projektdokumentation
+
+## 12.8. Meilensteine
+
+| Meilenstein  | Beschreibung |
+| ------------- | ------------- |
+| Angebotsabgabe | Zu diesem Meilenstein ist das Angebot incl. Pflichtenheft dem Auftraggeber zu übergeben. |
+| Zwischenpräsentation | Zu diesem Meilenstein werden die bisherigen Ergebnisse dem Auftraggeber präsentiert |
+| Endpräsentation | Zu diesem Meilenstein wird der aktuelle Softwarestand präsentiert. Fehler, Mängel oder Nachbesserungen werden im nachfolgenden Arbeitspaket abgehandelt. |
+| Projektübergabe | Zu diesem Meilenstein wird das komplette Projekt inklusive Software, Dokumentation und verbleibender Mängelliste an den Auftraggeber übergeben. |
+
+![Gantt-Diagramm](pics/Gantt.jpg)
+
+# 13. Anhang
+
+## 13.1. Abkürzungsverzeichnis
+
+| Abkürzung  | Bedeutung |
+| ------------- | ------------- |
+| bzw. | beziehungsweise |
+| ERM | Enterprise-Relationship-Management |  
+| ERP | Enterprise-Resource-Planning |
+| etc | et cetera |   
+| EUR | Euro |  
+| GB | Gigabyte |  
+| ggf. | gegebenenfalls |
+| GHz | Gigahertz |  
+| h | Stunde |  
+| inkl. | inklusive |  
+| km | Kilometer |  
+| min | Minuten |  
+| mind. | mindestens |  
+| MS | Microsoft |  
+| RAM | Random-Access Memory (Arbeitsspeicher) |   
+| z.B. | zum Beispiel |  
