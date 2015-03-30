@@ -77,9 +77,7 @@ Es wird davon ausgegangen, dass die Software in einer Büroumgebung zum Einsatz 
 
 Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem betrieben. Ein zentraler Datenbankserver, der das parallele Arbeiten auf mehreren Klientensystemen erlaubt, ist nicht Teil dieses Projekts.
 
-# 3. Produktübersicht
-
-# 4. Geschäftsprozesse (Autor: Hans Meyer, Torsten Noack, Hannes Marien)
+# 3. Geschäftsprozesse (Autor: Hans Meyer, Torsten Noack, Hannes Marien)
 
 ## /F11/
 - Geschäftsprozess: Neues Angebot erfassen
@@ -205,11 +203,11 @@ Die oben beschriebenen Geschäftsprozesse werden nachfolgend in funktionsübergr
 
 ![/F31/](pics/F31.jpg)
 
-# 5. Produktdaten (Autor: Torsten Noack, Hannes Marien)
+# 4. Produktdaten (Autor: Torsten Noack, Hannes Marien)
 
 Dieser Abschnitt listet die persistenten Daten, die die Geschäftsprozesse, welche durch die Software abgedeckt werden, unterstützen.
 
-## 5.1. Flugzeugdaten
+## 4.1. Flugzeugdaten
 
 Für die zu vercharternden Flugzeuge können folgende Eigenschaften gespeichert werden:
 
@@ -224,7 +222,7 @@ Für die zu vercharternden Flugzeuge können folgende Eigenschaften gespeichert 
  - variable Kosten pro Stunde
  - Status (aktiv/inaktiv)
 
-## 5.2. Personaldaten
+## 4.2. Personaldaten
 
 Das Flugpersonal lässt sich durch folgende Attribute beschreiben:
 
@@ -235,7 +233,7 @@ Das Flugpersonal lässt sich durch folgende Attribute beschreiben:
  - Gehalt
  - Status (aktiv/inaktiv)
 
-## 5.3. Flugziele
+## 4.3. Flugziele
 
 Die Flugziele stellen die möglichen Flughäfen für Starts und Landungen dar. Es kann folgendes definiert werden:
 
@@ -244,14 +242,14 @@ Die Flugziele stellen die möglichen Flughäfen für Starts und Landungen dar. E
  - Land
  - Geo-Koordinaten
 
-## 5.4. Termine
+## 4.4. Termine
 
 Termine repräsentieren die aktuell verplanten Ressourcen. Dabei wird der Zweck der Planung (Charter, Urlaub Crew, Wartung, Jahresscheck Flugzeug, etc) über das Attribut "Art" definiert. Weitere Attribute sind:
 
  - von (Datum, Zeit)
  - bis (Datum, Zeit)
 
-## 5.5. Auftrag
+## 4.5. Auftrag
 
 Zum Auftrag gehören Daten, die bei der Angebotserstellung erfasst werden. Hier finden sich auch alle anderen Daten wieder. Aus einem Auftrag werden sowohl der Vertrag, als auch die Rechnung, sowie ggf. Zahlungserinnerungen und Mahnungen, abgeleitet. Erfasst werden:
 
@@ -277,7 +275,7 @@ Zusätzlich wird, abhängig von der Art des Auftrags, folgendes gespeichert:
   - Charterdauer
 
 
-## 5.6. Rechnungen
+## 4.6. Rechnungen
 
 Zu Rechnungen werden die folgenden Informationen erfasst:
 
@@ -286,19 +284,19 @@ Zu Rechnungen werden die folgenden Informationen erfasst:
  - Zahlungsziel
  - Zusatzkosten
 
-# 6. Produktleistungen (Autor: Torsten Noack)
+# 5. Produktleistungen (Autor: Torsten Noack)
 
-## 6.1. Analyse
+## 5.1. Analyse
  - Kundenzufriedenheit analysieren
  - Ablehnungsgründe der Angebote analysieren
  - Profitabilität der Flugzeuge analysieren (Annahme: über 2000h pro Flugzeug pro Jahr ist profitabel)
 
-## 6.2. Berechnungen bei Angebotserstellung
+## 5.2. Berechnungen bei Angebotserstellung
  - Anzahl der nötigen Zwischenlandungen (pro Landung +45min Flugzeit/Charterdauer)
  - Kosten (Anteil Fixkosten + Anteil Personalkosten + Stundensatz * Flugzeit)
   - Personalkosten berechnen sich aus Gehalt * 1,2
 
-# 7. Qualitätsanforderungen (Autor: Hannes Marien)
+# 6. Qualitätsanforderungen (Autor: Hannes Marien)
 
 Eine einfach zu bedienende und übersichtliche Software wird vom Auftraggeber gefordert. Dies impliziert die folgenden Qualitätsanforderungen an die Benutzerschnittstelle.
 
@@ -312,32 +310,51 @@ Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, 
 
 Das Verhalten der Software wird in sich konsistent, und an vergleichbare Anwendungen im Windows-Umfeld angelehnt sein.
 
+# 7. Benutzeroberfläche (Autor: Hans Meyer)
 
-# 8. Benutzeroberfläche (Autor: Hans Meyer)
-
-## 8.1. Allgemeine Anforderungen
+## 7.1 Allgemeine Anforderungen
 
 Standardmäßig ist das Windows-Regelwerk anzuwenden. Das vorrangige Bedieninstrument soll die Maus darstellen.
 
-## 8.2. Komponenten
+## 7.2 Grundsätze
 
-In den einzelnen Komponenten soll versucht werden, ein wiederkehrendes Grundgerüst zu erzeugen, um eine intuitive und selbsterklärende Benutzung zu ermöglichen.
+Die Anwendung soll den Richtlinien für universelle Apps folgen damit sie sowohl als App (Windows 8) als auch als Desktopanwendung laufen kann. Entsprechend wird eine einzelne Seite angezeigt die per Navigation die gewünschten Programmbereiche im Arbeitsfeld anzeigt (SinglePageApp). Alle Programmbereiche werden durch entsprechende Symbole dargestellt um Text auf die wesentlichen Teile der Anzeige zu beschränken.
 
--- Startmaske
+## 7.3 Mockups
 
--- Maske1
+### 7.3.1 Startseite
 
--- Maske2
+![Starseite](mockups/Startscreen.png)
 
-# 9. Nichtfunktionale Anforderungen (Autor: Torsten Noack)
+### 7.3.2 Neuer Auftrag
+
+![Starseite](mockups/Neuer Auftrag - Kunde.png)
+
+![Starseite](mockups/Neuer Auftrag - Route.png)
+
+![Starseite](mockups/Neuer Auftrag - Zeit.png)
+
+### 7.3.3 Auftragsübersicht
+
+![Aufträge](mockups/Aufträge.png)
+
+### 7.3.4 Kalender
+
+![Kalenderansicht](mockups/Kalenderansicht.png)
+
+### 7.3.5 Rechnungen
+
+![Kalenderansicht](mockups/Rechnungen.png)
+
+# 8. Nichtfunktionale Anforderungen (Autor: Torsten Noack)
 
 In Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung soll die ISO-Norm 9241-110 Beachtung finden. Die Software wird zusätzlich mit einem Handbuch in deutscher Sprache ausgeliefert.
 
-# 10. Technische Produktumgebung (Autor: Hannes Marien, Torsten Noack)
+# 9. Technische Produktumgebung (Autor: Hannes Marien, Torsten Noack)
 
 Dieses Kapitel beschreibt in welcher Umgebung das Programm laufen soll.
 
-## 10.1. Software
+## 9.1. Software
 
 Die Software wird für die folgende Softwareumgebung entwickelt:
 
@@ -347,7 +364,7 @@ Die Software wird für die folgende Softwareumgebung entwickelt:
 - .NET Framework 4.5
 
 
-## 10.2. Hardware
+## 9.2. Hardware
 
 Die Software wird auf einem Computer mit den folgenden technischen Daten lauffähig sein:
 
@@ -359,20 +376,20 @@ Die Software wird auf einem Computer mit den folgenden technischen Daten lauffä
 
 Zusätzliche Standardperipheriegeräte wie Maus, Tastatur und Monitor werden vorausgesetzt.
 
-## 10.3. Produktschnittstellen
+## 9.3. Produktschnittstellen
 
 Um Angebote, Verträge und Rechnungen zu exportieren, wird eine Schnittstelle mit MS Word angestrebt. Diese Dritt-Software wird damit unabdingbar für die Nutzung des vollen Funktionsumfangs des hier beschriebenen Programms. Zudem wird es, zwecks der Verteilung oben genannter Dokumente, eine einfache Schnittstelle zu dem Standard-eMail-Programm geben.
 
-# 11. spezielle Anforderungen an die Entwicklerumgebung (Autor: Torsten Noack)
+# 10. spezielle Anforderungen an die Entwicklerumgebung (Autor: Torsten Noack)
 
 Für die Entwicklerumgebung gelten folgende Anforderungen:
 - C# als Programmiersprache
 - Microsoft SQL Server Compact als Datenbank
 - SQL Server Compact Toolbox zur Datenbankverwaltung
 
-# 12. Projektplanung (Autor: Torsten Noack)
+# 11. Projektplanung (Autor: Torsten Noack)
 
-## 12.1. Informationssammlung
+## 11.1. Informationssammlung
 
 Dieses Arbeitspaket umfasst das Sammeln, Ordnen und konzeptionelle Zusammenstellen von Informationen aus den gegebenen Quellen sowie dem Festlegen verschiedener Standards wie Programmiersprache und Datenbank.
 - Aufwand: 32h
@@ -380,7 +397,7 @@ Dieses Arbeitspaket umfasst das Sammeln, Ordnen und konzeptionelle Zusammenstell
 - Arbeitsmittel: Semesterprojektbeschreibung, Internet, eigene Aufzeichnungen
 - Ergebnis: Grobkonzept für die Software
 
-## 12.2. Pflichtenhefterstellung
+## 11.2. Pflichtenhefterstellung
 
 Dieses Arbeitspaket umfasst die Erstellung des Pflichtenheftes zu dem Projekt.
 - Aufwand: 48h
@@ -388,7 +405,7 @@ Dieses Arbeitspaket umfasst die Erstellung des Pflichtenheftes zu dem Projekt.
 - Arbeitsmittel: Semesterprojektbeschreibung
 - Ergebnis: Pflichtenheft
 
-## 12.3. Softwareentwurf
+## 11.3. Softwareentwurf
 
 Dieses Arbeitspaket umfasst den Entwurf der Software. Der Programmablauf wird entworfen, Benutzermasken skizziert und das Datenmodell festgelegt.
 - Aufwand: 24h
@@ -396,7 +413,7 @@ Dieses Arbeitspaket umfasst den Entwurf der Software. Der Programmablauf wird en
 - Arbeitsmittel: Ergebnisse aus 12.1, Microsoft Visio, Balsamiq Mockups
 - Ergebnis: diverse Geschäftsprozesse
 
-## 12.4. Softwareerstellung
+## 11.4. Softwareerstellung
 
 Dieses Arbeitspaket umfasst die Erstellung der Software. Die Software wird in dem beschriebenen Funktionsumfang geschrieben, kompiliert und getroffene Annahmen mit Hilfe des Debuggers, soweit möglich, getestet.
 - Aufwand: 240h
@@ -404,7 +421,7 @@ Dieses Arbeitspaket umfasst die Erstellung der Software. Die Software wird in de
 - Arbeitsmittel: Ergebnisse aus 12.3., Entwicklungsumgebung
 - Ergebnis: Software
 
-## 12.5. Funktionstests
+## 11.5. Funktionstests
 
 Dieses Arbeitspaket umfasst den Test der entwickelten Software. Die beschriebenen Geschäftsfälle werden verifiziert und validiert.
 - Aufwand: 24h
@@ -412,7 +429,7 @@ Dieses Arbeitspaket umfasst den Test der entwickelten Software. Die beschriebene
 - Arbeitsmittel: Ergebnis aus 12.4.
 - Ergebnisse: Dokumentation der Testergebnisse, Liste der Mängel
 
-## 12.6. Fehlerbereinigung
+## 11.6. Fehlerbereinigung
 
 Dieses Arbeitspaket umfasst die Behebung der in 12.5. festgestellten Mängel sowie die Realisierung etwaiger Nachbesserungswünsche des Auftraggebers.
 - Aufwand: 24h
@@ -420,7 +437,7 @@ Dieses Arbeitspaket umfasst die Behebung der in 12.5. festgestellten Mängel sow
 - Arbeitsmittel: Mängelliste, Entwicklungsumgebung
 - Ergebnisse: Fehlerbereinigte Software, Liste verbleibender Mängel
 
-## 12.7. Dokumentation
+## 11.7. Dokumentation
 
 Dieses Arbeitspaket umfasst die Erstellung der Projektdokumentation.
 - Aufwand: 32h
@@ -428,36 +445,36 @@ Dieses Arbeitspaket umfasst die Erstellung der Projektdokumentation.
 - Arbeitsmittel: Textverarbeitung
 - Ergebnis: Projektdokumentation
 
-## 12.8. Meilensteine
+## 11.8. Meilensteine
 
-| Meilenstein  | Beschreibung |
-| ------------- | ------------- |
-| Angebotsabgabe | Zu diesem Meilenstein ist das Angebot incl. Pflichtenheft dem Auftraggeber zu übergeben. |
-| Zwischenpräsentation | Zu diesem Meilenstein werden die bisherigen Ergebnisse dem Auftraggeber präsentiert |
-| Endpräsentation | Zu diesem Meilenstein wird der aktuelle Softwarestand präsentiert. Fehler, Mängel oder Nachbesserungen werden im nachfolgenden Arbeitspaket abgehandelt. |
-| Projektübergabe | Zu diesem Meilenstein wird das komplette Projekt inklusive Software, Dokumentation und verbleibender Mängelliste an den Auftraggeber übergeben. |
+| Meilenstein          | Beschreibung                                                                                                                                             |
+|:---------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Angebotsabgabe       | Zu diesem Meilenstein ist das Angebot incl. Pflichtenheft dem Auftraggeber zu übergeben.                                                                 |
+| Zwischenpräsentation | Zu diesem Meilenstein werden die bisherigen Ergebnisse dem Auftraggeber präsentiert                                                                      |
+| Endpräsentation      | Zu diesem Meilenstein wird der aktuelle Softwarestand präsentiert. Fehler, Mängel oder Nachbesserungen werden im nachfolgenden Arbeitspaket abgehandelt. |
+| Projektübergabe      | Zu diesem Meilenstein wird das komplette Projekt inklusive Software, Dokumentation und verbleibender Mängelliste an den Auftraggeber übergeben.          |
 
 ![Gantt-Diagramm](pics/Gantt.jpg)
 
-# 13. Anhang (Autor: Torsten Noack)
+# 12. Anhang (Autor: Torsten Noack)
 
-## 13.1. Abkürzungsverzeichnis
+## 12.1. Abkürzungsverzeichnis
 
-| Abkürzung  | Bedeutung |
-| ------------- | ------------- |
-| bzw. | beziehungsweise |
-| ERM | Enterprise-Relationship-Management |  
-| ERP | Enterprise-Resource-Planning |
-| etc | et cetera |   
-| EUR | Euro |  
-| GB | Gigabyte |  
-| ggf. | gegebenenfalls |
-| GHz | Gigahertz |  
-| h | Stunde |  
-| inkl. | inklusive |  
-| km | Kilometer |  
-| min | Minuten |  
-| mind. | mindestens |  
-| MS | Microsoft |  
-| RAM | Random-Access Memory (Arbeitsspeicher) |   
-| z.B. | zum Beispiel |  
+| Abkürzung | Bedeutung                              |
+|:----------|:---------------------------------------|
+| bzw.      | beziehungsweise                        |
+| ERM       | Enterprise-Relationship-Management     |
+| ERP       | Enterprise-Resource-Planning           |
+| etc       | et cetera                              |
+| EUR       | Euro                                   |
+| GB        | Gigabyte                               |
+| ggf.      | gegebenenfalls                         |
+| GHz       | Gigahertz                              |
+| h         | Stunde                                 |
+| inkl.     | inklusive                              |
+| km        | Kilometer                              |
+| min       | Minuten                                |
+| mind.     | mindestens                             |
+| MS        | Microsoft                              |
+| RAM       | Random-Access Memory (Arbeitsspeicher) |
+| z.B.      | zum Beispiel                           |
