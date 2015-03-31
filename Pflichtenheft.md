@@ -1,7 +1,7 @@
-# 1. Zielbestimmung
+# 1. Zielbestimmung (Autor: Hans Meyer, Torsten Noack)
 
 Das zu entwickelnde Projekt soll der HINOTORI Executive die rechnergestützte Abarbeitung bei der Vercharterung von Geschäftsreiseflugzeugen ermöglichen.
-Der HINOTORI Executive soll ein "Werkzeug" zur Verfügung gestellt werden, mit dem die unterschiedlichen Status von der Aufnahme von Anfragen, das Versenden von Angeboten, Verträgen und Rechnung sowie ein intergriertes Mahnwesen abgebildet werden können.
+Der HINOTORI Executive soll ein "Werkzeug" zur Verfügung gestellt werden, mit dem die unterschiedlichen Status von der Aufnahme von Anfragen, das Versenden von Angeboten, Verträgen und Rechnung sowie ein integriertes Mahnwesen abgebildet werden können.
 
 Die Software soll durch automatische Verfügbarkeitsprüfungen die Abarbeitung erleichtern und Doppelbuchungen verhindern.
 
@@ -15,7 +15,7 @@ Die Software soll durch automatische Verfügbarkeitsprüfungen die Abarbeitung e
  - Sonderwünsche wie bestimmtes Flugzeug, Crew, Catering, flight attendants,...
 - Die Ausgabe des Angebotes, des Vertrages und der Rechnung für den Interessenten bzw. Kunden erfolgt als Brief per Word oder PDF oder direkt als e-Mail. Das Angebot und die Rechnung sollen zusätzlich ein Bild des Flugzeuges enthalten.
 - Im Angebot sollen die Daten der Aufnahme, eine Aussage über die Ausführbarkeit, der Flugzeugtyp mit Bild, ein Flugplan, die Strecke in km sowie die Kosten in EUR enthalten sein.
-- Das System soll die Fälligkeiten von Rechnungen überwachen und ein intergriertes Mahnwesen beinhalten. Kunden der Gruppe "VIP" werden jedoch nicht gemahnt. Desweiteren sollen vier Mahnstufen mit mahnstufenabhängigen Kosten ihre Anwendung finden.
+- Das System soll die Fälligkeiten von Rechnungen überwachen und ein integriertes Mahnwesen beinhalten. Kunden der Gruppe "VIP" werden jedoch nicht gemahnt. Desweiteren sollen vier Mahnstufen mit mahnstufenabhängigen Kosten ihre Anwendung finden.
 - Dem Kunden soll es möglich sein, Stammdatenerfassung/ -änderung für Flugzeuge und Personal vorzunehmen.
 - Eine Zuordnung von Flugbegleitern zu einem Flug soll bei kleinen Flugzeugen optional sein. Bei größeren Maschinen ist eine Zuordnung von Flugbegleitern obligatorisch.
 - Dem Kunden soll es möglich sein verschiedene Charteroptionen anzubieten.
@@ -39,7 +39,7 @@ keine
 - Die Anwendung ist weiterhin kein umfassendes ERM. Kunden werden manuell bearbeitet.
 - Eine Anfragenaufnahme per Webseite wird nicht Teil dieses Projektes sein.
 
-# 2. Produkteinsatz
+# 2. Produkteinsatz (Autor: Hans Meyer, Hannes Marien)
 
 Die HINOTORI Executive beauftragt die Erstellung des Programms zur internen Verwendung. Ein Weiterverkauf oder eine Weitergabe ist ausgeschlossen.
 
@@ -77,7 +77,7 @@ Es wird davon ausgegangen, dass die Software in einer Büroumgebung zum Einsatz 
 
 Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem betrieben. Ein zentraler Datenbankserver, der das parallele Arbeiten auf mehreren Klientensystemen erlaubt, ist nicht Teil dieses Projekts.
 
-# 3. Geschäftsprozesse
+# 3. Geschäftsprozesse (Autor: Torsten Noack, Hannes Marien)
 
 ## /F11/
 - Geschäftsprozess: Neues Angebot erfassen
@@ -187,7 +187,23 @@ Nach der Installation auf dem Kunden-Computer, wird die Software nur auf diesem 
 - Auslösendes Ereignis: eingehende Mitteilung
 - Beschreibung: Crewmitglieder und Flugzeuge können durch unterschiedliche Termine (Wartung, Urlaub, Krankheit,...) nicht verfügbar sein. Diese Termine müssen erfasst werden.
 
-# 4. Produktdaten
+## 3.1. Workflows
+
+Die oben beschriebenen Geschäftsprozesse werden nachfolgend in funktionsübergreifenden Flussdiagrammen visualisiert.
+
+![/F11/](pics/F11.jpg)
+
+![/F12/](pics/F12.jpg)
+
+![/F13/](pics/F13.jpg)
+
+![/F21/](pics/F21.jpg)
+
+![/F22/](pics/F22.jpg)
+
+![/F31/](pics/F31.jpg)
+
+# 4. Produktdaten (Autor: Torsten Noack, Hannes Marien)
 
 Dieser Abschnitt listet die persistenten Daten, die die Geschäftsprozesse, welche durch die Software abgedeckt werden, unterstützen.
 
@@ -268,7 +284,7 @@ Zu Rechnungen werden die folgenden Informationen erfasst:
  - Zahlungsziel
  - Zusatzkosten
 
-# 5. Produktleistungen
+# 5. Produktleistungen (Autor: Torsten Noack)
 
 ## 5.1. Analyse
  - Kundenzufriedenheit analysieren
@@ -280,7 +296,7 @@ Zu Rechnungen werden die folgenden Informationen erfasst:
  - Kosten (Anteil Fixkosten + Anteil Personalkosten + Stundensatz * Flugzeit)
   - Personalkosten berechnen sich aus Gehalt * 1,2
 
-# 6. Qualitätsanforderungen
+# 6. Qualitätsanforderungen (Autor: Hannes Marien)
 
 Eine einfach zu bedienende und übersichtliche Software wird vom Auftraggeber gefordert. Dies impliziert die folgenden Qualitätsanforderungen an die Benutzerschnittstelle.
 
@@ -292,14 +308,13 @@ Bei der Bearbeitung einer Aufgabe wird auf die Darstellung wie auch Erfassung re
 
 Hinweise, Warn- oder Fehlermeldungen, die für den Benutzer von Interesse sind, werden klar präsentiert. Deutsch wird dabei, wie in der restlichen Oberfläche, die verwendete Sprache sein.
 
-Das Verhalten der Software wird in sich konsistent und an vergleichbare Anwendungen im Windows-Umfeld angelehnt sein.
+Das Verhalten der Software wird in sich konsistent, und an vergleichbare Anwendungen im Windows-Umfeld angelehnt sein.
 
-
-# 7. Benutzeroberfläche
+# 7. Benutzeroberfläche (Autor: Hans Meyer)
 
 ## 7.1 Allgemeine Anforderungen
 
-Standardmässig ist das Windows-Regelwerk anzuwenden. Das vorrangige Bedieninstrument soll die Maus darstellen.
+Standardmäßig ist das Windows-Regelwerk anzuwenden. Das vorrangige Bedieninstrument soll die Maus darstellen.
 
 ## 7.2 Grundsätze
 
@@ -331,11 +346,11 @@ Die Anwendung soll den Richtlinien für universelle Apps folgen damit sie sowohl
 
 ![Kalenderansicht](mockups/Rechnungen.png)
 
-# 8. Nichtfunktionale Anforderungen
+# 8. Nichtfunktionale Anforderungen (Autor: Torsten Noack)
 
-In Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung soll die ISO-Norm 9241-10 Beachtung finden. Die Software wird zusätzlich mit einem Handbuch in deutscher Sprache ausgeliefert.
+In Bezug auf ergonomische Anforderungen sowie den Grundsätzen der Dialoggestaltung soll die ISO-Norm 9241-110 Beachtung finden. Die Software wird zusätzlich mit einem Handbuch in deutscher Sprache ausgeliefert.
 
-# 9. Technische Produktumgebung
+# 9. Technische Produktumgebung (Autor: Hannes Marien, Torsten Noack)
 
 Dieses Kapitel beschreibt in welcher Umgebung das Programm laufen soll.
 
@@ -365,14 +380,14 @@ Zusätzliche Standardperipheriegeräte wie Maus, Tastatur und Monitor werden vor
 
 Um Angebote, Verträge und Rechnungen zu exportieren, wird eine Schnittstelle mit MS Word angestrebt. Diese Dritt-Software wird damit unabdingbar für die Nutzung des vollen Funktionsumfangs des hier beschriebenen Programms. Zudem wird es, zwecks der Verteilung oben genannter Dokumente, eine einfache Schnittstelle zu dem Standard-eMail-Programm geben.
 
-# 10. spezielle Anforderungen an die Entwicklerumgebung
+# 10. spezielle Anforderungen an die Entwicklerumgebung (Autor: Torsten Noack)
 
 Für die Entwicklerumgebung gelten folgende Anforderungen:
 - C# als Programmiersprache
 - Microsoft SQL Server Compact als Datenbank
 - SQL Server Compact Toolbox zur Datenbankverwaltung
 
-# 11. Projektplanung
+# 11. Projektplanung (Autor: Torsten Noack)
 
 ## 11.1. Informationssammlung
 
@@ -395,7 +410,7 @@ Dieses Arbeitspaket umfasst die Erstellung des Pflichtenheftes zu dem Projekt.
 Dieses Arbeitspaket umfasst den Entwurf der Software. Der Programmablauf wird entworfen, Benutzermasken skizziert und das Datenmodell festgelegt.
 - Aufwand: 24h
 - Personen: Hannes Marien, Hans Meyer, Torsten Noack
-- Arbeitsmittel: Ergebnisse aus 12.1, Microsoft Visio, Balsamiq Mockups
+- Arbeitsmittel: Ergebnisse aus 11.1., Microsoft Visio, Balsamiq Mockups
 - Ergebnis: diverse Geschäftsprozesse
 
 ## 11.4. Softwareerstellung
@@ -403,7 +418,7 @@ Dieses Arbeitspaket umfasst den Entwurf der Software. Der Programmablauf wird en
 Dieses Arbeitspaket umfasst die Erstellung der Software. Die Software wird in dem beschriebenen Funktionsumfang geschrieben, kompiliert und getroffene Annahmen mit Hilfe des Debuggers, soweit möglich, getestet.
 - Aufwand: 240h
 - Personen: Hannes Marien, Hans Meyer, Torsten Noack
-- Arbeitsmittel: Ergebnisse aus 12.3., Entwicklungsumgebung
+- Arbeitsmittel: Ergebnisse aus 11.3., Entwicklungsumgebung
 - Ergebnis: Software
 
 ## 11.5. Funktionstests
@@ -411,12 +426,12 @@ Dieses Arbeitspaket umfasst die Erstellung der Software. Die Software wird in de
 Dieses Arbeitspaket umfasst den Test der entwickelten Software. Die beschriebenen Geschäftsfälle werden verifiziert und validiert.
 - Aufwand: 24h
 - Personen: Hannes Marien, Hans Meyer, Torsten Noack
-- Arbeitsmittel: Ergebnis aus 12.4.
+- Arbeitsmittel: Ergebnis aus 11.4.
 - Ergebnisse: Dokumentation der Testergebnisse, Liste der Mängel
 
 ## 11.6. Fehlerbereinigung
 
-Dieses Arbeitspaket umfasst die Behebung der in 12.5. festgestellten Mängel sowie die Realisierung etwaiger Nachbesserungswünsche des Auftraggebers.
+Dieses Arbeitspaket umfasst die Behebung der in 11.5. festgestellten Mängel sowie die Realisierung etwaiger Nachbesserungswünsche des Auftraggebers.
 - Aufwand: 24h
 - Personen: Hannes Marien, Hans Meyer, Torsten Noack
 - Arbeitsmittel: Mängelliste, Entwicklungsumgebung
@@ -441,7 +456,7 @@ Dieses Arbeitspaket umfasst die Erstellung der Projektdokumentation.
 
 ![Gantt-Diagramm](pics/Gantt.jpg)
 
-# 12. Anhang
+# 12. Anhang (Autor: Torsten Noack)
 
 ## 12.1. Abkürzungsverzeichnis
 
