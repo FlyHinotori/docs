@@ -410,7 +410,7 @@ Dieses Arbeitspaket umfasst die Erstellung des Pflichtenheftes zu dem Projekt.
 Dieses Arbeitspaket umfasst den Entwurf der Software. Der Programmablauf wird entworfen, Benutzermasken skizziert und das Datenmodell festgelegt.
 - Aufwand: 24h
 - Personen: Hannes Marien, Hans Meyer, Torsten Noack
-- Arbeitsmittel: Ergebnisse aus 12.1, Microsoft Visio, Balsamiq Mockups
+- Arbeitsmittel: Ergebnisse aus 11.1., Microsoft Visio, Balsamiq Mockups
 - Ergebnis: diverse Geschäftsprozesse
 
 ## 11.4. Softwareerstellung
@@ -418,7 +418,7 @@ Dieses Arbeitspaket umfasst den Entwurf der Software. Der Programmablauf wird en
 Dieses Arbeitspaket umfasst die Erstellung der Software. Die Software wird in dem beschriebenen Funktionsumfang geschrieben, kompiliert und getroffene Annahmen mit Hilfe des Debuggers, soweit möglich, getestet.
 - Aufwand: 240h
 - Personen: Hannes Marien, Hans Meyer, Torsten Noack
-- Arbeitsmittel: Ergebnisse aus 12.3., Entwicklungsumgebung
+- Arbeitsmittel: Ergebnisse aus 11.3., Entwicklungsumgebung
 - Ergebnis: Software
 
 ## 11.5. Funktionstests
@@ -426,12 +426,12 @@ Dieses Arbeitspaket umfasst die Erstellung der Software. Die Software wird in de
 Dieses Arbeitspaket umfasst den Test der entwickelten Software. Die beschriebenen Geschäftsfälle werden verifiziert und validiert.
 - Aufwand: 24h
 - Personen: Hannes Marien, Hans Meyer, Torsten Noack
-- Arbeitsmittel: Ergebnis aus 12.4.
+- Arbeitsmittel: Ergebnis aus 11.4.
 - Ergebnisse: Dokumentation der Testergebnisse, Liste der Mängel
 
 ## 11.6. Fehlerbereinigung
 
-Dieses Arbeitspaket umfasst die Behebung der in 12.5. festgestellten Mängel sowie die Realisierung etwaiger Nachbesserungswünsche des Auftraggebers.
+Dieses Arbeitspaket umfasst die Behebung der in 11.5. festgestellten Mängel sowie die Realisierung etwaiger Nachbesserungswünsche des Auftraggebers.
 - Aufwand: 24h
 - Personen: Hannes Marien, Hans Meyer, Torsten Noack
 - Arbeitsmittel: Mängelliste, Entwicklungsumgebung
