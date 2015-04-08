@@ -6,6 +6,7 @@ Das Skript sagt:
 
 und
 
+> ...eine Gelegenheit, mit dem Auftraggeber in einen Dialog zu treten, und eventuell auftretende Fragen zu klären...
 
 Da die Zwischenpräsentation nun 1,5 Wochen nach der Abgabe des Angebots liegt, ist natürlich noch nicht viel passiert. Daher sind die Ziele:
 
@@ -47,6 +48,7 @@ Da die Zwischenpräsentation nun 1,5 Wochen nach der Abgabe des Angebots liegt, 
 ### Produktdaten (**Torsten**)
 
 - Ziel: Überblick über die verwalteten Daten
+- Kapitel im Pflichtenheft: Produktdaten, Analyse
 - Inhalt: 
  - Unterteilung in Stammdaten und Bewegungsdaten
  - ER-Diagramm
@@ -67,5 +69,4 @@ Da die Zwischenpräsentation nun 1,5 Wochen nach der Abgabe des Angebots liegt, 
 ## Schlussteil (**Hannes**)
 
 - Zusammenfassung + Ausblick auf den zeitlichen Ablauf der Realisierung (Pflichtenheft: Meilensteine)
-
 
